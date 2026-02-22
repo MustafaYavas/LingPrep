@@ -7,6 +7,10 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# AI Agent configuration
+.agent/
+rules.md
+
 node_modules
 dist
 dist-ssr
