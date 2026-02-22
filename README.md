@@ -1,73 +1,114 @@
-# React + TypeScript + Vite
+# LingPrep
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+LingPrep is a sophisticated, AI-enhanced language learning platform designed to help students master English vocabulary and reading comprehension. The application offers a structured path from A1 (Beginner) to C1 (Advanced) levels, combining interactive quizzes with deep reading exercises.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Progressive Learning Path**: Units and levels organized by proficiency (A1, A2, B1, B2, C1).
+- **Interactive Quizzes**: Focused vocabulary exercises with immediate feedback and scoring.
+- **AI-Enhanced Reading**: Long-form analytical texts (120-600 words) generated via specialized AI skills, featuring complex grammar structures and comprehension questions.
+- **Dynamic Dashboard**: A premium UI featuring a Hero CTA, user statistics, and a clear overview of progress.
+- **Real-time Persistence**: User progress, scores, and unit data are managed via Firebase Firestore and Redux Toolkit.
+- **Level Locking**: Advanced levels are unlocked as users complete the foundational requirements.
 
-## React Compiler
+## 🛠 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React (Vite)
+- **State Management**: Redux Toolkit
+- **Styling**: Tailwind CSS & Framer Motion (Animations)
+- **Icons**: Lucide React
+- **Database**: Firebase Firestore
+- **Deployment**: [Configure as needed]
 
-## Expanding the ESLint configuration
+## 📋 Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Node.js**: 18.x or higher
+- **npm** or **yarn**
+- **Firebase Account**: A configured Firebase project with Firestore enabled.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ⚙️ Getting Started
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 1. Clone the Repository
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+git clone https://github.com/MustafaYavas/LingPrep.git
+cd LingPrep
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2. Install Dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
 ```
+
+### 3. Environment Variables
+
+Create a `.env` file in the root directory and add your Firebase configurations:
+
+```env
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+```
+
+### 4. Data Generation & Upload
+
+LingPrep uses mock data generated via AI scripts. To populate your Firestore:
+
+```bash
+# Generate JSON mock files
+node scripts/generateReadingMocks.js
+
+# Upload data to Firestore
+node scripts/uploadReadingData.js
+```
+
+### 5. Start Development Server
+
+```bash
+npm run dev
+```
+
+The app will be available at `http://localhost:5173`.
+
+## 🏗 Architecture
+
+```
+LingPrep/
+├── .agent/skills/       # AI Skill definitions for content generation
+├── scripts/             # Data generation and upload utilities
+├── src/
+│   ├── app/             # Main App entry and routing
+│   ├── components/      # Reusable UI components (FeatureCard, UnitSection, etc.)
+│   ├── features/        # Feature-based logic (reading, progress)
+│   │   ├── progress/    # State management for scores and completed units
+│   │   └── reading/     # Firestore services and thunks for reading content
+│   ├── pages/           # High-level page components (HomePage, ReadingPage, etc.)
+│   ├── store/           # Redux store configuration and hooks
+│   ├── utils/           # Utility functions and mock data types
+│   └── main.tsx         # Entry point
+└── ...
+```
+
+## 🧠 AI Integration
+
+LingPrep leverages specialized AI skills to produce level-appropriate content:
+
+- **A1/A2**: Basic narrative and descriptive texts.
+- **B1**: 320-350 word texts focusing on Passive Voice and Relative Clauses.
+- **B2**: 420-450 word analytical texts focusing on Mixed Conditionals and Modal Deduction.
+- **C1**: 550-600 word academic texts focusing on Cleft Sentences, Inversion, and Subjunctive.
+
+## ✅ Available Scripts
+
+- `npm run dev`: Starts the Vite development server.
+- `npm run build`: Compiles the application for production.
+- `npm run lint`: Runs ESLint for code quality checks.
+- `npm run preview`: Previews the production build locally.
+
+---
+
+_Happy Learning with LingPrep!_
