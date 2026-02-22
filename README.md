@@ -1,6 +1,6 @@
 # LingPrep
 
-LingPrep is a sophisticated, AI-enhanced language learning platform designed to help students master English vocabulary and reading comprehension. The application offers a structured path from A1 (Beginner) to C1 (Advanced) levels, combining interactive quizzes with deep reading exercises.
+[LingPrep](https://ling-prep.vercel.app/) is a sophisticated, AI-enhanced language learning platform designed to help students master English vocabulary and reading comprehension. The application offers a structured path from A1 (Beginner) to C1 (Advanced) levels, combining interactive quizzes with deep reading exercises.
 
 ## 🚀 Key Features
 
