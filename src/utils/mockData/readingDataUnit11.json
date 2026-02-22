@@ -1,0 +1,125 @@
+{
+  "unit_id": 11,
+  "theme": "Crime & Justice (Modals of Deduction)",
+  "word_count": 441,
+  "title": "The Mystery of the Vanishing Masterpiece",
+  "text_paragraphs": [
+    "The theft of the 'Blue Aurora' from the National Gallery last Tuesday has left investigators baffled. The painting, which is valued at over fifty million dollars, disappeared during a brief ten-minute window when the security systems were being upgraded. The thief must have known about the security gap, as there were no signs of forced entry. Furthermore, the specialized sensors in the room might have been deactivated manually, suggesting an inside job.",
+    "Detective Sarah Miller, the lead investigator on the case, believes the perpetrator could have escaped through the ventilation shafts. 'The security cameras show no one entering or leaving through the main doors during that time,' she explained. 'Therefore, the thief must have been someone small and agile, or perhaps they had access to a master key that bypassed the electronic logs.' Every employee who was on duty that night is currently being questioned, but no clear suspect has emerged yet.",
+    "Some experts suggest that the painting might have already been smuggled out of the country. If the heist was planned by an international syndicate, they would have had the resources to transport it across borders quickly. Nevertheless, other investigators argue that the thief might have hidden it somewhere within the gallery itself. 'It can't have been easy to carry a large canvas without being noticed,' said one guard. 'The thief might have been hiding in the building even before the gallery closed for the night.'",
+    "The security breach must have required months of preparation. To bypass such a sophisticated system, the criminal would have needed detailed blueprints of the museum. This has led the police to scrutinize the construction company that recently renovated the East Wing. They might have inadvertently leaked sensitive information, or a disgruntled former employee might have sold the plans to a criminal organization. Consequently, the investigation has now expanded to include several corporate entities.",
+    "As of today, the 'Blue Aurora' remains missing, and the public is increasingly concerned about the safety of other national treasures. The museum director expressed his deep regret, stating that they should have implemented stricter protocols during the transition. While the mystery continues, one thing is certain: the thief must have been incredibly bold to execute such a high-stakes crime in the heart of the capital. The search for the masterpiece continues, with the hope that it might eventually be recovered before it disappears into the underground art market forever."
+  ],
+  "vocabulary_focus": [
+    "baffled",
+    "perpetrator",
+    "agile",
+    "bypassed",
+    "smuggled",
+    "scrutinize",
+    "disgruntled",
+    "sophisticated"
+  ],
+  "comprehension_questions": [
+    {
+      "question": "When did the 'Blue Aurora' disappear?",
+      "options": [
+        "During the night",
+        "When security systems were being upgraded",
+        "During a crowded event",
+        "On a Monday morning"
+      ],
+      "correct_answer": "When security systems were being upgraded"
+    },
+    {
+      "question": "Why do investigators think the thief knew about the security gap?",
+      "options": [
+        "They found a note",
+        "There were no signs of forced entry",
+        "A witness saw the thief",
+        "The thief told the police"
+      ],
+      "correct_answer": "There were no signs of forced entry"
+    },
+    {
+      "question": "What does the deactivation of sensors suggest to investigators?",
+      "options": [
+        "The sensors were broken",
+        "It was an inside job",
+        "The thief was a ghost",
+        "The electricity was out"
+      ],
+      "correct_answer": "It was an inside job"
+    },
+    {
+      "question": "How does Detective Miller think the thief might have escaped?",
+      "options": [
+        "Through the main doors",
+        "By jumping out of a window",
+        "Through the ventilation shafts",
+        "In a delivery truck"
+      ],
+      "correct_answer": "Through the ventilation shafts"
+    },
+    {
+      "question": "What characteristic might the thief have according to Miller?",
+      "options": [
+        "Strong and tall",
+        "Small and agile",
+        "Old and slow",
+        "Well-dressed"
+      ],
+      "correct_answer": "Small and agile"
+    },
+    {
+      "question": "What is one theory about the painting's location?",
+      "options": [
+        "It was destroyed",
+        "It is hidden within the gallery",
+        "The museum director has it",
+        "It was sold to the government"
+      ],
+      "correct_answer": "It is hidden within the gallery"
+    },
+    {
+      "question": "Why is the police investigating the construction company?",
+      "options": [
+        "They might have stolen it",
+        "They might have leaked sensitive information",
+        "They owe money to the gallery",
+        "They are moving to another country"
+      ],
+      "correct_answer": "They might have leaked sensitive information"
+    },
+    {
+      "question": "What does the museum director regret?",
+      "options": [
+        "Buying the painting",
+        "Hiring Detective Miller",
+        "Not having stricter protocols",
+        "Closing the museum"
+      ],
+      "correct_answer": "Not having stricter protocols"
+    },
+    {
+      "question": "Which word in the text describes someone who is unhappy and annoyed?",
+      "options": [
+        "Agile",
+        "Disgruntled",
+        "Sophisticated",
+        "Baffled"
+      ],
+      "correct_answer": "Disgruntled"
+    },
+    {
+      "question": "What is the primary goal of the investigation now?",
+      "options": [
+        "To buy a new painting",
+        "To recover the masterpiece",
+        "To fire all the guards",
+        "To move the gallery"
+      ],
+      "correct_answer": "To recover the masterpiece"
+    }
+  ]
+}

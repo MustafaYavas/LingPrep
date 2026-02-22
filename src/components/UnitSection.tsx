@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { BookOpen } from "lucide-react";
+import { PencilLine } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 interface Unit {
@@ -35,7 +35,7 @@ export function UnitSection({
   return (
     <div className="mt-12">
       <h2 className="text-2xl font-bold text-slate-800 mb-6 flex items-center">
-        <BookOpen className={`mr-3 w-7 h-7 ${iconColorClass}`} /> {title}
+        <PencilLine className={`mr-3 w-7 h-7 ${iconColorClass}`} /> {title}
       </h2>
       <div className="space-y-4">
         {units.map((unit, index) => {

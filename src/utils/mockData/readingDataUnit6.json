@@ -1,0 +1,71 @@
+{
+  "unit_id": 6,
+  "theme": "City Comparisons (Comparatives)",
+  "word_count": 218,
+  "title": "Choosing a New Home",
+  "text_paragraphs": [
+    "Last month, my family and I decided to move to a new city. We had to choose between two places: Silverton and Goldville. We visited both cities to see which one was better for our lifestyle. Both cities are very different from each other.",
+    "Silverton is much older than Goldville. It has many historical buildings and narrow streets. The people there are very friendly, but the city is quite small. On the other hand, Goldville is more modern and much bigger. It has huge shopping malls, cinema complexes, and more parks.",
+    "The cost of living in Silverton is cheaper than in Goldville. My parents found a lovely house in Silverton that was much more affordable than the apartments in Goldville. However, Goldville has better transport. The trains are faster and there are more buses. It is easier to travel around the city.",
+    "Our final decision was Silverton because it is quieter and safer for my younger sister. Although Goldville is more exciting, we prefer the peaceful atmosphere of Silverton. We are going to move there next week and we are all very excited about our new life in this beautiful town."
+  ],
+  "vocabulary_focus": [
+    "historical",
+    "affordable",
+    "lifestyle",
+    "atmosphere",
+    "modern"
+  ],
+  "comprehension_questions": [
+    {
+      "question": "What was the family deciding between?",
+      "options": [
+        "Two houses",
+        "Two countries",
+        "Two cities",
+        "Two jobs"
+      ],
+      "correct_answer": "Two cities"
+    },
+    {
+      "question": "Which city is older and has historical buildings?",
+      "options": [
+        "Goldville",
+        "Silverton",
+        "Both of them",
+        "Neither of them"
+      ],
+      "correct_answer": "Silverton"
+    },
+    {
+      "question": "What is cheaper in Silverton according to the text?",
+      "options": [
+        "Transport",
+        "The cost of living",
+        "Shopping malls",
+        "The trains"
+      ],
+      "correct_answer": "The cost of living"
+    },
+    {
+      "question": "Why does Goldville have better transport?",
+      "options": [
+        "Because it is smaller",
+        "Because the streets are narrow",
+        "Because the trains are faster",
+        "Because it is cheaper"
+      ],
+      "correct_answer": "Because the trains are faster"
+    },
+    {
+      "question": "Why did the family choose Silverton in the end?",
+      "options": [
+        "Because it is bigger",
+        "Because it is more modern",
+        "Because it is quieter and safer",
+        "Because it has more cinemas"
+      ],
+      "correct_answer": "Because it is quieter and safer"
+    }
+  ]
+}

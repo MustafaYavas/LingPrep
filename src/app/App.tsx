@@ -5,7 +5,10 @@ import { PersistGate } from "redux-persist/integration/react";
 import { store, persistor } from "@/store";
 import { HomePage } from "@/pages/HomePage";
 import { QuizPage } from "@/pages/QuizPage";
+import { ReadingPage } from "@/pages/ReadingPage";
+import { ReadingUnitPage } from "@/pages/ReadingUnitPage";
 import { BookA } from "lucide-react";
+import { QuizzesPage } from "@/pages/QuizzesPage";
 
 function App() {
   return (
@@ -35,7 +38,10 @@ function App() {
             <main className="flex-1">
               <Routes>
                 <Route path="/" element={<HomePage />} />
+                <Route path="/quizzes" element={<QuizzesPage />} />
                 <Route path="/quiz/:unitId/:testId" element={<QuizPage />} />
+                <Route path="/reading" element={<ReadingPage />} />
+                <Route path="/reading/:unitId" element={<ReadingUnitPage />} />
                 <Route path="*" element={<HomePage />} />
               </Routes>
             </main>

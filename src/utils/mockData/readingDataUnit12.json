@@ -1,0 +1,125 @@
+{
+  "unit_id": 12,
+  "theme": "Science & Ethics (Conditionals)",
+  "word_count": 448,
+  "title": "The Ethics of Artificial Intelligence",
+  "text_paragraphs": [
+    "The rapid development of Artificial Intelligence (AI) has sparked a global debate about the future of humanity. If scientists hadn't made significant breakthroughs in machine learning a decade ago, we wouldn't be facing these complex ethical questions today. While AI offers incredible benefits, such as improved medical diagnoses and more efficient transport systems, its potential risks cannot be ignored. The way we choose to regulate this technology now will define the world for generations to come.",
+    "If AI were to surpass human intelligence in every field, what would happen to our society? This 'singularity' event is a topic of intense discussion among researchers and philosophers. Some argue that if we created a truly superintelligent machine, it could help us solve problems like climate change and poverty. However, others worry that if we didn't implement sufficient safeguards, the AI might act in ways that are harmful to humans. Therefore, establishing a clear framework for AI safety is of utmost importance.",
+    "The issue of job displacement is another major concern. If more industries adopted autonomous systems, many people would lose their livelihoods. This transition could lead to social instability if governments weren't prepared to provide support and retraining for the workforce. If we had anticipated these changes more effectively in the past, we might have been better prepared for the current wave of automation. Consequently, there is a growing demand for policies like Universal Basic Income to mitigate the economic impact.",
+    "Furthermore, the use of AI in decision-making processes raises questions about bias and transparency. If an AI algorithm is trained on biased data, it will inevitably produce biased results. This has already been observed in areas such as hiring and law enforcement. If we continue to rely on 'black box' systems without understanding how they make decisions, we will risk perpetuating social injustices. We must demand that AI systems are developed with fairness and accountability as core principles.",
+    "Finally, the development of autonomous weapons is perhaps the most dangerous application of AI. If a global arms race in AI weapons were to start, it would pose a grave threat to international security. If leaders had signed treaties to ban these weapons earlier, the world would be a much safer place today. In conclusion, the genetic revolution and the rise of AI represent a double-edged sword. If we use these technologies wisely, we can create a better future, but if we fail to act ethically, the consequences could be disastrous."
+  ],
+  "vocabulary_focus": [
+    "breakthrough",
+    "singularily",
+    "safeguards",
+    "displacement",
+    "mitigate",
+    "transparency",
+    "perpetuating",
+    "disastrous"
+  ],
+  "comprehension_questions": [
+    {
+      "question": "What sparked the global debate about AI?",
+      "options": [
+        "The economic crisis",
+        "The rapid development of AI",
+        "Space exploration",
+        "Ocean pollution"
+      ],
+      "correct_answer": "The rapid development of AI"
+    },
+    {
+      "question": "What would the world be like if breakthroughs hadn't happened a decade ago?",
+      "options": [
+        "It would be more advanced",
+        "We wouldn't be facing complex ethical questions today",
+        "AI would be more dangerous",
+        "Everyone would have a job"
+      ],
+      "correct_answer": "We wouldn't be facing complex ethical questions today"
+    },
+    {
+      "question": "What is the 'singularity' according to the text?",
+      "options": [
+        "A single computer",
+        "An event where AI surpasses human intelligence",
+        "A new type of galaxy",
+        "The end of the internet"
+      ],
+      "correct_answer": "An event where AI surpasses human intelligence"
+    },
+    {
+      "question": "How could a superintelligent machine potentially help humanity?",
+      "options": [
+        "By creating more movies",
+        "By solving problems like climate change and poverty",
+        "By replacing all human jobs",
+        "By building faster rockets"
+      ],
+      "correct_answer": "By solving problems like climate change and poverty"
+    },
+    {
+      "question": "What is a major concern mentioned regarding industries?",
+      "options": [
+        "High costs of electricity",
+        "Job displacement due to autonomous systems",
+        "Lack of raw materials",
+        "Too many holidays"
+      ],
+      "correct_answer": "Job displacement due to autonomous systems"
+    },
+    {
+      "question": "What might have helped us prepare for automation according to the text?",
+      "options": [
+        "If we had anticipated changes more effectively in the past",
+        "If we had built more schools",
+        "If we had stopped using electricity",
+        "If we had hired more people"
+      ],
+      "correct_answer": "If we had anticipated changes more effectively in the past"
+    },
+    {
+      "question": "Why do AI algorithms produce biased results sometimes?",
+      "options": [
+        "Because they are too fast",
+        "Because they are trained on biased data",
+        "Because they don't like humans",
+        "Because they are expensive"
+      ],
+      "correct_answer": "Because they are trained on biased data"
+    },
+    {
+      "question": "What is the risk of using 'black box' systems?",
+      "options": [
+        "They might explode",
+        "They risk perpetuating social injustices",
+        "They are too easy to hack",
+        "They use too much energy"
+      ],
+      "correct_answer": "They risk perpetuating social injustices"
+    },
+    {
+      "question": "What would have happened if leaders had banned AI weapons earlier?",
+      "options": [
+        "The world would be more dangerous",
+        "The world would be a much safer place today",
+        "We would have no electricity",
+        "Computers would be cheaper"
+      ],
+      "correct_answer": "The world would be a much safer place today"
+    },
+    {
+      "question": "According to the conclusion, what determines if AI creates a better future?",
+      "options": [
+        "If we have more computers",
+        "If we use technology wisely and ethically",
+        "If we stop all research",
+        "If we hire more scientists"
+      ],
+      "correct_answer": "If we use technology wisely and ethically"
+    }
+  ]
+}

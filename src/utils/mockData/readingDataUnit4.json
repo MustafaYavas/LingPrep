@@ -1,0 +1,71 @@
+{
+  "unit_id": 4,
+  "theme": "Memories and Childhood (Past Simple)",
+  "word_count": 215,
+  "title": "A Summer at My Grandfather's Farm",
+  "text_paragraphs": [
+    "When I was a child, I spent every summer at my grandfather's farm in a small village. Those were the happiest days of my life. The farm was very big and there were many animals like cows, sheep, and a very friendly dog named Max.",
+    "Every morning, I woke up early with the sun. My grandfather and I went to the barn to feed the animals. I remember the smell of fresh hay and the sound of the birds. After our work, we had a big breakfast with fresh eggs and bread that my grandmother made. It was delicious!",
+    "In the afternoon, my friends and I usually swam in the river near the farm. The water was cold but very refreshing. One day, I lost my favorite toy in the river, but my grandfather found it for me the next day. I was so happy! We also climbed trees and ate fresh apples.",
+    "In the evening, we sat outside and my grandfather told me exciting stories about his life. He travelled to many countries when he was young. I listened to him and I dreamed about my own adventures. I learned many important things that summer about nature and hard work."
+  ],
+  "vocabulary_focus": [
+    "grandfather",
+    "childhood",
+    "refreshing",
+    "adventure",
+    "nature"
+  ],
+  "comprehension_questions": [
+    {
+      "question": "Where did the author spend their childhood summers?",
+      "options": [
+        "In a big city",
+        "At a grandfather's farm",
+        "In a school camp",
+        "Near a beach"
+      ],
+      "correct_answer": "At a grandfather's farm"
+    },
+    {
+      "question": "What was the name of the friendly dog?",
+      "options": [
+        "Rex",
+        "Max",
+        "Buddy",
+        "Charlie"
+      ],
+      "correct_answer": "Max"
+    },
+    {
+      "question": "What did the author do in the afternoon with friends?",
+      "options": [
+        "Fed the animals",
+        "Ate breakfast",
+        "Swam in the river",
+        "Listened to stories"
+      ],
+      "correct_answer": "Swam in the river"
+    },
+    {
+      "question": "Who found the author's lost toy?",
+      "options": [
+        "The grandmother",
+        "A friend",
+        "The grandfather",
+        "Max the dog"
+      ],
+      "correct_answer": "The grandfather"
+    },
+    {
+      "question": "What kind of stories did the grandfather tell?",
+      "options": [
+        "Fairy tales",
+        "Stories about his life",
+        "Funny jokes",
+        "Ghost stories"
+      ],
+      "correct_answer": "Stories about his life"
+    }
+  ]
+}

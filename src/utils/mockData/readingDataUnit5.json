@@ -1,0 +1,71 @@
+{
+  "unit_id": 5,
+  "theme": "Life Experiences (Present Perfect)",
+  "word_count": 208,
+  "title": "The World Traveler",
+  "text_paragraphs": [
+    "My aunt Julia is a famous journalist and she has travelled to more than fifty countries. She has seen many beautiful places and she has met many interesting people. For ten years, she has written stories about her adventures for a popular magazine.",
+    "She has already visited the Great Wall of China and the pyramids in Egypt. She says that the pyramids are the most impressive things she has ever seen. However, she hasn't visited Australia yet. She is planning to go there next month to see the kangaroos.",
+    "Julia has eaten many strange foods during her travels. She has tried insects in Thailand and very spicy soup in Mexico. She has never been afraid of trying new things because she thinks that life is an adventure. She has learned five different languages, including Spanish and French.",
+    "I have always admired my aunt's courage. She has shown me that the world is very big and exciting. I haven't travelled as much as her, but I have started to save money for my first big trip. I hope to be as brave as her one day."
+  ],
+  "vocabulary_focus": [
+    "journalist",
+    "impressive",
+    "adventure",
+    "courage",
+    "traveler"
+  ],
+  "comprehension_questions": [
+    {
+      "question": "How many countries has Aunt Julia visited?",
+      "options": [
+        "Ten countries",
+        "Fifteen countries",
+        "More than fifty",
+        "Five countries"
+      ],
+      "correct_answer": "More than fifty"
+    },
+    {
+      "question": "What is the most impressive thing she has seen?",
+      "options": [
+        "The kangaroos",
+        "The pyramids in Egypt",
+        "The Great Wall of China",
+        "The Amazon forest"
+      ],
+      "correct_answer": "The pyramids in Egypt"
+    },
+    {
+      "question": "Which place has she NOT visited yet?",
+      "options": [
+        "Thailand",
+        "Mexico",
+        "China",
+        "Australia"
+      ],
+      "correct_answer": "Australia"
+    },
+    {
+      "question": "Why isn't she afraid of trying new things?",
+      "options": [
+        "Because she is a journalist",
+        "Because she thinks life is an adventure",
+        "Because she speaks five languages",
+        "Because she is famous"
+      ],
+      "correct_answer": "Because she thinks life is an adventure"
+    },
+    {
+      "question": "What has the author started to do?",
+      "options": [
+        "Learn five languages",
+        "Write for a magazine",
+        "Save money for a trip",
+        "Visit China"
+      ],
+      "correct_answer": "Save money for a trip"
+    }
+  ]
+}

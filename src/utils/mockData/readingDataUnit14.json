@@ -1,0 +1,148 @@
+{
+  "unit_id": 14,
+  "theme": "Cultural Identity & Anthropology (Cleft Sentences)",
+  "word_count": 584,
+  "title": "The Architecture of Identity: Beyond Borders",
+  "text_paragraphs": [
+    "In an era of unprecedented globalization, the concept of cultural identity has become increasingly complex and multi-faceted. It is not just our place of birth that defines who we are, but the myriad of experiences and influences that shape our worldview. While some cling to traditional notions of national identity, others are embracing a more fluid, cosmopolitan sense of self. To understand this shift, one must explore how cultural boundaries are being redrawn in the 21st century.",
+    "It is through the medium of language that we first begin to construct our cultural framework. Language is not merely a tool for communication; it is a repository of history, values, and distinct ways of perceiving the world. When a language is lost, it is not just words that disappear, but an entire way of life. It was the realization of this vulnerability that led many communities to launch revitalization programs. By preserving their native tongues, they are fighting to protect their unique cultural heritage from being erased by dominant global cultures.",
+    "Furthermore, the role of tradition in maintaining identity cannot be overstated. It is the celebration of festivals, the sharing of traditional meals, and the performance of ancestral rites that anchor us to our past. These practices provide a sense of continuity in a rapidly changing world. However, it is also true that traditions must evolve to remain relevant. What was once a rigid set of rules is now often interpreted in new and creative ways. It is this adaptability that allows cultures to survive and even flourish in diverse environments.",
+    "The digital revolution has also had a profound impact on cultural expression. It is on social media platforms that many young people are now exploring and negotiating their identities. This virtual space allows for the creation of global communities that transcend geographical borders. However, it is also here that the pressure to conform to globalized standards of beauty and success is most intense. We must ask ourselves whether this connectivity is truly fostering cultural diversity or simply creating a homogeneous global culture.",
+    "Anthropologists have long studied how identity is performative—built through our interactions with others. It is through these daily encounters that we signal our belonging to specific groups. Whether it is the clothes we wear, the music we listen to, or the stories we tell, every choice is a part of the complex puzzle of identity. It is this constant negotiation between the individual and the collective that makes the study of human culture so fascinating. We are not just passive recipients of culture; we are active participants in its creation.",
+    "In conclusion, the architecture of identity is not a static structure, but a dynamic and ever-evolving process. It is the plurality of our identities that makes us unique, and it is the recognition of this plurality that is necessary for a more inclusive society. As we move forward, we must celebrate the richness of human diversity while also acknowledging our shared humanity. It is only by doing so that we can build a world where everyone's identity is respected and valued, regardless of where they come from or what they believe."
+  ],
+  "vocabulary_focus": [
+    "unprecedented",
+    "cosmopolitan",
+    "repository",
+    "vulnerability",
+    "revitalization",
+    "continuity",
+    "adaptability",
+    "transcend",
+    "homogeneous",
+    "plurality"
+  ],
+  "comprehension_questions": [
+    {
+      "question": "What has made cultural identity more complex in the modern era?",
+      "options": [
+        "Isolation",
+        "Unprecedented globalization",
+        "The lack of technology",
+        "Ancient wars"
+      ],
+      "correct_answer": "Unprecedented globalization"
+    },
+    {
+      "question": "According to the text, what defines who we are?",
+      "options": [
+        "Only our place of birth",
+        "A myriad of experiences and influences",
+        "Our wealth",
+        "Our physical appearance"
+      ],
+      "correct_answer": "A myriad of experiences and influences"
+    },
+    {
+      "question": "What is described as a 'repository of history and values'?",
+      "options": [
+        "Architecture",
+        "Language",
+        "Food",
+        "Fashion"
+      ],
+      "correct_answer": "Language"
+    },
+    {
+      "question": "Why do communities launch language revitalization programs?",
+      "options": [
+        "To attract tourists",
+        "To protect their unique cultural heritage",
+        "To build better schools",
+        "To improve trade"
+      ],
+      "correct_answer": "To protect their unique cultural heritage"
+    },
+    {
+      "question": "What provides 'anchor' and 'continuity' in a changing world?",
+      "options": [
+        "Modern sports",
+        "The celebration of traditions and ancestral rites",
+        "Working in office buildings",
+        "International travel"
+      ],
+      "correct_answer": "The celebration of traditions and ancestral rites"
+    },
+    {
+      "question": "How must traditions behave to remain relevant?",
+      "options": [
+        "They must remain completely rigid",
+        "They must evolve",
+        "They must be forgotten",
+        "They must be kept secret"
+      ],
+      "correct_answer": "They must evolve"
+    },
+    {
+      "question": "Where are many young people negotiating their identities today?",
+      "options": [
+        "In libraries",
+        "In traditional villages",
+        "On social media platforms",
+        "In sports clubs"
+      ],
+      "correct_answer": "On social media platforms"
+    },
+    {
+      "question": "What is a major potential downside of digital connectivity mentioned?",
+      "options": [
+        "It is too expensive",
+        "It might create a homogeneous global culture",
+        "It is too slow",
+        "It is only for the wealthy"
+      ],
+      "correct_answer": "It might create a homogeneous global culture"
+    },
+    {
+      "question": "What does it mean that identity is 'performative'?",
+      "options": [
+        "It is only for actors",
+        "It is built through our interactions with others",
+        "It is decided for us at birth",
+        "It is hidden from others"
+      ],
+      "correct_answer": "It is built through our interactions with others"
+    },
+    {
+      "question": "Are we described as passive recipients of culture?",
+      "options": [
+        "Yes, we just follow what we see",
+        "No, we are active participants in its creation",
+        "Yes, because of globalization",
+        "Only until we reach adulthood"
+      ],
+      "correct_answer": "No, we are active participants in its creation"
+    },
+    {
+      "question": "What is necessary for a more inclusive society according to the text?",
+      "options": [
+        "Higher taxes",
+        "A single global language",
+        "The recognition of the plurality of our identities",
+        "More strict borders"
+      ],
+      "correct_answer": "The recognition of the plurality of our identities"
+    },
+    {
+      "question": "What is the final goal suggested in the conclusion?",
+      "options": [
+        "To create a single culture",
+        "To build a world where all identities are respected",
+        "To stop globalization",
+        "To increase national pride"
+      ],
+      "correct_answer": "To build a world where all identities are respected"
+    }
+  ]
+}

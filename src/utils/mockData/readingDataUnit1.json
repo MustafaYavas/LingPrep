@@ -1,0 +1,50 @@
+{
+  "unit_id": 1,
+  "theme": "Personal Information & Family",
+  "word_count": 128,
+  "title": "My Family and My House",
+  "text_paragraphs": [
+    "Hello! My name is David. I am twenty years old. I am a student. I live in a big house in London with my family. My family is very happy. My house is white and very clean.",
+    "In my house, there are four bedrooms and a big kitchen. My father is an engineer. He is very tall. My mother is a nurse. She is very beautiful and kind. I have one sister. Her name is Sarah. She is ten years old.",
+    "We have a small garden. There are many flowers in the garden. I like my garden because it is very quiet. Every evening, we drink tea in the garden. We are a very happy family."
+  ],
+  "vocabulary_focus": [
+    "family",
+    "house",
+    "garden",
+    "student",
+    "clean"
+  ],
+  "comprehension_questions": [
+    {
+      "question": "How old is David?",
+      "options": [
+        "Ten years old",
+        "Twenty years old",
+        "Thirty years old",
+        "Fifteen years old"
+      ],
+      "correct_answer": "Twenty years old"
+    },
+    {
+      "question": "What is David's father's job?",
+      "options": [
+        "He is a nurse",
+        "He is a teacher",
+        "He is an engineer",
+        "He is a doctor"
+      ],
+      "correct_answer": "He is an engineer"
+    },
+    {
+      "question": "Where do they drink tea in the evening?",
+      "options": [
+        "In the kitchen",
+        "In the bedroom",
+        "In the garden",
+        "In the living room"
+      ],
+      "correct_answer": "In the garden"
+    }
+  ]
+}

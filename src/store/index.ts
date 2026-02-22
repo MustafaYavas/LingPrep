@@ -12,6 +12,7 @@ import {
 import storage from "redux-persist/lib/storage"; // defaults to localStorage for web
 import progressReducer from "@/features/progress/store/progressSlice";
 import quizReducer from "@/features/quiz/store/quizSlice";
+import { readingReducer } from "@/features/reading";
 
 const persistConfig = {
   key: "lingprep-root",
@@ -22,6 +23,7 @@ const persistConfig = {
 const rootReducer = combineReducers({
   progress: progressReducer,
   quiz: quizReducer,
+  reading: readingReducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

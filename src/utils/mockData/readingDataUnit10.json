@@ -1,0 +1,125 @@
+{
+  "unit_id": 10,
+  "theme": "Personal Growth & Psychology (Gerunds & Infinitives)",
+  "word_count": 432,
+  "title": "Mastering the Art of Habit Formation",
+  "text_paragraphs": [
+    "Understanding the psychology behind habit formation is essential for anyone seeking to improve their personal or professional life. We often find ourselves struggling to maintain new routines, primarily because we fail to recognize the cognitive patterns that govern our behavior. Modern research suggests that forming a habit is not merely about having strong willpower; instead, it involves creating a sustainable environment that encourages positive actions. To achieve long-term success, one must learn how to navigate the complex relationship between motivation and discipline.",
+    "The process usually begins by identifying a 'cue'—a specific trigger that tells your brain to go into automatic mode. For instance, successfully starting a morning exercise routine might depend on placing your running shoes next to your bed the night before. By doing so, you are effectively reducing the friction required to begin the task. Avoiding common pitfalls, such as setting overly ambitious goals too quickly, is also crucial. It is often better to focus on making small, incremental changes rather than attempting to transform your entire lifestyle overnight.",
+    "Furthermore, the importance of 'rewarding' oneself cannot be overstated. When we complete a desired action, our brain releases dopamine, which reinforces the behavior. However, it is important to distinguish between healthy rewards and those that might undermine our progress. For example, if you are trying to lose weight, rewarding yourself with a sugary snack after a workout might be counterproductive. Learning to enjoy the process itself, rather than just the end result, is a skill that takes time to develop, but it eventually leads to a more fulfilling experience.",
+    "Many experts recommend 'habit stacking' as a powerful technique for integration. This involves attaching a new habit to an existing one that is already firmly established. For instance, if you want to practice mindfulness, you might decide to meditate for five minutes immediately after brushing your teeth. This strategy leverages the neural pathways that are already strong in your brain, making it much easier to remember and execute the new behavior. Consequently, the new habit becomes an extension of your daily life without requiring an immense amount of mental energy.",
+    "Nevertheless, we must be prepared to face setbacks. Life is unpredictable, and there will inevitably be days when we fail to follow our routines. The key is in refusing to let a single failure define our overall progress. Instead of giving up, successful individuals choose to analyze why the lapse occurred and adjust their strategy accordingly. Developing resilience is just as important as the habits themselves. By persisting through challenges, we strengthen our character and increase our chances of reaching our ultimate goals."
+  ],
+  "vocabulary_focus": [
+    "cognitive",
+    "willpower",
+    "sustainable",
+    "incremental",
+    "counterproductive",
+    "mindfulness",
+    "leverages",
+    "resilience"
+  ],
+  "comprehension_questions": [
+    {
+      "question": "What is the primary reason people struggle to maintain new routines?",
+      "options": [
+        "Lack of money",
+        "Failing to recognize cognitive patterns",
+        "Not having enough time",
+        "Physical exhaustion"
+      ],
+      "correct_answer": "Failing to recognize cognitive patterns"
+    },
+    {
+      "question": "What does the text suggest about willpower in habit formation?",
+      "options": [
+        "It is the only thing you need",
+        "It is less important than a sustainable environment",
+        "It is usually fake",
+        "It decreases with age"
+      ],
+      "correct_answer": "It is less important than a sustainable environment"
+    },
+    {
+      "question": "How does placing running shoes next to the bed help with a routine?",
+      "options": [
+        "It makes the room cleaner",
+        "It reduces friction to begin the task",
+        "It improves sleep quality",
+        "It saves space"
+      ],
+      "correct_answer": "It reduces friction to begin the task"
+    },
+    {
+      "question": "What is an example of a pitfall in habit formation mentioned in the text?",
+      "options": [
+        "Drinking too much water",
+        "Setting overly ambitious goals too quickly",
+        "Talking to friends",
+        "Reading too many books"
+      ],
+      "correct_answer": "Setting overly ambitious goals too quickly"
+    },
+    {
+      "question": "Why is the brain's release of dopamine significant?",
+      "options": [
+        "It causes sleepiness",
+        "It reinforces the behavior",
+        "It reduces hunger",
+        "It improves eyesight"
+      ],
+      "correct_answer": "It reinforces the behavior"
+    },
+    {
+      "question": "What is 'habit stacking'?",
+      "options": [
+        "Doing many habits at the same time",
+        "Attaching a new habit to an existing one",
+        "Stacking books in a specific order",
+        "Waking up early"
+      ],
+      "correct_answer": "Attaching a new habit to an existing one"
+    },
+    {
+      "question": "How does habit stacking benefit the brain?",
+      "options": [
+        "It creates new neural pathways immediately",
+        "It leverages existing strong neural pathways",
+        "It makes the brain larger",
+        "It reduces the need for sleep"
+      ],
+      "correct_answer": "It leverages existing strong neural pathways"
+    },
+    {
+      "question": "What should we do when we face setbacks?",
+      "options": [
+        "Give up immediately",
+        "Refuse to let a single failure define progress",
+        "Change our goals to something easier",
+        "Wait for someone to help us"
+      ],
+      "correct_answer": "Refuse to let a single failure define progress"
+    },
+    {
+      "question": "Which word is used in the text to describe the ability to persist through challenges?",
+      "options": [
+        "Willpower",
+        "Resilience",
+        "Mindfulness",
+        "Incremental"
+      ],
+      "correct_answer": "Resilience"
+    },
+    {
+      "question": "What is the overall tone of the author regarding habit formation?",
+      "options": [
+        "Skeptical and discouraging",
+        "Analytical and encouraging",
+        "Aggressive and demanding",
+        "Indifferent"
+      ],
+      "correct_answer": "Analytical and encouraging"
+    }
+  ]
+}

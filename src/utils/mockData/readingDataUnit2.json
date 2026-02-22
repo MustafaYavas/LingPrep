@@ -1,0 +1,50 @@
+{
+  "unit_id": 2,
+  "theme": "Daily Routine & Habits",
+  "word_count": 135,
+  "title": "A Day in the Life of a Chef",
+  "text_paragraphs": [
+    "Tom is a chef. He works in a famous restaurant in Paris. Every morning, he wakes up at six o'clock. He is very busy because he prepares many things for the restaurant.",
+    "At seven o'clock, he goes to the market. He buys fresh vegetables and meat. Then, he goes to the restaurant. He cooks delicious food for the customers. The kitchen is very hot and busy, but Tom is happy.",
+    "In the evening, he finishes his work at nine o'clock. He is tired but he feels good. He goes home and listens to music. Life is good for a busy chef like Tom."
+  ],
+  "vocabulary_focus": [
+    "chef",
+    "restaurant",
+    "prepare",
+    "market",
+    "delicious"
+  ],
+  "comprehension_questions": [
+    {
+      "question": "Where does Tom work?",
+      "options": [
+        "In a school",
+        "In a hospital",
+        "In a restaurant",
+        "In a park"
+      ],
+      "correct_answer": "In a restaurant"
+    },
+    {
+      "question": "What time does Tom wake up?",
+      "options": [
+        "At seven o'clock",
+        "At six o'clock",
+        "At eight o'clock",
+        "At five o'clock"
+      ],
+      "correct_answer": "At six o'clock"
+    },
+    {
+      "question": "How does Tom feel at the end of the day?",
+      "options": [
+        "He is sad",
+        "He is angry",
+        "He is tired but happy",
+        "He is bored"
+      ],
+      "correct_answer": "He is tired but happy"
+    }
+  ]
+}

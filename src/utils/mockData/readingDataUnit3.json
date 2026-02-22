@@ -1,0 +1,50 @@
+{
+  "unit_id": 3,
+  "theme": "City Life & Transport",
+  "word_count": 132,
+  "title": "My City: Istanbul",
+  "text_paragraphs": [
+    "Istanbul is a very big and beautiful city. Many people live here. There are many old buildings and modern shops. I live in Kadikoy. It is a very popular place.",
+    "In Istanbul, the transport is very busy. There are buses, trains, and big boats. I go to work by boat every day. The boat is very fast and I like the sea. The weather is usually sunny and nice.",
+    "I like my city because there are many things to do. You can see the history and you can eat great food. Istanbul is a very special place for me and my friends."
+  ],
+  "vocabulary_focus": [
+    "city",
+    "building",
+    "transport",
+    "boat",
+    "popular"
+  ],
+  "comprehension_questions": [
+    {
+      "question": "Where does the narrator live?",
+      "options": [
+        "In London",
+        "In Paris",
+        "In Kadikoy",
+        "In New York"
+      ],
+      "correct_answer": "In Kadikoy"
+    },
+    {
+      "question": "How does the narrator go to work?",
+      "options": [
+        "By bus",
+        "By train",
+        "By boat",
+        "By car"
+      ],
+      "correct_answer": "By boat"
+    },
+    {
+      "question": "What is the weather usually like in Istanbul?",
+      "options": [
+        "It is snowy",
+        "It is usually sunny",
+        "It is always rainy",
+        "It is very cold"
+      ],
+      "correct_answer": "It is usually sunny"
+    }
+  ]
+}

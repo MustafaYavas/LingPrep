@@ -1,0 +1,105 @@
+{
+  "unit_id": 9,
+  "theme": "Experience & Time (Present Perfect Focus)",
+  "word_count": 341,
+  "title": "Life in the High Andes",
+  "text_paragraphs": [
+    "For centuries, the people of the Andes mountains have adapted to one of the most challenging environments on Earth. Living at high altitudes, where the oxygen is thin and the weather is unpredictable, they have developed unique traditions and lifestyles. Modern explorers have often wondered how these communities have survived for so long in such isolation.",
+    "Juan is a local guide who has lived in a small village near Cusco since he was born. He has seen many changes in his community over the last twenty years. While tourism has increased, the core values of his people have remained the same. 'We have always respected the mountains,' he says, 'because they have provided us with water and protection for generations.'",
+    "Agriculture has been the foundation of life in the Andes for thousands of years. Farmers have successfully grown hundreds of types of potatoes and grains like quinoa in the steep terraces. They have used traditional methods that have been passed down from their ancestors. This ancient knowledge has helped them to maintain a sustainable food supply even during difficult seasons.",
+    "In recent years, many young people have moved to the cities to find better education and jobs. However, many have also returned to their villages because they have missed the sense of community. They have brought back new ideas and technologies, such as solar panels, which have improved the quality of life without destroying their heritage.",
+    "Archaeologists have discovered many fascinating ruins in this region, including the famous Machu Picchu. These sites have shown us how advanced the Inca civilization was. Since these discoveries were made, the world has looked at the Andes with great admiration. For the locals, these ruins are not just tourist attractions, but a symbol of the strength that has defined their history."
+  ],
+  "vocabulary_focus": [
+    "altitudes",
+    "unpredictable",
+    "isolation",
+    "foundation",
+    "terraces",
+    "ancestors",
+    "heritage",
+    "admiration"
+  ],
+  "comprehension_questions": [
+    {
+      "question": "How long have people lived in the Andes mountains?",
+      "options": [
+        "For a few years",
+        "For centuries",
+        "Since last week",
+        "For ten years"
+      ],
+      "correct_answer": "For centuries"
+    },
+    {
+      "question": "What has been a constant value for the Andean people?",
+      "options": [
+        "Living in cities",
+        "Respect for the mountains",
+        "Modern technology",
+        "Ignoring history"
+      ],
+      "correct_answer": "Respect for the mountains"
+    },
+    {
+      "question": "What has agriculture provided for thousands of years?",
+      "options": [
+        "A foundation for life",
+        "A way to escape",
+        "Only one type of potato",
+        "Modern machinery"
+      ],
+      "correct_answer": "A foundation for life"
+    },
+    {
+      "question": "How have farmers maintained a sustainable food supply?",
+      "options": [
+        "By buying food from cities",
+        "By using ancient knowledge and terraces",
+        "By moving to lower altitudes",
+        "By stopping agriculture"
+      ],
+      "correct_answer": "By using ancient knowledge and terraces"
+    },
+    {
+      "question": "Why have some young people returned to their villages?",
+      "options": [
+        "Because they failed in school",
+        "Because they missed the community",
+        "Because the cities were too small",
+        "Because there were no jobs"
+      ],
+      "correct_answer": "Because they missed the community"
+    },
+    {
+      "question": "How have solar panels affected the quality of life?",
+      "options": [
+        "They have destroyed heritage",
+        "They have improved life without destroying heritage",
+        "They have made life more difficult",
+        "They have attracted too many tourists"
+      ],
+      "correct_answer": "They have improved life without destroying heritage"
+    },
+    {
+      "question": "What is Machu Picchu to the local people?",
+      "options": [
+        "Just a tourist attraction",
+        "A symbol of history and strength",
+        "A new shopping mall",
+        "A place they have never seen"
+      ],
+      "correct_answer": "A symbol of history and strength"
+    },
+    {
+      "question": "What has Juan observed over the last twenty years?",
+      "options": [
+        "Tourism has decreased",
+        "Many changes in his community",
+        "The mountains have disappeared",
+        "Water has run out"
+      ],
+      "correct_answer": "Many changes in his community"
+    }
+  ]
+}

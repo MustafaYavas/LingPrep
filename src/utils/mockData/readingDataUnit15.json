@@ -1,0 +1,148 @@
+{
+  "unit_id": 15,
+  "theme": "AI & Ethics (Future in the Past)",
+  "word_count": 593,
+  "title": "Echoes of the Future: The AI Legacy",
+  "text_paragraphs": [
+    "When the first computers were built in the mid-20th century, few could have predicted the profound impact that Artificial Intelligence (AI) would eventually have on our world. Back then, it was imagined that machines would simply handle complex mathematical calculations. No one was aware that these machines were going to evolve into sophisticated systems capable of mimicking human thought and creativity. Today, we are living in the future that those pioneers were only beginning to dream of.",
+    "It was once thought that AI would remain a tool for specialized scientific research. However, it was clear that the technology was going to permeate every aspect of our daily lives. From the way we browse the internet to the diagnostic tools used by doctors, AI is now omnipresent. We might have expected this transition to take longer, but the pace of innovation has been astonishing. Consequently, we are now forced to confront the ethical implications that we were once able to ignore.",
+    "The fear of mass unemployment due to automation has been a recurring theme. Years ago, experts warned that millions of jobs would be lost if robots were to take over the workforce. While this has happened in some sectors, new roles were also created. We were going to see a transformation of the labor market, but many underestimated the resilience of human ingenuity. If we had planned for these shifts more proactively, the current economic anxiety might have been significantly reduced.",
+    "Furthermore, the issue of algorithmic bias has become a critical concern. At the start of the digital age, we believed that computers would be perfectly objective. We were going to achieve a level of fairness that was impossible for biased humans to reach. However, we soon learned that AI systems are only as good as the data they are trained on. If that data is biased, the resulting decisions will be as well. We should have anticipated this vulnerability earlier, before these systems were integrated into law enforcement and hiring.",
+    "The development of autonomous weapons is perhaps the most frightening application of AI. International organizations were going to sign treaties to limit this technology before it reached a dangerous stage. However, the global arms race has made such agreements difficult to achieve. If we don't act soon, we might find ourselves in a world where lethal decisions are made without human intervention. We were hoping for a future defined by peace and collaboration, but the reality is becoming increasingly precarious.",
+    "In conclusion, the legacy of AI is still being written, and we are the authors of the next chapter. We were going to use these technologies for the benefit of all humanity, and that goal should remain our guiding principle. As we move forward, we must prioritize ethics and transparency in everything we do. By doing so, we can ensure that the AI we build is not just intelligent, but also aligned with our most deeply held values. The future that was once distant is now here, and it is up to us to shape it wisely."
+  ],
+  "vocabulary_focus": [
+    "pioneers",
+    "omnipresent",
+    "innovation",
+    "transformation",
+    "ingenuity",
+    "algorithmic",
+    "vulnerability",
+    "precarious",
+    "transparency",
+    "aligned"
+  ],
+  "comprehension_questions": [
+    {
+      "question": "What was the initial expectation for computers in the mid-20th century?",
+      "options": [
+        "To mimic human creativity",
+        "To handle complex mathematical calculations",
+        "To fly spaceships",
+        "To replace all human teachers"
+      ],
+      "correct_answer": "To handle complex mathematical calculations"
+    },
+    {
+      "question": "Did pioneers expect machines to evolve into sophisticated systems mimicking human thought?",
+      "options": [
+        "Yes, they planned it from the start",
+        "No, few could have predicted this impact",
+        "Only the writers of science fiction did",
+        "Yes, but they thought it would take 500 years"
+      ],
+      "correct_answer": "No, few could have predicted this impact"
+    },
+    {
+      "question": "What was once thought about the scope of AI's use?",
+      "options": [
+        "It would be used by everyone daily",
+        "It would remain a tool for specialized scientific research",
+        "It would replace the government",
+        "It would be for games only"
+      ],
+      "correct_answer": "It would remain a tool for specialized scientific research"
+    },
+    {
+      "question": "How is AI described in the 2nd paragraph?",
+      "options": [
+        "As a niche technology",
+        "As omnipresent",
+        "As a temporary trend",
+        "As mostly useless"
+      ],
+      "correct_answer": "As omnipresent"
+    },
+    {
+      "question": "What has been the result of the 'astonishing' pace of innovation?",
+      "options": [
+        "Life has become simpler",
+        "We are forced to confront ethical implications",
+        "Technology has become cheaper for everyone",
+        "Scientific research has stopped"
+      ],
+      "correct_answer": "We are forced to confront ethical implications"
+    },
+    {
+      "question": "What was the recurring fear regarding automation?",
+      "options": [
+        "Robots becoming our friends",
+        "Mass unemployment",
+        "Computers getting too expensive",
+        "A lack of electricity"
+      ],
+      "correct_answer": "Mass unemployment"
+    },
+    {
+      "question": "What did many underestimate during the labor market transformation?",
+      "options": [
+        "The cost of robots",
+        "The resilience of human ingenuity",
+        "The speed of the internet",
+        "The number of people in the world"
+      ],
+      "correct_answer": "The resilience of human ingenuity"
+    },
+    {
+      "question": "What was the initial belief about computer objectivity?",
+      "options": [
+        "That computers would be more biased than humans",
+        "That computers would be perfectly objective",
+        "That computers couldn't make decisions",
+        "That computers were only for math"
+      ],
+      "correct_answer": "That computers would be perfectly objective"
+    },
+    {
+      "question": "Why do AI systems produce biased results?",
+      "options": [
+        "Because they are broken",
+        "Because they are only as good as the data they are trained on",
+        "Because they want to be evil",
+        "Because they are too fast"
+      ],
+      "correct_answer": "Because they are only as good as the data they are trained on"
+    },
+    {
+      "question": "What was 'going to happen' regarding autonomous weapons treaties?",
+      "options": [
+        "They were never considered",
+        "International organizations were going to sign them earlier",
+        "They were signed by all nations",
+        "They were banned by scientists only"
+      ],
+      "correct_answer": "International organizations were going to sign them earlier"
+    },
+    {
+      "question": "How is the current reality of international security described?",
+      "options": [
+        "As stable and peaceful",
+        "As increasingly precarious",
+        "As fully controlled by AI",
+        "As unimportant"
+      ],
+      "correct_answer": "As increasingly precarious"
+    },
+    {
+      "question": "What should be the guiding principle for the next chapter of AI?",
+      "options": [
+        "Maximum profit",
+        "The benefit of all humanity",
+        "Faster processing speeds",
+        "Total automation"
+      ],
+      "correct_answer": "The benefit of all humanity"
+    }
+  ]
+}
