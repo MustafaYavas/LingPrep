@@ -1,0 +1,202 @@
+{
+  "unit_id": 11,
+  "unit_title": "Eğlence ve Hobiler",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Zarfların Oluşumu (-ly)",
+      "questions": [
+        {
+          "id": "u11_t1_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "İngilizcede, bir eylemin 'nasıl' yapıldığını söyleyen durum zarfları genelde hangi eki alarak oluşur?",
+          "options": [
+            "-ing",
+            "-ed",
+            "-ly",
+            "-s"
+          ],
+          "correct_answer": "-ly",
+          "explanation": "Slow -> Slowly (Yavaşça), Quick -> Quickly (Hızlıca) örneklerindeki gibi '-ly' eki kullanılır."
+        },
+        {
+          "id": "u11_t1_q2",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "She speaks very quiet____. (O çok sessiz konuşur.)",
+          "correct_answer": "ly",
+          "explanation": "Sıfat olan quiet'a, fiili nitelerken -ly eki eklenir."
+        },
+        {
+          "id": "u11_t1_q3",
+          "type": "situational_response",
+          "difficulty": "medium",
+          "scenario": "Arkadaşın sokakta çok hızlı bir şekilde araba sürüyor ve sen korkuyorsun.",
+          "question_text": "Ona ne demelisin?",
+          "options": [
+            "You are driving dangerously!",
+            "You drive slow.",
+            "Drive carefully, please!",
+            "You are a good driver."
+          ],
+          "correct_answer": "Drive carefully, please!",
+          "explanation": "Tehlikeli durumlarda 'dikkatlice sür' diyerek (carefully) uyarı yaparız."
+        },
+        {
+          "id": "u11_t1_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "'Happy' (Mutlu) kelimesinden 'Mutlulukla' anlamında bir zarf çıkardığımızda nasıl yazılır?",
+          "options": [
+            "Happyly",
+            "Happily",
+            "Happiness",
+            "Happiest"
+          ],
+          "correct_answer": "Happily",
+          "explanation": "Sonu 'y' ile biten sıfatlarda y düşer ve 'ily' şeklinde zarf yapılır."
+        },
+        {
+          "id": "u11_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "They are singing loud____. (Çok yüksek sesle şarkı söylüyorlar.)",
+          "correct_answer": "ly",
+          "explanation": "Yüksek sesle zarfı 'loudly'dir."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Düzensiz Zarflar (Well, Hard, Fast)",
+      "questions": [
+        {
+          "id": "u11_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "'Good' (İyi) kelimesi, bir eylemi iyi yaptığımızı belirtmek için zarf olarak nasıl kullanılır?",
+          "options": [
+            "Goodly",
+            "Well",
+            "Better",
+            "Best"
+          ],
+          "correct_answer": "Well",
+          "explanation": "Good sıfatının zarf hali düzensizdir ve 'well' olur (Örn: He plays well)."
+        },
+        {
+          "id": "u11_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "She speaks English very ____ (good). (İngilizceyi çok iyi konuşur.)",
+          "correct_answer": "well",
+          "explanation": "Bir eylemin iyi yapıldığını anlatırken 'well' kelimesi kullanılır."
+        },
+        {
+          "id": "u11_t2_q3",
+          "type": "situational_response",
+          "difficulty": "hard",
+          "scenario": "Bir koşu yarışındasın ve rakibin adeta uçarcasına koşuyor.",
+          "question_text": "Onun için ne söylersin?",
+          "options": [
+            "He runs fastly.",
+            "He runs fast.",
+            "He runs slow.",
+            "He is a fast."
+          ],
+          "correct_answer": "He runs fast.",
+          "explanation": "Fast kelimesi hem sıfattır hem zarftır, '-ly' almaz (fastly yanlıştır)."
+        },
+        {
+          "id": "u11_t2_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "'I worked ____ today.' (Bugün çok sıkı çalıştım.) - Boşluğa ne gelir?",
+          "options": [
+            "hard",
+            "hardly",
+            "hards",
+            "more hard"
+          ],
+          "correct_answer": "hard",
+          "explanation": "Hard da fast gibi ek almayan bir zarftır. 'Hardly' farklı bir kelimedir (neredeyse hiç)."
+        },
+        {
+          "id": "u11_t2_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "Don't drive so ____! (Bu kadar hızlı sürme!)",
+          "correct_answer": "fast",
+          "explanation": "Hız için 'fast' zarf olarak kullanılır."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Hobileri Tarif Etme",
+      "questions": [
+        {
+          "id": "u11_t3_q1",
+          "type": "situational_response",
+          "difficulty": "easy",
+          "scenario": "Birine piyano çalmayı hobi olarak edinip edinmediğini soracaksın.",
+          "question_text": "Bunu nasıl sorarsın?",
+          "options": [
+            "Do you play the piano?",
+            "Did you play yesterday?",
+            "Are you a piano?",
+            "Will you play?"
+          ],
+          "correct_answer": "Do you play the piano?",
+          "explanation": "Hobiler geniş zamanla ifade edilir."
+        },
+        {
+          "id": "u11_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "He paints beauti____. (Manzaraları çok güzel resmeder.)",
+          "correct_answer": "fully",
+          "explanation": "Beautiful sıfatının zarf hali 'beautifully' şeklindedir."
+        },
+        {
+          "id": "u11_t3_q3",
+          "type": "situational_response",
+          "difficulty": "hard",
+          "scenario": "Gitar derslerine başladın, arkadaşın sana çalmayı öğretmesini istiyor ancak sen henüz çok iyi değilsin.",
+          "question_text": "Ne dersin?",
+          "options": [
+            "I play very well.",
+            "I play terribly.",
+            "I don't play badly.",
+            "You should play it."
+          ],
+          "correct_answer": "I play terribly.",
+          "explanation": "Mütevazı bir şekilde yeteneğinin henüz zayıf olduğunu (terribly) belirterek cevap verilir."
+        },
+        {
+          "id": "u11_t3_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Zarfların (adverbs of manner) cümlerki doğalyeri neresidir?",
+          "options": [
+            "Cümlenin en başında",
+            "Özneden hemen sonra",
+            "Fiilden veya cümlenin nesnesinden sonra",
+            "İki sıfatın ortasında"
+          ],
+          "correct_answer": "Fiilden veya cümlenin nesnesinden sonra",
+          "explanation": "Örn: He drives (fiil) carefully (zarf) veya He speaks English (nesne) fluently (zarf)."
+        },
+        {
+          "id": "u11_t3_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "My sister dances ____ (kötü bir şekilde)",
+          "correct_answer": "badly",
+          "explanation": "Kötü anlamına gelen bad, zarf olurken 'badly' formunu alır."
+        }
+      ]
+    }
+  ]
+}

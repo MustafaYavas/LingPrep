@@ -1,0 +1,180 @@
+{
+  "unit_id": 3,
+  "unit_title": "Benim Dünyam",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: İyelik Sıfatları",
+      "questions": [
+        {
+          "id": "u3_t1_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "'Benim' anlamına gelen İngilizce kelime hangisidir?",
+          "options": [
+            "My",
+            "Your",
+            "His",
+            "Their"
+          ],
+          "correct_answer": "My",
+          "explanation": "'My' benim demektir."
+        },
+        {
+          "id": "u3_t1_q2",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "This is ____ house. (Bu onun evi. - Erkek için)",
+          "correct_answer": "his",
+          "explanation": "Erkekler için iyelik sıfatı 'his'tir."
+        },
+        {
+          "id": "u3_t1_q3",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "Kadınlar için 'onun' demek istediğimizde 'Her' kelimesi kullanılır.",
+          "correct_answer": "true",
+          "explanation": "Kadınlar için iyelik sıfatı 'her'dir."
+        },
+        {
+          "id": "u3_t1_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "'The dog is playing with ___ toy.' cümlesindeki boşluğa ne gelmelidir?",
+          "options": [
+            "its",
+            "it",
+            "his",
+            "her"
+          ],
+          "correct_answer": "its",
+          "explanation": "Hayvanlar ve cansız varlıklar için iyelik sıfatı 'its'tir."
+        },
+        {
+          "id": "u3_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "____ names are Ali and Veli. (Onların adları Ali ve Veli'dir.)",
+          "correct_answer": "Their",
+          "explanation": "Onların anlamına gelen iyelik sıfatı 'Their'dir."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Aile Üyeleri",
+      "questions": [
+        {
+          "id": "u3_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "Anne kelimesinin İngilizcesi nedir?",
+          "options": [
+            "Mother",
+            "Father",
+            "Sister",
+            "Brother"
+          ],
+          "correct_answer": "Mother",
+          "explanation": "Mother, anne demektir."
+        },
+        {
+          "id": "u3_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "He is my ____. (O benim babam.)",
+          "correct_answer": "father",
+          "explanation": "Baba kelimesinin İngilizcesi 'father'dır."
+        },
+        {
+          "id": "u3_t2_q3",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "'Sister' kelimesi erkek kardeş anlamına gelir.",
+          "correct_answer": "false",
+          "explanation": "Sister 'kız kardeş', Brother 'erkek kardeş' demektir."
+        },
+        {
+          "id": "u3_t2_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Büyükbaba anlamına gelen doğru kelime hangisidir?",
+          "options": [
+            "Grandfather",
+            "Uncle",
+            "Aunt",
+            "Cousin"
+          ],
+          "correct_answer": "Grandfather",
+          "explanation": "Büyükbaba/Dede İngilizcede 'Grandfather' olarak bilinir."
+        },
+        {
+          "id": "u3_t2_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "She is my ____. (O benim teyzem/halam.)",
+          "correct_answer": "aunt",
+          "explanation": "Teyze veya hala için 'aunt' kullanılır."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: 's Takısı Sahiplik",
+      "questions": [
+        {
+          "id": "u3_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "'Ali'nin arabası' İngilizcede nasıl söylenir?",
+          "options": [
+            "Ali's car",
+            "Car Ali",
+            "Ali car",
+            "The car of Ali's"
+          ],
+          "correct_answer": "Ali's car",
+          "explanation": "Özel isimlerin sonuna gelen 's takısı sahiplik bildirir."
+        },
+        {
+          "id": "u3_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "This is my ____ bag. (Bu annemin çantası.)",
+          "correct_answer": "mother's",
+          "explanation": "Annemin demek için mother kelimesine 's eklenir."
+        },
+        {
+          "id": "u3_t3_q3",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "'Cats tail' ifadesi 'Kedi kuyruğu' olarak tamamen doğru yazılmıştır.",
+          "correct_answer": "false",
+          "explanation": "Sahiplik bildirmek için kesme işareti gerekir: Cat's tail."
+        },
+        {
+          "id": "u3_t3_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Çoğul ve 's' ile biten isimlerde sahiplik eki nasıl gösterilir? (Örn: Öğrencilerin kitapları)",
+          "options": [
+            "students's books",
+            "students' books",
+            "students books",
+            "student's books"
+          ],
+          "correct_answer": "students' books",
+          "explanation": "Düzenli çoğulların sonuna sadece kesme işareti (') konur."
+        },
+        {
+          "id": "u3_t3_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "We are at ____ house. (John'un evindeyiz.)",
+          "correct_answer": "John's",
+          "explanation": "John adına sahiplik eki getirmek için John's kullanılır."
+        }
+      ]
+    }
+  ]
+}

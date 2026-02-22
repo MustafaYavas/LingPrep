@@ -1,0 +1,202 @@
+{
+  "unit_id": 7,
+  "unit_title": "Hayat Tecrübeleri",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Already ve Just",
+      "questions": [
+        {
+          "id": "u7_t1_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Present Perfect Tense'in yardımcı fiilleri nelerdir?",
+          "options": [
+            "Do / Does",
+            "Did / Was",
+            "Have / Has",
+            "Am / Is / Are"
+          ],
+          "correct_answer": "Have / Has",
+          "explanation": "Present Perfect için 'have' ya da 'has' ve fiilin 3. hali kullanılır."
+        },
+        {
+          "id": "u7_t1_q2",
+          "type": "situational_response",
+          "difficulty": "medium",
+          "scenario": "Arkadaşın sana yemek teklif ediyor ama sen daha az önce yemek yedin.",
+          "question_text": "Bunu İngilizce nasıl ifade edersin?",
+          "options": [
+            "I have just eaten.",
+            "I eat every day.",
+            "I will eat later.",
+            "I already know."
+          ],
+          "correct_answer": "I have just eaten.",
+          "explanation": "Yakın zamanda tamamlanmış bir eylemi belirtmek için 'just' (az önce) kullanılır."
+        },
+        {
+          "id": "u7_t1_q3",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "She ____ already finished her homework. (O ödevini çoktan bitirdi.)",
+          "correct_answer": "has",
+          "explanation": "She öznesi ile 'has' yardımcı fiili kullanılır."
+        },
+        {
+          "id": "u7_t1_q4",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "'I have already seen this movie.' ne anlama gelir?",
+          "options": [
+            "Bu filmi görmek istiyorum.",
+            "Bu filmi henüz görmedim.",
+            "Bu filmi çoktan gördüm.",
+            "Bu film az önce başladı."
+          ],
+          "correct_answer": "Bu filmi çoktan gördüm.",
+          "explanation": "'Already' (çoktan/zaten) anlamı katar."
+        },
+        {
+          "id": "u7_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "I have ____ (just) arrived. (Daha yeni vardım.)",
+          "correct_answer": "just",
+          "explanation": "Yeni olan bitmiş işlerde yardımcı fiil ile ana fiil arasına 'just' kelimesi girer."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Henüz Değil (Yet)",
+      "questions": [
+        {
+          "id": "u7_t2_q1",
+          "type": "situational_response",
+          "difficulty": "medium",
+          "scenario": "Öğretmen projeni bitirip bitirmediğini soruyor ama sen henüz bitirmedin.",
+          "question_text": "Nasıl cevap verirsin?",
+          "options": [
+            "I have finished it.",
+            "I haven't finished it yet.",
+            "I don't like projects.",
+            "I will do it already."
+          ],
+          "correct_answer": "I haven't finished it yet.",
+          "explanation": "Henüz yapılmamış işler için cümlenin sonunda 'yet' ve olumsuz yapı kullanılır."
+        },
+        {
+          "id": "u7_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "Have you called your mom ____? (Anneni henüz aradın mı?)",
+          "correct_answer": "yet",
+          "explanation": "Soru cümlelerinde 'yet' cümlenin en sonunda yer alır."
+        },
+        {
+          "id": "u7_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "'Yet' kelimesi genelde cümlenin neresinde kullanılır?",
+          "options": [
+            "Cümlenin başında",
+            "Fiilden önce",
+            "Yardımcı fiilden hemen sonra",
+            "Cümlenin en sonunda"
+          ],
+          "correct_answer": "Cümlenin en sonunda",
+          "explanation": "'Yet' (henüz) çoğunlukla cümle sonundadır."
+        },
+        {
+          "id": "u7_t2_q4",
+          "type": "situational_response",
+          "difficulty": "hard",
+          "scenario": "Birisi filmin başlayıp başlamadığını soruyor. Henüz başlamadı.",
+          "question_text": "Bunu nasıl ifade edersin?",
+          "options": [
+            "It started yesterday.",
+            "It hasn't started yet.",
+            "It is already running.",
+            "It will never start."
+          ],
+          "correct_answer": "It hasn't started yet.",
+          "explanation": "Henüz başlamayan bir süreç has not + V3 + yet yapısıyla verilir."
+        },
+        {
+          "id": "u7_t2_q5",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "He hasn't arrived ____. (O henüz varmadı.)",
+          "correct_answer": "yet",
+          "explanation": "Olumsuz Present Perfect cümlelerinde 'henüz' anlamında 'yet' kullanılır."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Karışık Tecrübeler",
+      "questions": [
+        {
+          "id": "u7_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Hiç Fransa'da bulundun mu? sorusunun doğru çevirisi nedir?",
+          "options": [
+            "Did you go to France?",
+            "Have you ever been to France?",
+            "Are you in France?",
+            "Will you go to France?"
+          ],
+          "correct_answer": "Have you ever been to France?",
+          "explanation": "Hayat boyu edinilmiş tecrübeler için 'Have you ever been...?' kalıbı kullanılır."
+        },
+        {
+          "id": "u7_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "I have ____ (be) to London twice. (Londra'da iki kez bulundum.)",
+          "correct_answer": "been",
+          "explanation": "Bulunmak anlamında 'be' fiilinin 3. hali 'been'dir."
+        },
+        {
+          "id": "u7_t3_q3",
+          "type": "situational_response",
+          "difficulty": "hard",
+          "scenario": "Yeni bir yemek türü denedin ve o an hayatında yediğin en güzel şey olduğunu düşünüyorsun.",
+          "question_text": "Nasıl ifade edersin?",
+          "options": [
+            "I didn't eat it.",
+            "It is the best food I have ever eaten!",
+            "I will eat it later.",
+            "I ate it yesterday."
+          ],
+          "correct_answer": "It is the best food I have ever eaten!",
+          "explanation": "Şimdiye kadarki bir tecrübeyi belirtirken tepe noktasıyla 'have ever eaten' kullanılır."
+        },
+        {
+          "id": "u7_t3_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Cümleyi tamamlayın: 'She ... never eaten sushi.'",
+          "correct_answer": "has",
+          "options": [
+            "has",
+            "have",
+            "is",
+            "was"
+          ],
+          "explanation": "She öznesi has alır."
+        },
+        {
+          "id": "u7_t3_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "I have known him ____ 2010. (Onu 2010'dan beri tanıyorum.)",
+          "correct_answer": "since",
+          "explanation": "Belirli bir başlangıç tarihi verildiğinde 'since' kullanılır."
+        }
+      ]
+    }
+  ]
+}

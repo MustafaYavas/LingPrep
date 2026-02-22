@@ -1,0 +1,198 @@
+{
+  "unit_id": 21,
+  "unit_title": "Medya & Manipülasyon",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Alıntılar ve Raporlama",
+      "questions": [
+        {
+          "id": "u21_t1_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "The journalist said that the government ______ (hide) the truth from the public.",
+          "options": [
+            "is hiding",
+            "was hiding",
+            "hides",
+            "will hide"
+          ],
+          "correct_answer": "was hiding",
+          "explanation": "Aktarılan cümle (tense shift) bir derece geçmişe gider (Present Cont -> Past Cont)."
+        },
+        {
+          "id": "u21_t1_q2",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "She told me that she ______ (see) the suspect at the scene.",
+          "correct_answer": "had seen",
+          "explanation": "Past Simple aktarılırken Past Perfect olur."
+        },
+        {
+          "id": "u21_t1_q3",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "He asked me where ______ (I / work) the previous year.",
+          "options": [
+            "worked I",
+            "did I work",
+            "I had worked",
+            "I was working"
+          ],
+          "correct_answer": "I had worked",
+          "explanation": "Sorular aktarılırken soru yapısı düşer ve düz cümle sırasına (özne + fiil) döner."
+        },
+        {
+          "id": "u21_t1_q4",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "'I'll call you tomorrow.' -> He said he would call me ______.",
+          "correct_answer": "the next day",
+          "explanation": "Zarflar da değişir: tomorrow -> the next day / the following day."
+        },
+        {
+          "id": "u21_t1_q5",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "'Say' ve 'Tell' arasındaki fark nedir?",
+          "options": [
+            "Say'den sonra nesne (me, him) gelmez, Tell'den sonra gelir.",
+            "Say geçmişte, Tell gelecekte kullanılır.",
+            "Hiç fark yoktur.",
+            "Say sadece sorularda kullanılır."
+          ],
+          "correct_answer": "Say'den sonra nesne (me, him) gelmez, Tell'den sonra gelir.",
+          "explanation": "She said... / She told ME..."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Haber Kaynakları",
+      "questions": [
+        {
+          "id": "u21_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "The editor ordered the writer ______ (check) the sources again.",
+          "options": [
+            "checking",
+            "to check",
+            "check",
+            "that check"
+          ],
+          "correct_answer": "to check",
+          "explanation": "Emir (Order) ve ricalar Infinitive yapısıyla aktarılır."
+        },
+        {
+          "id": "u21_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "The scientist claimed that the experiment ______ (be) a success.",
+          "correct_answer": "had been",
+          "explanation": "Claim (iddia) aktarımı."
+        },
+        {
+          "id": "u21_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "'Can' aktarılırken hangi modal'a dönüşür?",
+          "options": [
+            "Could",
+            "Can't",
+            "Would",
+            "Should"
+          ],
+          "correct_answer": "Could",
+          "explanation": "Can -> Could."
+        },
+        {
+          "id": "u21_t2_q4",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "'I am busy here.' -> She said that she was busy ______.",
+          "correct_answer": "there",
+          "explanation": "Yer zarfı değişir: here -> there."
+        },
+        {
+          "id": "u21_t2_q5",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Aktarılan bir soruda hangisi ASLA bulunmaz?",
+          "options": [
+            "If",
+            "Whether",
+            "Did / Does",
+            "Özne"
+          ],
+          "correct_answer": "Did / Does",
+          "explanation": "Yardımcı fiiller soru yapısını kaybederek cümleden çıkar."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Karma Haberler",
+      "questions": [
+        {
+          "id": "u21_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "question_text": "The witness denied ______ (see) anything at the crime scene.",
+          "options": [
+            "to see",
+            "seeing",
+            "she saw",
+            "that she saw"
+          ],
+          "correct_answer": "seeing",
+          "explanation": "Deny, suggest gibi fiiller Reported Speech dolaylı aktarımında Gerund ile de kullanılabilir."
+        },
+        {
+          "id": "u21_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "'Don't touch it!' -> The officer warned us ______ (not / touch) it.",
+          "correct_answer": "not to touch",
+          "explanation": "Olumsuz emir aktarımı: not + to + V1."
+        },
+        {
+          "id": "u21_t3_q3",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "She asked if I ______ (know) the way to the airport.",
+          "options": [
+            "know",
+            "did know",
+            "knew",
+            "had known"
+          ],
+          "correct_answer": "knew",
+          "explanation": "Yes/No soruları 'if/whether' ile aktarılır."
+        },
+        {
+          "id": "u21_t3_q4",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "'I have already finished.' -> He said he ______ (already / finish).",
+          "correct_answer": "had already finished",
+          "explanation": "Present Perfect -> Past Perfect."
+        },
+        {
+          "id": "u21_t3_q5",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Aktarma fiili 'Says' (Geniş zaman) ise içerideki zaman değişir mi?",
+          "options": [
+            "Evet",
+            "Hayır",
+            "Sadece gelecekte",
+            "Sadece sorularda"
+          ],
+          "correct_answer": "Hayır",
+          "explanation": "Raporlama fiili (says, claims) geniş zamandaysa içerideki zaman kaydırılmaz."
+        }
+      ]
+    }
+  ]
+}

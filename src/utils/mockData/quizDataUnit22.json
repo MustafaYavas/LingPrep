@@ -1,0 +1,198 @@
+{
+  "unit_id": 22,
+  "unit_title": "Ekonomi & Kariyer",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Geçmiş ve Bugün Bağlantısı",
+      "questions": [
+        {
+          "id": "u22_t1_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "If I ______ (invest) in Bitcoin in 2010, I ______ (be) a millionaire now.",
+          "options": [
+            "invested / would be",
+            "had invested / would be",
+            "had invested / would have been",
+            "invested / am"
+          ],
+          "correct_answer": "had invested / would be",
+          "explanation": "Geçmişteki eylem (had invested) + şimdiki sonuç (would be)."
+        },
+        {
+          "id": "u22_t1_q2",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "If he ______ (speak) Japanese, he ______ (get) the job last year.",
+          "options": [
+            "speaks / would get",
+            "spoke / would have gotten",
+            "had spoken / would have gotten",
+            "speaks / got"
+          ],
+          "correct_answer": "spoke / would have gotten",
+          "explanation": "Genel bir yetenek (spoke) + geçmişteki sonuç (would have gotten)."
+        },
+        {
+          "id": "u22_t1_q3",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "If you ______ (not / forget) the tickets at home, we wouldn't be waiting in this line now.",
+          "correct_answer": "hadn't forgotten",
+          "explanation": "Geçmişteki hata (forget) ve şimdiki yansıma (waiting)."
+        },
+        {
+          "id": "u22_t1_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "If she ______ (be) more careful, she wouldn't have made so many mistakes.",
+          "options": [
+            "is",
+            "was",
+            "were",
+            "had been"
+          ],
+          "correct_answer": "were",
+          "explanation": "Her zamanki karakteri (were: dikkatli biri olsaydı) geçmişteki hatayı etkilerdi."
+        },
+        {
+          "id": "u22_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "If I ______ (have) a car, I would have given you a lift yesterday.",
+          "correct_answer": "had",
+          "explanation": "Arabam (şu an/genel) olsaydı dün bırakırdım."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Kararlar ve Sonuçlar",
+      "questions": [
+        {
+          "id": "u22_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "We wouldn't be lost if we ______ (take) the map with us.",
+          "options": [
+            "took",
+            "had taken",
+            "would take",
+            "have taken"
+          ],
+          "correct_answer": "had taken",
+          "explanation": "Şu an kaybolmazdık (sonuç) eğer haritayı almış olsaydık (geçmiş eylem)."
+        },
+        {
+          "id": "u22_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "If they ______ (not / waste) all their money, they would be rich today.",
+          "correct_answer": "hadn't wasted",
+          "explanation": "Geçmişteki israf, bugünkü fakirlik."
+        },
+        {
+          "id": "u22_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "question_text": "If I ______ (listen) to my parents' advice, I ______ (have) a better career now.",
+          "options": [
+            "listened / had",
+            "had listened / would have",
+            "listened / would have",
+            "had listened / had"
+          ],
+          "correct_answer": "had listened / would have",
+          "explanation": "Geçmişteki dinleme eylemi + şimdiki kariyer durumu."
+        },
+        {
+          "id": "u22_t2_q4",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "If she ______ (love) him, she would have married him a long time ago.",
+          "correct_answer": "loved",
+          "explanation": "Ona (hala) karşı sevgisi olsaydı eskiden evlenirdi."
+        },
+        {
+          "id": "u22_t2_q5",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Mixed Conditional hangi iki zamanı birleştirir?",
+          "options": [
+            "Present & Future",
+            "Past & Future",
+            "Past & Present",
+            "Present & Always"
+          ],
+          "correct_answer": "Past & Present",
+          "explanation": "Geçmişteki eylemin şimdiki etkisi veya tam tersi."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: İş Hayatı Senaryoları",
+      "questions": [
+        {
+          "id": "u22_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "If the company ______ (go) bankrupt last year, I would be looking for a job now.",
+          "options": [
+            "went",
+            "had gone",
+            "was going",
+            "goes"
+          ],
+          "correct_answer": "had gone",
+          "explanation": "Geçmişteki iflas + şimdiki iş arama."
+        },
+        {
+          "id": "u22_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "If you ______ (be) better at managing money, you wouldn't have spent all your savings.",
+          "correct_answer": "were",
+          "explanation": "Genel yetenek (be) + geçmişteki eylem (spent)."
+        },
+        {
+          "id": "u22_t3_q3",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "If I ______ (not / miss) the flight, I ______ (be) in Paris right now.",
+          "options": [
+            "didn't miss / would be",
+            "hadn't missed / would be",
+            "hadn't missed / would have been",
+            "didn't miss / would have been"
+          ],
+          "correct_answer": "hadn't missed / would be",
+          "explanation": "Kaçırma (geçmiş) + bulunma (şu an)."
+        },
+        {
+          "id": "u22_t3_q4",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "Had they ______ (work) harder, they would be successful now.",
+          "correct_answer": "worked",
+          "explanation": "Inversion (Had + S + V3) yapısı."
+        },
+        {
+          "id": "u22_t3_q5",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Mixed Conditional cümlesini bulun:",
+          "options": [
+            "If he eats, he is full.",
+            "If he goes, I will go.",
+            "If he had trained, he would be a champion now.",
+            "If he trained, he would win."
+          ],
+          "correct_answer": "If he had trained, he would be a champion now.",
+          "explanation": "Zamanlar arası geçiş yapan tek seçenektir."
+        }
+      ]
+    }
+  ]
+}

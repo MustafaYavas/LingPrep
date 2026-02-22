@@ -1,0 +1,202 @@
+{
+  "unit_id": 9,
+  "unit_title": "Kıyaslamalar",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Comparatives (-er / more)",
+      "questions": [
+        {
+          "id": "u9_t1_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "İki şeyi birbiriyle karşılaştırırken kısa sıfatların sonuna hangi ek gelir?",
+          "options": [
+            "-est",
+            "-ing",
+            "-ed",
+            "-er"
+          ],
+          "correct_answer": "-er",
+          "explanation": "Kısa sıfatlar (tall, fast) karşılaştırmalarda sonuna '-er' alır."
+        },
+        {
+          "id": "u9_t1_q2",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "A car is fast____ than a bicycle. (Bir araba bisikletten daha hızlıdır.)",
+          "correct_answer": "er",
+          "explanation": "Fast sıfatı 'faster' (daha hızlı) olur."
+        },
+        {
+          "id": "u9_t1_q3",
+          "type": "situational_response",
+          "difficulty": "medium",
+          "scenario": "İstanbul'un İzmir'den daha kalabalık (crowded - uzun sıfat) olduğunu söyleyeceksin.",
+          "question_text": "Bunu en iyi nasıl kurarsın?",
+          "options": [
+            "Istanbul is crowded than Izmir.",
+            "Istanbul is crowdeder than Izmir.",
+            "Istanbul is more crowded than Izmir.",
+            "Istanbul will be crowded."
+          ],
+          "correct_answer": "Istanbul is more crowded than Izmir.",
+          "explanation": "Uzun sıfatlarda (crowded) '-er' yerine başa 'more' getirilir."
+        },
+        {
+          "id": "u9_t1_q4",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "My house is bigger ____ yours. (Benim evim seninkinden daha büyüktür.)",
+          "correct_answer": "than",
+          "explanation": "İki şeyi kıyaslarken karşılaştırılan şeyden önce 'than' (-den/dan) konulur."
+        },
+        {
+          "id": "u9_t1_q5",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "'Good' (İyi) sıfatının karşılaştırma derecesi hali nedir?",
+          "options": [
+            "Gooder",
+            "More good",
+            "Better",
+            "Best"
+          ],
+          "correct_answer": "Better",
+          "explanation": "'Good' düzensiz bir sıfattır, comparatives hali 'Better' olarak değişir."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Superlatives (-est / the most)",
+      "questions": [
+        {
+          "id": "u9_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Üç veya daha fazla şey arasından 'En iyi'yi seçerken kısa sıfatlara ne eklenir?",
+          "options": [
+            "-er",
+            "-est",
+            "-ing",
+            "more"
+          ],
+          "correct_answer": "-est",
+          "explanation": "En üstünlüğü bildirmek (Superlatives) için '-est' kullanılır (tallest, fastest)."
+        },
+        {
+          "id": "u9_t2_q2",
+          "type": "situational_response",
+          "difficulty": "hard",
+          "scenario": "Sınıftaki en uzun boylu öğrencinin (tall) Ali olduğunu söylemek istiyorsun.",
+          "question_text": "Doğru cümle hangisidir?",
+          "options": [
+            "Ali is taller student in the class.",
+            "Ali is the tallest student in the class.",
+            "Ali is more tall student.",
+            "Ali is tall."
+          ],
+          "correct_answer": "Ali is the tallest student in the class.",
+          "explanation": "'En' anlamı verirken sıfatın başına 'the' sonuna ise '-est' eklenir."
+        },
+        {
+          "id": "u9_t2_q3",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "Mount Everest is the high____ mountain in the world.",
+          "correct_answer": "est",
+          "explanation": "High (Yüksek) sıfatının en üst hali 'highest' olur."
+        },
+        {
+          "id": "u9_t2_q4",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "Dünyadaki 'en pahalı' (expensive) araba demek için hangisi kullanılır?",
+          "options": [
+            "The expensivest car",
+            "More expensive car",
+            "The most expensive car",
+            "The expensive car"
+          ],
+          "correct_answer": "The most expensive car",
+          "explanation": "Uzun heceli sıfatlarda baştaki ek 'the most' olur."
+        },
+        {
+          "id": "u9_t2_q5",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "This is the ____ (bad) movie I have ever seen! (Bu hayatımda izlediğim en kötü film!)",
+          "correct_answer": "worst",
+          "explanation": "Bad (Kötü) düzensiz bir sıfattır. En kötü demek için 'worst' kullanılır."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Kıyaslama Senaryoları",
+      "questions": [
+        {
+          "id": "u9_t3_q1",
+          "type": "situational_response",
+          "difficulty": "medium",
+          "scenario": "Telefon alacaksın, Mavi telefon 500$, Kırmızı telefon 900$.",
+          "question_text": "Bu durumu nasıl özetlersin?",
+          "options": [
+            "The red phone is cheaper than the blue phone.",
+            "The red phone is more expensive than the blue phone.",
+            "They are the same price.",
+            "The blue phone is the most expensive."
+          ],
+          "correct_answer": "The red phone is more expensive than the blue phone.",
+          "explanation": "Kırmızı telefon mavi olandan daha pahalıdır (more expensive)."
+        },
+        {
+          "id": "u9_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "She is older ____ her brother.",
+          "correct_answer": "than",
+          "explanation": "Kıyaslamalarda 'than' kelimesinin kullanılması mecburidir."
+        },
+        {
+          "id": "u9_t3_q3",
+          "type": "situational_response",
+          "difficulty": "hard",
+          "scenario": "Takımınızdaki üç kaleci arasında Ahmet antrenmanlarda en iyi performansı gösteriyor.",
+          "question_text": "Antrenör ona ne der?",
+          "options": [
+            "Ahmet is the better goalkeeper.",
+            "Ahmet is the best goalkeeper.",
+            "Ahmet is worse.",
+            "Ahmet is gooder goalkeeper."
+          ],
+          "correct_answer": "Ahmet is the best goalkeeper.",
+          "explanation": "3 kişi arasından en iyisi seçildiği için 'best' kullanılır."
+        },
+        {
+          "id": "u9_t3_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "'As ... as' kalıbı (eşitlik) hangi cümlede doğru kullanılmıştır?",
+          "options": [
+            "I am as tall than my father.",
+            "I am as tall as my father.",
+            "I am as taller as my father.",
+            "I as tall am my father."
+          ],
+          "correct_answer": "I am as tall as my father.",
+          "explanation": "Eşitlik için sıfat ek almadan iki 'as' arasına konur."
+        },
+        {
+          "id": "u9_t3_q5",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "Winter is cold____ than spring.",
+          "correct_answer": "er",
+          "explanation": "Cold (soğuk) kelimesine comparative formda 'er' eklenir."
+        }
+      ]
+    }
+  ]
+}

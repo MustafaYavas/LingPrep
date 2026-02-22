@@ -1,0 +1,180 @@
+{
+  "unit_id": 1,
+  "unit_title": "Merhaba Dünya!",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Tanışma",
+      "questions": [
+        {
+          "id": "u1_t1_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "Merhaba İngilizcede nasıl söylenir?",
+          "options": [
+            "Hello",
+            "Goodbye",
+            "Please",
+            "Thanks"
+          ],
+          "correct_answer": "Hello",
+          "explanation": "'Hello', 'Merhaba' demektir."
+        },
+        {
+          "id": "u1_t1_q2",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "____ morning! (Günaydın!)",
+          "correct_answer": "Good",
+          "explanation": "Günaydın 'Good morning' şeklinde yazılır."
+        },
+        {
+          "id": "u1_t1_q3",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "'Goodbye' kelimesi 'Teşekkürler' anlamına gelir.",
+          "correct_answer": "false",
+          "explanation": "'Goodbye', 'Hoşça kal' demektir."
+        },
+        {
+          "id": "u1_t1_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Biri sana 'How are you?' (Nasılsın?) diye sorduğunda en iyi cevap ne olur?",
+          "options": [
+            "I am fine, thanks.",
+            "I am an apple.",
+            "Hello.",
+            "Goodbye."
+          ],
+          "correct_answer": "I am fine, thanks.",
+          "explanation": "'I am fine, thanks' (İyiyim, teşekkürler) klasik bir cevaptır."
+        },
+        {
+          "id": "u1_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "What is ____ name? (Senin adın ne?)",
+          "correct_answer": "your",
+          "explanation": "Senin anlamına gelen iyelik zamiri 'your' sözcüğüdür."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Alfabe",
+      "questions": [
+        {
+          "id": "u1_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "İngiliz alfabesinin ilk harfi hangisidir?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_answer": "A",
+          "explanation": "Her iki alfabede de ilk harf A'dır."
+        },
+        {
+          "id": "u1_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "A, B, C, ____, E",
+          "correct_answer": "D",
+          "explanation": "C harfinden sonra D harfi gelir."
+        },
+        {
+          "id": "u1_t2_q3",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "İngiliz alfabesinde 'Ş' harfi bulunur.",
+          "correct_answer": "false",
+          "explanation": "İngiliz alfabesinde Ç, Ş, Ğ, Ö, Ü gibi harfler bulunmaz."
+        },
+        {
+          "id": "u1_t2_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "'Dog' (Köpek) kelimesi hangi harflerden oluşur?",
+          "options": [
+            "D-O-G",
+            "C-A-T",
+            "P-E-N",
+            "B-O-X"
+          ],
+          "correct_answer": "D-O-G",
+          "explanation": "'Dog' kelimesi D, O, G harfleriyle yazılır."
+        },
+        {
+          "id": "u1_t2_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "E, F, G, ____, I, J",
+          "correct_answer": "H",
+          "explanation": "G ve I harflerinin arasında H harfi bulunur."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Genel Tekrar",
+      "questions": [
+        {
+          "id": "u1_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "İyi akşamlar İngilizcede hangi kelime öbeğidir?",
+          "options": [
+            "Good afternoon",
+            "Good evening",
+            "Good night",
+            "Good morning"
+          ],
+          "correct_answer": "Good evening",
+          "explanation": "Akşam saatlerinde 'Good evening' kullanılır."
+        },
+        {
+          "id": "u1_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "See ____ later. (Sonra görüşürüz.)",
+          "correct_answer": "you",
+          "explanation": "Sonra görüşmek üzere anlamında 'See you later' kalıbı yaygındır."
+        },
+        {
+          "id": "u1_t3_q3",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "'Yes' kelimesi 'Hayır' demektir.",
+          "correct_answer": "false",
+          "explanation": "'Yes', 'Evet' anlamına gelir."
+        },
+        {
+          "id": "u1_t3_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Hangi kelime vedalaşırken KULLANILMAZ?",
+          "options": [
+            "Bye",
+            "See you",
+            "Hello",
+            "Take care"
+          ],
+          "correct_answer": "Hello",
+          "explanation": "'Hello' bir karşılaşma ve selamlama sözcüğüdür."
+        },
+        {
+          "id": "u1_t3_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "My name ____ Ali. (Benim adım Ali.)",
+          "correct_answer": "is",
+          "explanation": "İsim belirtilirken 'to be' (olmak) fiilinin 3. tekil şahıs çekimi olan 'is' kullanılır."
+        }
+      ]
+    }
+  ]
+}

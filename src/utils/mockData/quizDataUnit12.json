@@ -1,0 +1,210 @@
+{
+  "unit_id": 12,
+  "unit_title": "Modern Yaşam & Teknoloji",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Alışkanlıklar vs. Şu An",
+      "questions": [
+        {
+          "id": "u12_t1_q1",
+          "type": "contextual_multiple_choice",
+          "difficulty": "medium",
+          "context": "John usually ______ (work) from home, but this week he ______ (work) at the office because of a special project.",
+          "question_text": "Fill in the blanks correctly.",
+          "options": [
+            "works / works",
+            "is working / works",
+            "works / is working",
+            "is working / is working"
+          ],
+          "correct_answer": "works / is working",
+          "explanation": "Genel alışkanlıklar için Present Simple, geçici durumlar için Present Continuous kullanılır."
+        },
+        {
+          "id": "u12_t1_q2",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "Aşağıdakilerden hangisi geçici bir durumu belirtir?",
+          "options": [
+            "I live in London.",
+            "I am staying at a hotel this week.",
+            "Water boils at 100 degrees.",
+            "I drink tea every morning."
+          ],
+          "correct_answer": "I am staying at a hotel this week.",
+          "explanation": "'This week' ifadesi durumun geçici olduğunu gösterir."
+        },
+        {
+          "id": "u12_t1_q3",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "The population of the world ______ (increase) very fast nowadays.",
+          "correct_answer": "is increasing",
+          "explanation": "Değişmekte olan trendler ve süreçler için Present Continuous kullanılır."
+        },
+        {
+          "id": "u12_t1_q4",
+          "type": "contextual_multiple_choice",
+          "difficulty": "hard",
+          "context": "Why ______ (you / look) at me like that? Do I have something on my face?",
+          "question_text": "Choose the correct form.",
+          "options": [
+            "do you look",
+            "are you looking",
+            "have you looked",
+            "you look"
+          ],
+          "correct_answer": "are you looking",
+          "explanation": "Konuşma anındaki bir eylem sorulduğu için Continuous yapı gerekir."
+        },
+        {
+          "id": "u12_t1_q5",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "Hangi fiil normalde 'Continuous' (ing) takısı ALMAZ (State Verb)?",
+          "options": [
+            "Run",
+            "Think (opinion)",
+            "Play",
+            "Watch"
+          ],
+          "correct_answer": "Think (opinion)",
+          "explanation": "Fikir beyan eden 'think' (inanmak/düşünmek) durum bildirir ve -ing almaz."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Teknoloji ve Trendler",
+      "questions": [
+        {
+          "id": "u12_t2_q1",
+          "type": "contextual_multiple_choice",
+          "difficulty": "medium",
+          "context": "More and more people ______ (use) artificial intelligence in their daily lives these days.",
+          "question_text": "Select the most appropriate form.",
+          "options": [
+            "uses",
+            "use",
+            "are using",
+            "to use"
+          ],
+          "correct_answer": "are using",
+          "explanation": "Güncel trendlerden bahsederken Continuous yapı tercih edilir."
+        },
+        {
+          "id": "u12_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "I ______ (not / understand) why this app isn't working.",
+          "correct_answer": "don't understand",
+          "explanation": "Anlamak (understand) bir durum fiilidir, olumsuz yapısı Present Simple ile kurulur."
+        },
+        {
+          "id": "u12_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "'Technology ______ (change) the way we communicate.' - Genel bir doğru olduğu için hangi zaman uygundur?",
+          "options": [
+            "is changing",
+            "changes",
+            "changed",
+            "change"
+          ],
+          "correct_answer": "changes",
+          "explanation": "Genel doğrular ve kalıcı durumlar için Present Simple kullanılır."
+        },
+        {
+          "id": "u12_t2_q4",
+          "type": "contextual_multiple_choice",
+          "difficulty": "hard",
+          "context": "Listen! My computer ______ (make) a strange noise. I think it's going to break.",
+          "question_text": "Choose the correct option.",
+          "options": [
+            "makes",
+            "is making",
+            "has made",
+            "making"
+          ],
+          "correct_answer": "is making",
+          "explanation": "'Listen!' komutu eylemin şu an gerçekleştiğini işaret eder."
+        },
+        {
+          "id": "u12_t2_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "A: What ______ you ______ (do)? B: I'm an engineer.",
+          "correct_answer": "do / do",
+          "explanation": "Meslek sorulurken hayat boyu süren bir durum olduğu için Simple Present 'What do you do?' kalıbı kullanılır."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Karma Karmaşıklık",
+      "questions": [
+        {
+          "id": "u12_t3_q1",
+          "type": "contextual_multiple_choice",
+          "difficulty": "hard",
+          "context": "A: Why are you so tired? B: Because I ______ (not / get) enough sleep these days.",
+          "question_text": "Complete the sentence.",
+          "options": [
+            "don't get",
+            "am not getting",
+            "not getting",
+            "didn't get"
+          ],
+          "correct_answer": "am not getting",
+          "explanation": "Son zamanlarda (these days) süregelen geçici bir şikayet/durum anlatılmaktadır."
+        },
+        {
+          "id": "u12_t3_q2",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Hangisi 'Sürekli yaptığım can sıkıcı bir alışkanlığı' ifade eder?",
+          "options": [
+            "I always lose my keys.",
+            "I am always losing my keys!",
+            "I lost my keys.",
+            "I will lose my keys."
+          ],
+          "correct_answer": "I am always losing my keys!",
+          "explanation": "Present Continuous + always yapısı şikayet bildirilen alışkanlıklar için kullanılır."
+        },
+        {
+          "id": "u12_t3_q3",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "This coffee ______ (taste) delicious. Who made it?",
+          "correct_answer": "tastes",
+          "explanation": "Duyu fiilleri (taste, smell, see) durum bildirirken -ing almaz."
+        },
+        {
+          "id": "u12_t3_q4",
+          "type": "contextual_multiple_choice",
+          "difficulty": "medium",
+          "context": "Technology companies ______ (invest) billions in green energy every year.",
+          "question_text": "Pick the right tense.",
+          "options": [
+            "invest",
+            "are investing",
+            "investing",
+            "is investing"
+          ],
+          "correct_answer": "invest",
+          "explanation": "'Every year' (her yıl) sıklık zarfı rutin bildirdiği için Simple Present kullanılır."
+        },
+        {
+          "id": "u12_t3_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "Be quiet! The baby ______ (sleep).",
+          "correct_answer": "is sleeping",
+          "explanation": "O andaki bir durumu korumak için Continuous yapı kullanılır."
+        }
+      ]
+    }
+  ]
+}

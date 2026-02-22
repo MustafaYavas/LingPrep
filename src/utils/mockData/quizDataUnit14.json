@@ -1,0 +1,198 @@
+{
+  "unit_id": 14,
+  "unit_title": "Hayaller ve İhtimaller",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Sebep-Sonuç (Gelecek)",
+      "questions": [
+        {
+          "id": "u14_t1_q1",
+          "type": "contextual_multiple_choice",
+          "difficulty": "medium",
+          "context": "If the weather ______ (be) good tomorrow, we ______ (go) for a picnic.",
+          "options": [
+            "is / will go",
+            "will be / go",
+            "is / go",
+            "was / would go"
+          ],
+          "correct_answer": "is / will go",
+          "explanation": "First Conditional: If + Present Simple, Future (Will)."
+        },
+        {
+          "id": "u14_t1_q2",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "Aşağıdakilerden hangisi bir 'koşul' (If clause) cümlesidir?",
+          "options": [
+            "I will go to school.",
+            "If it rains, I'll stay home.",
+            "I went yesterday.",
+            "Do you like apples?"
+          ],
+          "correct_answer": "If it rains, I'll stay home.",
+          "explanation": "'If' (eğer) ile kurulan şartlı bir cümledir."
+        },
+        {
+          "id": "u14_t1_q3",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "You will fail the exam if you ______ (not / study) hard.",
+          "correct_answer": "don't study",
+          "explanation": "Koşul kısmında (if tarafı) gelecek zaman (will) kullanılmaz, geniş zaman kullanılır."
+        },
+        {
+          "id": "u14_t1_q4",
+          "type": "contextual_multiple_choice",
+          "difficulty": "medium",
+          "context": "If I ______ (have) enough money, I ______ (buy) that laptop next month.",
+          "options": [
+            "have / will buy",
+            "will have / buy",
+            "had / buy",
+            "have / buy"
+          ],
+          "correct_answer": "have / will buy",
+          "explanation": "Param olursa (ihtimal) alacağım (sonuç)."
+        },
+        {
+          "id": "u14_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "If she ______ (come) late again, the boss will be very angry.",
+          "correct_answer": "comes",
+          "explanation": "She üçüncü tekil şahıs olduğu için fiil -s takısı alır."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Uyarılar ve Tahminler",
+      "questions": [
+        {
+          "id": "u14_t2_q1",
+          "type": "contextual_multiple_choice",
+          "difficulty": "medium",
+          "context": "What ______ (you / do) if you ______ (not / find) a job soon?",
+          "options": [
+            "will you do / don't find",
+            "do you do / won't find",
+            "are you doing / find",
+            "will you do / didn't find"
+          ],
+          "correct_answer": "will you do / don't find",
+          "explanation": "Soru cümlesinde sonuç kısmı (will you do) başa gelir."
+        },
+        {
+          "id": "u14_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "We ______ (be) late if we don't hurry up.",
+          "correct_answer": "will be",
+          "explanation": "Hızlı olmazsak (koşul) geç kalacağız (sonuç)."
+        },
+        {
+          "id": "u14_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "'Unless' kelimesi ne anlama gelir?",
+          "options": [
+            "Eğer olursa",
+            "Sadece o zaman",
+            "Eğer gerçekleşmezse (If not)",
+            "Hemen sonra"
+          ],
+          "correct_answer": "Eğer gerçekleşmezse (If not)",
+          "explanation": "Unless = If ... not. Örn: Unless it rains = If it doesn't rain."
+        },
+        {
+          "id": "u14_t2_q4",
+          "type": "contextual_multiple_choice",
+          "difficulty": "hard",
+          "context": "Unless you ______ (hurry), you ______ (miss) the bus.",
+          "options": [
+            "hurry / will miss",
+            "don't hurry / will miss",
+            "hurry / miss",
+            "will hurry / miss"
+          ],
+          "correct_answer": "hurry / will miss",
+          "explanation": "Unless zaten olumsuzluk içerir (Hızlanmazsan), sonuç kısmı 'will miss' olur."
+        },
+        {
+          "id": "u14_t2_q5",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "If you touch that fire, you ______ get burned.",
+          "correct_answer": "will",
+          "explanation": "Kesin olmasa da yüksek ihtimalli sonuç 'will' ile verilir."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Karışık Olasılıklar",
+      "questions": [
+        {
+          "id": "u14_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Hangi cümle dil bilgisi açısından HATALIDIR?",
+          "options": [
+            "If it will rain, I'll stay.",
+            "If it rains, I'll stay.",
+            "I'll stay if it rains.",
+            "I'll stay unless it's sunny."
+          ],
+          "correct_answer": "If it will rain, I'll stay.",
+          "explanation": "Koşul tarafında (if) asla 'will' kullanılmaz."
+        },
+        {
+          "id": "u14_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "If I ______ (see) him, I ______ (give) him your message.",
+          "correct_answer": "see / will give",
+          "explanation": "Görürsem mesajı ileteceğim."
+        },
+        {
+          "id": "u14_t3_q3",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Cümleyi tamamlayın: 'If you eat too much candy, ...'",
+          "options": [
+            "your teeth will hurt.",
+            "you are happy.",
+            "you were sick.",
+            "the sun rises."
+          ],
+          "correct_answer": "your teeth will hurt.",
+          "explanation": "Mantıklı ve dil bilgisi açısından uygun gelecek sonucudur."
+        },
+        {
+          "id": "u14_t3_q4",
+          "type": "contextual_multiple_choice",
+          "difficulty": "medium",
+          "context": "If we ______ (not / leave) now, we ______ (be) late for the wedding.",
+          "options": [
+            "don't leave / will be",
+            "won't leave / are",
+            "didn't leave / would be",
+            "not leave / will be"
+          ],
+          "correct_answer": "don't leave / will be",
+          "explanation": "Şimdi çıkmazsak geç kalırız."
+        },
+        {
+          "id": "u14_t3_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "I ______ (call) you if I have any news.",
+          "correct_answer": "will call",
+          "explanation": "Haberim olursa arayacağım."
+        }
+      ]
+    }
+  ]
+}

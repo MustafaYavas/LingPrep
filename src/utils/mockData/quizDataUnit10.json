@@ -1,0 +1,203 @@
+{
+  "unit_id": 10,
+  "unit_title": "Sağlık ve Tavsiyeler",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Hastalıklar ve Advice (Should)",
+      "questions": [
+        {
+          "id": "u10_t1_q1",
+          "type": "situational_response",
+          "difficulty": "medium",
+          "scenario": "Arkadaşının dişi çok fena ağrıyor ve acı çekiyor.",
+          "question_text": "Ona vereceğin en mantıklı 'tavsiye' nedir?",
+          "options": [
+            "You should go to a dentist.",
+            "You shouldn't go to a doctor.",
+            "You must eat more candy.",
+            "I have a toothache."
+          ],
+          "correct_answer": "You should go to a dentist.",
+          "explanation": "Tavsiye verirken 'should' kullanılır ve diş hekimine gitmesi söylenir."
+        },
+        {
+          "id": "u10_t1_q2",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "I have a headache. I ____ take a painkiller. (Başım ağrıyor, ağrı kesici almalıyım.)",
+          "correct_answer": "should",
+          "explanation": "Kendi kendine tavsiye veya iyi bir fikir beyan etmek için 'should' kullanılır."
+        },
+        {
+          "id": "u10_t1_q3",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Senin çok yorgun göründüğünü düşünen birisi sana ne tavsiye eder?",
+          "options": [
+            "You shouldn't sleep.",
+            "You should rest.",
+            "You are tired.",
+            "You must run fast."
+          ],
+          "correct_answer": "You should rest.",
+          "explanation": "Rest (Dinlenmek) doğru bir tavsiyedir."
+        },
+        {
+          "id": "u10_t1_q4",
+          "type": "situational_response",
+          "difficulty": "hard",
+          "scenario": "Ateşi (fever) olan bir çocuğun ebeveynisin.",
+          "question_text": "Ona ne yapmaması gerektiğini 'shouldn't' ile nasıl söylersin?",
+          "options": [
+            "You should drink cold water.",
+            "You shouldn't wear light clothes.",
+            "You shouldn't go outside in the cold.",
+            "You shouldn't rest."
+          ],
+          "correct_answer": "You shouldn't go outside in the cold.",
+          "explanation": "Ateşi olan biri soğukta dışarı çıkmamalıdır."
+        },
+        {
+          "id": "u10_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "You shouldn't ____ (eat) so much junk food. (O kadar çok abur cubur yememelisin.)",
+          "correct_answer": "eat",
+          "explanation": "Should ve shouldn't yapılarından sonra fiiller her zaman yalın halde bulunur."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Kesin Kurallar ve Uyarılar (Must)",
+      "questions": [
+        {
+          "id": "u10_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "'Should' ve 'Must' arasındaki temel fark nedir?",
+          "options": [
+            "İkisi tamamen aynıdır.",
+            "Must tavsiye, Should zorunluluktur.",
+            "Should tavsiye, Must ise sert kural veya güçlü zorunluluktur.",
+            "İkisi de geçmiş zaman belirtir."
+          ],
+          "correct_answer": "Should tavsiye, Must ise sert kural veya güçlü zorunluluktur.",
+          "explanation": "Must, yapmamanın olumsuz sonuçlar doğuracağı kurallarda geçer."
+        },
+        {
+          "id": "u10_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "You ____ wear a seatbelt in a car. (Arabada emniyet kemeri takmak zorundasın.)",
+          "correct_answer": "must",
+          "explanation": "Yasal bir zorunluluk (kanun) 'must' ile fade edilir."
+        },
+        {
+          "id": "u10_t2_q3",
+          "type": "situational_response",
+          "difficulty": "hard",
+          "scenario": "Hastanenin içinde sigara içilebilecek bir alan yok.",
+          "question_text": "Duvardaki tabelada hangi kural yazar?",
+          "options": [
+            "You shouldn't smoke.",
+            "You don't smoke.",
+            "You must not smoke here.",
+            "You can smoke here."
+          ],
+          "correct_answer": "You must not smoke here.",
+          "explanation": "Bir şeyin kati suretle yasak olduğunu bildirmek için 'must not' kullanılır."
+        },
+        {
+          "id": "u10_t2_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Hangi cümle güçlü bir zorunluluk belirtir?",
+          "options": [
+            "You could help me.",
+            "You should drink water.",
+            "I must finish this report until 5 PM.",
+            "I might go to bed."
+          ],
+          "correct_answer": "I must finish this report until 5 PM.",
+          "explanation": "Zamanında yetiştirilmesi şart olan görevlerde Must kullanılır."
+        },
+        {
+          "id": "u10_t2_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "She has the flu. She ____ see a doctor immediately. (Ağır gripli, acilen doktora gitmek ZORUNDA.)",
+          "correct_answer": "must",
+          "explanation": "Durumun aciliyet kazandığı anlarda 'should' yerine 'must' kullanımı tercih edilebilir."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Şikayetler",
+      "questions": [
+        {
+          "id": "u10_t3_q1",
+          "type": "situational_response",
+          "difficulty": "easy",
+          "scenario": "Doktora gittin, doktor 'What is the matter with you?' (Neyin var?) dedi.",
+          "question_text": "Boğazının ağrıdığını nasıl ifade edersin?",
+          "options": [
+            "I have a sore throat.",
+            "I have a headache.",
+            "I have a broken leg.",
+            "I don't have a throat."
+          ],
+          "correct_answer": "I have a sore throat.",
+          "explanation": "Boğaz ağrısı İngilizcede 'Sore throat' olarak tanımlanır."
+        },
+        {
+          "id": "u10_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "I have a stomach____. (Mide ağrım var.)",
+          "correct_answer": "ache",
+          "explanation": "Headache, toothache örneklerindeki gibi ağrı anlamındaki ek '-ache'tir."
+        },
+        {
+          "id": "u10_t3_q3",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Eğer birisinin ateşi varsa (fever), hangisini söylemek daha uygundur?",
+          "options": [
+            "Take an aspirin and rest.",
+            "Go running outside.",
+            "Eat 5 ice creams.",
+            "Watch TV all night."
+          ],
+          "correct_answer": "Take an aspirin and rest.",
+          "explanation": "Ateşe karşı mantıklı olan aspirin içip dinlenmektir."
+        },
+        {
+          "id": "u10_t3_q4",
+          "type": "situational_response",
+          "difficulty": "medium",
+          "scenario": "Grip oldun ve sürekli burnun akıyor, hapşırıyorsun.",
+          "question_text": "Durumunu açıklayan ifade hangisidir?",
+          "options": [
+            "I cut my finger.",
+            "I have a runny nose and I sneeze a lot.",
+            "I sprained my ankle.",
+            "My head hurts."
+          ],
+          "correct_answer": "I have a runny nose and I sneeze a lot.",
+          "explanation": "Burun akıntısı (runny nose) ve hapşırma (sneeze) grip belirtileridir."
+        },
+        {
+          "id": "u10_t3_q5",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "You look pale. Are you ____ sick? (Solgun görünüyorsun. Hasta mı hissediyorsun?)",
+          "correct_answer": "feeling",
+          "explanation": "Anlık sağlık durumu sorulurken 'Are you feeling...' kullanılır."
+        }
+      ]
+    }
+  ]
+}

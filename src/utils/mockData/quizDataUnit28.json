@@ -1,0 +1,198 @@
+{
+  "unit_id": 28,
+  "unit_title": "Edebiyat Eleştirisi",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Dramatik Anlatım",
+      "questions": [
+        {
+          "id": "u28_t1_q1",
+          "type": "rhetorical_refining",
+          "difficulty": "expert",
+          "question_text": "Rewrite 'He had hardly finished his speech when the applause broke out' starting with 'Hardly'.",
+          "options": [
+            "Hardly he had finished...",
+            "Hardly had he finished...",
+            "Hardly finished he...",
+            "Hardly did he finish..."
+          ],
+          "correct_answer": "Hardly had he finished...",
+          "explanation": "'Hardly... when' kalıbı inversion ve Past Perfect ile kurulur."
+        },
+        {
+          "id": "u28_t1_q2",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "Under no circumstances ______ (you / should / believe) everything you read in fiction.",
+          "options": [
+            "you should believe",
+            "should you believe",
+            "should believe you",
+            "do you believe"
+          ],
+          "correct_answer": "should you believe",
+          "explanation": "Negatif ifade başa gelince devriklik olur."
+        },
+        {
+          "id": "u28_t1_q3",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "Scarcely ______ (the sun / set) when the hero appeared.",
+          "correct_answer": "had the sun set",
+          "explanation": "Edebi dramatik zamanlama."
+        },
+        {
+          "id": "u28_t1_q4",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "Not only ______ (be / she) a great writer, but she was also a brave activist.",
+          "options": [
+            "she was",
+            "was she",
+            "is she",
+            "has she been"
+          ],
+          "correct_answer": "was she",
+          "explanation": "'Not only' devrik yapısı."
+        },
+        {
+          "id": "u28_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "Only in this novel ______ (one / find) such complex characters.",
+          "correct_answer": "can one find",
+          "explanation": "Kısıtlayıcı yer zarfı + Inversion."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Üslup ve Etki",
+      "questions": [
+        {
+          "id": "u28_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Rarely ______ (I / read) a more moving story.",
+          "options": [
+            "I have read",
+            "have I read",
+            "did I read",
+            "I read"
+          ],
+          "correct_answer": "have I read",
+          "explanation": "Rarely (nadiren) devriklik gerektirir."
+        },
+        {
+          "id": "u28_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "Little ______ (they / realize) the tragedy that was about to unfold.",
+          "correct_answer": "did they realize",
+          "explanation": "Little (hiç/pek az) + Past Simple devrik."
+        },
+        {
+          "id": "u28_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "question_text": "At no time ______ (the author / mention) her true identity.",
+          "options": [
+            "the author mentioned",
+            "did the author mention",
+            "was the author mentioning",
+            "mentioned the author"
+          ],
+          "correct_answer": "did the author mention",
+          "explanation": "Asla (at no time) devrik yapısı."
+        },
+        {
+          "id": "u28_t2_q4",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "On no account ______ (you / must) skip the preface.",
+          "correct_answer": "must you",
+          "explanation": "Kesin yasak vurgusu."
+        },
+        {
+          "id": "u28_t2_q5",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Inversion ne tür metinlerde daha yaygındır?",
+          "options": [
+            "Resmi/Edebi metinler",
+            "Günlük mesajlar",
+            "Spor haberleri",
+            "Çizgi filmler"
+          ],
+          "correct_answer": "Resmi/Edebi metinler",
+          "explanation": "Vurgu ve ritim sağlar."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Edebi Teknikler",
+      "questions": [
+        {
+          "id": "u28_t3_q1",
+          "type": "rhetorical_refining",
+          "difficulty": "expert",
+          "question_text": "Rewrite 'The plot is so intricate that it requires multiple readings.' starting with 'So'.",
+          "options": [
+            "So intricate is the plot that...",
+            "So intricate the plot is...",
+            "So intricate it is that...",
+            "So plot is intricate..."
+          ],
+          "correct_answer": "So intricate is the plot that...",
+          "explanation": "So + Sıfat... that devrik yapısı."
+        },
+        {
+          "id": "u28_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "Not for one minute ______ (I / think) she was telling the truth.",
+          "correct_answer": "did I think",
+          "explanation": "Şüphe vurgusu."
+        },
+        {
+          "id": "u28_t3_q3",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "Never ______ (I / witness) such an emotional performance.",
+          "options": [
+            "have I witnessed",
+            "I have witnessed",
+            "did I witness",
+            "I witnessed"
+          ],
+          "correct_answer": "have I witnessed",
+          "explanation": "Hayat boyu tecrübe vurgusu."
+        },
+        {
+          "id": "u28_t3_q4",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "Only by working together ______ (we / succeed).",
+          "correct_answer": "can we succeed",
+          "explanation": "Yöntem vurgulu devriklik."
+        },
+        {
+          "id": "u28_t3_q5",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "question_text": "No sooner ______ (the curtain / fall) than the audience stood up.",
+          "options": [
+            "had the curtain fallen",
+            "the curtain falls",
+            "did the curtain fall",
+            "fallen the curtain"
+          ],
+          "correct_answer": "had the curtain fallen",
+          "explanation": "No sooner... than kuralı."
+        }
+      ]
+    }
+  ]
+}

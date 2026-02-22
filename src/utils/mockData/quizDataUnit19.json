@@ -1,0 +1,198 @@
+{
+  "unit_id": 19,
+  "unit_title": "Suç ve Adalet",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Gizemli Olaylar",
+      "questions": [
+        {
+          "id": "u19_t1_q1",
+          "type": "inference_analysis",
+          "difficulty": "medium",
+          "question_text": "The suspect has a perfect alibi for the night of the crime. Therefore, he ______ (commit) the murder.",
+          "options": [
+            "must have committed",
+            "can't have committed",
+            "might have committed",
+            "should have committed"
+          ],
+          "correct_answer": "can't have committed",
+          "explanation": "Kesin bir kanıt (alibi) varsa 'can't have + V3' ile imkansızlık vurgulanır."
+        },
+        {
+          "id": "u19_t1_q2",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Look! The window is broken. Someone ______ (break) into the house last night.",
+          "options": [
+            "must have broken",
+            "can't have broken",
+            "might have broken",
+            "needn't have broken"
+          ],
+          "correct_answer": "must have broken",
+          "explanation": "Güçlü bir kanıt karşısında geçmişe dair çıkarım 'must have + V3' ile yapılır."
+        },
+        {
+          "id": "u19_t1_q3",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "She ______ (forget) our meeting. I'm not sure, but she is very busy lately.",
+          "correct_answer": "might have forgotten",
+          "explanation": "Düşük ihtimal bildirmek için might/may have + V3 kullanılır."
+        },
+        {
+          "id": "u19_t1_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "He ______ (know) about the surprise because he was at the party.",
+          "options": [
+            "must know",
+            "must have known",
+            "can't know",
+            "should know"
+          ],
+          "correct_answer": "must have known",
+          "explanation": "Geçmişte partide olduğu için bilmiş olması kuvvetle muhtemeldir."
+        },
+        {
+          "id": "u19_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "They are very rich. They ______ (have) a lot of money.",
+          "correct_answer": "must have",
+          "explanation": "Şimdiki zamana dair güçlü çıkarım 'must + V1' ile yapılır."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Çıkarım ve Analiz",
+      "questions": [
+        {
+          "id": "u19_t2_q1",
+          "type": "inference_analysis",
+          "difficulty": "hard",
+          "question_text": "The safe was empty, but there were no signs of a break-in. The thief ______ (have) a key.",
+          "options": [
+            "must have had",
+            "might not have",
+            "can't have had",
+            "should have had"
+          ],
+          "correct_answer": "must have had",
+          "explanation": "Zorlama izi yoksa anahtarının olması neredeyse kesindir."
+        },
+        {
+          "id": "u19_t2_q2",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "A: Who is that man? B: He ______ (be) the new detective; he is wearing a badge.",
+          "options": [
+            "must be",
+            "can't be",
+            "might have been",
+            "couldn't be"
+          ],
+          "correct_answer": "must be",
+          "explanation": "Rozet taktığına göre detektif olması muhtemeldir."
+        },
+        {
+          "id": "u19_t2_q3",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "You ______ (not / see) John at the mall yesterday. He's been in Spain for a month.",
+          "correct_answer": "can't have seen",
+          "explanation": "İspanya'da olduğu bilinen biri için 'görmüş olamazsın' demek gerekir."
+        },
+        {
+          "id": "u19_t2_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Hangi modal 'düşük ihtimal' bildirir?",
+          "options": [
+            "Must",
+            "Can't",
+            "Could",
+            "Should"
+          ],
+          "correct_answer": "Could",
+          "explanation": "Could, might, may düşük/orta ihtimal çıkarımları için kullanılır."
+        },
+        {
+          "id": "u19_t2_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "It ______ (rain) during the night. The ground is still wet.",
+          "correct_answer": "must have rained",
+          "explanation": "Yerin ıslak olması kanıttır."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Zorlu Senaryolar",
+      "questions": [
+        {
+          "id": "u19_t3_q1",
+          "type": "inference_analysis",
+          "difficulty": "expert",
+          "question_text": "She didn't answer my call, but she ______ (be) asleep since it was 3 AM.",
+          "options": [
+            "must have been",
+            "could have been",
+            "can't have been",
+            "should be"
+          ],
+          "correct_answer": "could have been",
+          "explanation": "Gece 3 olduğu için uyuyor olabilirdi (ihtimal)."
+        },
+        {
+          "id": "u19_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "The jewelry ______ (be) stolen by an insider. No one else knew the code.",
+          "correct_answer": "must have been",
+          "explanation": "Başkası kodu bilmiyorsa içeriden biri çalmış olmalıdır."
+        },
+        {
+          "id": "u19_t3_q3",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "He ______ (hear) the news yet. He's been in the forest without his phone.",
+          "options": [
+            "can't have heard",
+            "must have heard",
+            "should hear",
+            "might hear"
+          ],
+          "correct_answer": "can't have heard",
+          "explanation": "Telefonu olmayan birinin haberi duymuş olması imkansızdır."
+        },
+        {
+          "id": "u19_t3_q4",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "I ______ (leave) my wallet at the gym. I'm not entirely sure.",
+          "correct_answer": "might have left",
+          "explanation": "Emin olmama durumu."
+        },
+        {
+          "id": "u19_t3_q5",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "The car ______ (repair) because it's still making noises.",
+          "options": [
+            "can't have been repaired",
+            "must be repaired",
+            "might have repaired",
+            "should repair"
+          ],
+          "correct_answer": "can't have been repaired",
+          "explanation": "Ses çıktığına göre tamir edilmemiş demektir."
+        }
+      ]
+    }
+  ]
+}

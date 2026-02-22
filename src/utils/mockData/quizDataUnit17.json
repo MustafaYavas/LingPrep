@@ -1,0 +1,198 @@
+{
+  "unit_id": 17,
+  "unit_title": "Deneyimlerin Zirvesi",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Süre vs. Başlangıç",
+      "questions": [
+        {
+          "id": "u17_t1_q1",
+          "type": "contextual_multiple_choice",
+          "difficulty": "medium",
+          "context": "I have been a teacher ______ ten years, and I have worked at this school ______ 2018.",
+          "options": [
+            "for / since",
+            "since / for",
+            "for / for",
+            "since / since"
+          ],
+          "correct_answer": "for / since",
+          "explanation": "'For' süreç (10 yıl), 'Since' başlangıç noktası (2018) belirtir."
+        },
+        {
+          "id": "u17_t1_q2",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "Hangisinden sonra 'Since' kullanılır?",
+          "options": [
+            "two hours",
+            "a long time",
+            "I was a child",
+            "five days"
+          ],
+          "correct_answer": "I was a child",
+          "explanation": "Geçmişteki belirli bir an (Çocukluğumdan beri) başlangıç noktasıdır."
+        },
+        {
+          "id": "u17_t1_q3",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "She has lived in Paris ______ 2010.",
+          "correct_answer": "since",
+          "explanation": "Belirli bir yıl başlangıçtır."
+        },
+        {
+          "id": "u17_t1_q4",
+          "type": "contextual_multiple_choice",
+          "difficulty": "medium",
+          "context": "We haven't seen each other ______ ages!",
+          "options": [
+            "for",
+            "since",
+            "during",
+            "while"
+          ],
+          "correct_answer": "for",
+          "explanation": "'Ages' (asırlar/çok uzun zaman) bir süreç miktarıdır."
+        },
+        {
+          "id": "u17_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "How long ______ you lived in this city?",
+          "correct_answer": "have",
+          "explanation": "You öznesi için present perfect sorusu 'have' ile başlar."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Been vs. Gone",
+      "questions": [
+        {
+          "id": "u17_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "Eğer birisi tatile gitmiş ve 'henüz dönmemişse' hangisi kullanılır?",
+          "options": [
+            "He has been to Paris.",
+            "He has gone to Paris.",
+            "He was in Paris.",
+            "He has in Paris."
+          ],
+          "correct_answer": "He has gone to Paris.",
+          "explanation": "Gone: Gitti ve orada. Been: Gitti ve döndü/bulundu."
+        },
+        {
+          "id": "u17_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "A: Where is Sarah? B: She isn't here. She has ______ to the supermarket.",
+          "correct_answer": "gone",
+          "explanation": "Burada olmadığına göre marketten henüz dönmemiştir (gone)."
+        },
+        {
+          "id": "u17_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "'I have been to Italy twice.' ne anlama gelir?",
+          "options": [
+            "Şu an İtalya'dayım.",
+            "İtalya'ya hiç gitmedim.",
+            "Hayatımda iki kez İtalya'da bulundum (gittim-döndüm).",
+            "İtalya'ya gideceğim."
+          ],
+          "correct_answer": "Hayatımda iki kez İtalya'da bulundum (gittim-döndüm).",
+          "explanation": "Bulunmak/tecrübe etmek anlamında 'been' kullanılır."
+        },
+        {
+          "id": "u17_t2_q4",
+          "type": "contextual_multiple_choice",
+          "difficulty": "medium",
+          "context": "A: Have you ______ to China? B: No, never.",
+          "options": [
+            "gone",
+            "been",
+            "went",
+            "be"
+          ],
+          "correct_answer": "been",
+          "explanation": "Birine tecrübesi sorulurken (Hiç bulundun mu?) 'been' kullanılır."
+        },
+        {
+          "id": "u17_t2_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "They have ______ (work) here for five months.",
+          "correct_answer": "worked",
+          "explanation": "Fiilin 3. hali kullanılır."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Karışık Deneyimler",
+      "questions": [
+        {
+          "id": "u17_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "'She has been sick ... last Monday.' - Boşluğa ne gelir?",
+          "options": [
+            "for",
+            "since",
+            "yesterday",
+            "ago"
+          ],
+          "correct_answer": "since",
+          "explanation": "Geçen pazartesiden (başlangıç) beri."
+        },
+        {
+          "id": "u17_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "I haven't eaten anything ______ 8 AM.",
+          "correct_answer": "since",
+          "explanation": "Saat 8 bir başlangıç noktasıdır."
+        },
+        {
+          "id": "u17_t3_q3",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "Present Perfect Tense ile hangi zaman zarfı ASLA kullanılmaz?",
+          "options": [
+            "Since",
+            "Already",
+            "Yesterday",
+            "Just"
+          ],
+          "correct_answer": "Yesterday",
+          "explanation": "Belli bir geçmiş zaman (Yesterday, 2 years ago) Simple Past ile kullanılır, Present Perfect ile değil."
+        },
+        {
+          "id": "u17_t3_q4",
+          "type": "contextual_multiple_choice",
+          "difficulty": "medium",
+          "context": "We ______ (know) each other for a long time.",
+          "options": [
+            "have known",
+            "know",
+            "knew",
+            "knowing"
+          ],
+          "correct_answer": "have known",
+          "explanation": "Geçmişten şimdiye süregelen tanışıklık durumu."
+        },
+        {
+          "id": "u17_t3_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "He hasn't called me ______ three weeks.",
+          "correct_answer": "for",
+          "explanation": "Üç hafta (süreç miktar) olduğu için 'for' kullanılır."
+        }
+      ]
+    }
+  ]
+}

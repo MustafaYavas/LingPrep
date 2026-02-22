@@ -1,0 +1,198 @@
+{
+  "unit_id": 27,
+  "unit_title": "Hukuk ve Retorik",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Karmaşık Fikirleri Özetleme",
+      "questions": [
+        {
+          "id": "u27_t1_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "______ he said was completely irrelevant to the case.",
+          "options": [
+            "What",
+            "That",
+            "Which",
+            "How"
+          ],
+          "correct_answer": "What",
+          "explanation": "'What' ile başlayan isim cümleciği cümlenin öznesidir."
+        },
+        {
+          "id": "u27_t1_q2",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "The judge noted ______ the evidence had been tampered with.",
+          "options": [
+            "what",
+            "that",
+            "how",
+            "whether"
+          ],
+          "correct_answer": "that",
+          "explanation": "Nesne konumunda 'that-clause' kullanımı."
+        },
+        {
+          "id": "u27_t1_q3",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "I am concerned about ______ you are going to pay the fine.",
+          "correct_answer": "how",
+          "explanation": "Yöntem bildiren isim cümleciği."
+        },
+        {
+          "id": "u27_t1_q4",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "______ the defendant is guilty remains to be seen.",
+          "options": [
+            "Whether",
+            "If",
+            "What",
+            "That"
+          ],
+          "correct_answer": "Whether",
+          "explanation": "Cümle başında 'olup olmadığı' anlamı için 'Whether' tercih edilir."
+        },
+        {
+          "id": "u27_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "Whoever ______ (find) the lost documents should contact the clerk.",
+          "correct_answer": "finds",
+          "explanation": "Generic pronoun 'whoever' tekil kabul edilir."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Politik ve Hukuksal Söylemler",
+      "questions": [
+        {
+          "id": "u27_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "We discussed ______ or not we should appeal the decision.",
+          "options": [
+            "if",
+            "whether",
+            "how",
+            "that"
+          ],
+          "correct_answer": "whether",
+          "explanation": "'Or not' ile birlikte 'whether' kullanılır."
+        },
+        {
+          "id": "u27_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "The fact ______ he lied under oath destroyed his credibility.",
+          "correct_answer": "that",
+          "explanation": "Açıklayıcı 'fact that' kalıbı."
+        },
+        {
+          "id": "u27_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "question_text": "It is essential ______ the witness ______ (tell) the truth.",
+          "options": [
+            "that / tell",
+            "what / tells",
+            "that / to tell",
+            "how / tell"
+          ],
+          "correct_answer": "that / tell",
+          "explanation": "Subjunctive gerektiren Noun Clause (Essential that...)."
+        },
+        {
+          "id": "u27_t2_q4",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "Whatever ______ (happen), we must stay calm.",
+          "correct_answer": "happens",
+          "explanation": "İsim cümleciğinde 'whatever' kullanımı."
+        },
+        {
+          "id": "u27_t2_q5",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "I wonder ______ she will testify against him.",
+          "options": [
+            "if",
+            "that",
+            "what",
+            "which"
+          ],
+          "correct_answer": "if",
+          "explanation": "İç cümlelerde 'if' kullanılabilir."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Retorik Beceri",
+      "questions": [
+        {
+          "id": "u27_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "question_text": "______ (He / steal) the money is a proven fact.",
+          "options": [
+            "That he stole",
+            "What he stole",
+            "How he stole",
+            "Whether he stole"
+          ],
+          "correct_answer": "That he stole",
+          "explanation": "Cümleyi özne yapan 'That' kullanımı."
+        },
+        {
+          "id": "u27_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "The question is ______ he was aware of the risks.",
+          "correct_answer": "whether",
+          "explanation": "Belirsizliği vurgulayan 'is whether' yapısı."
+        },
+        {
+          "id": "u27_t3_q3",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Hangi kelime bir 'Noun Clause' başlatamaz?",
+          "options": [
+            "Whose",
+            "That",
+            "Which (relative)",
+            "When"
+          ],
+          "correct_answer": "Which (relative)",
+          "explanation": "Relative 'which' sıfat cümleciği kurar, isim cümleciği değil."
+        },
+        {
+          "id": "u27_t3_q4",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "I'll accept ______ (what / which) decision you make.",
+          "correct_answer": "whatever",
+          "explanation": "Kapsayıcı nesne."
+        },
+        {
+          "id": "u27_t3_q5",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "question_text": "He explained ______ (how / that) the system works.",
+          "options": [
+            "how",
+            "that",
+            "both",
+            "neither"
+          ],
+          "correct_answer": "both",
+          "explanation": "Bağlama göre ikisi de nesne cümleciği olabilir."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "unit_id": 26,
+  "unit_title": "YZ ve Gelecek Etik",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Öngörüler ve Analiz",
+      "questions": [
+        {
+          "id": "u26_t1_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "In 1990, scientists believed that AI ______ (be) a reality by the year 2000.",
+          "options": [
+            "will be",
+            "would be",
+            "is going to be",
+            "had been"
+          ],
+          "correct_answer": "would be",
+          "explanation": "Geçmişteki bir noktadan geleceğe bakarken 'will' yerine 'would' kullanılır."
+        },
+        {
+          "id": "u26_t1_q2",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "I ______ (call) you, but my battery died.",
+          "options": [
+            "was going to call",
+            "would call",
+            "am going to call",
+            "called"
+          ],
+          "correct_answer": "was going to call",
+          "explanation": "Niyet edilen ama gerçekleşmeyen geçmiş eylem."
+        },
+        {
+          "id": "u26_t1_q3",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "They ______ (about to) start the meeting when the power went out.",
+          "correct_answer": "were about to",
+          "explanation": "Olmak üzereyken kesilen geçmiş eylem."
+        },
+        {
+          "id": "u26_t1_q4",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "The robot ______ (become) a threat, or so the experts feared back then.",
+          "options": [
+            "was to become",
+            "would have become",
+            "is becoming",
+            "became"
+          ],
+          "correct_answer": "was to become",
+          "explanation": "Geçmişteki kaçınılmazlık/kader nüansı (was/were to + V1)."
+        },
+        {
+          "id": "u26_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "Little did he know that his invention ______ (change) the world forever.",
+          "correct_answer": "would change",
+          "explanation": "Henüz bilinmeyen gelecek (Future in the Past)."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Teknoloji ve Beklentiler",
+      "questions": [
+        {
+          "id": "u26_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "She ______ (leave) for Tokyo the next day, so she packed her bags quickly.",
+          "options": [
+            "is leaving",
+            "was leaving",
+            "will leave",
+            "leaves"
+          ],
+          "correct_answer": "was leaving",
+          "explanation": "Önceden planlanmış geçmiş gelecek (Past Cont used as Future)."
+        },
+        {
+          "id": "u26_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "I ______ (due to) give a speech, but I lost my voice.",
+          "correct_answer": "was due to",
+          "explanation": "Resmi programlanmış ama yapılamayan eylem."
+        },
+        {
+          "id": "u26_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "At the time, we ______ (not / know) that the system ______ (crash) so soon.",
+          "options": [
+            "didn't know / will crash",
+            "didn't know / would crash",
+            "haven't known / crashes",
+            "hadn't known / crashed"
+          ],
+          "correct_answer": "didn't know / would crash",
+          "explanation": "Geçmişteki bilgi eksikliği."
+        },
+        {
+          "id": "u26_t2_q4",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "The experiment ______ (take) five years to complete, according to the original plan.",
+          "correct_answer": "was to take",
+          "explanation": "Planlanan süreç."
+        },
+        {
+          "id": "u26_t2_q5",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Hangi yapı 'En yakın gelecek (neredeyse o an)' anlamı verir?",
+          "options": [
+            "Was going to",
+            "Was about to",
+            "Would",
+            "Was to"
+          ],
+          "correct_answer": "Was about to",
+          "explanation": "Hemen gerçekleşmek üzere olan eylem."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Etik Senaryolar",
+      "questions": [
+        {
+          "id": "u26_t3_q1",
+          "type": "philosophical_prompting",
+          "difficulty": "expert",
+          "question_text": "The company ______ (be) the first to launch, but ethics boards intervened.",
+          "options": [
+            "could have been",
+            "was going to be",
+            "should be",
+            "would have been"
+          ],
+          "correct_answer": "was going to be",
+          "explanation": "Planlanan niyet vurgusu."
+        },
+        {
+          "id": "u26_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "He ______ (intend) to resign, but he changed his mind after the promotion.",
+          "correct_answer": "had intended",
+          "explanation": "Daha önceki niyet (Past Perfect)."
+        },
+        {
+          "id": "u26_t3_q3",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "question_text": "Had they known the risks, ______ (they / still / proceed)?",
+          "options": [
+            "would they still proceed",
+            "would they still have proceeded",
+            "should they proceed",
+            "will they proceed"
+          ],
+          "correct_answer": "would they still have proceeded",
+          "explanation": "Geçmişe dair varsayımsal gelecek-sonuç."
+        },
+        {
+          "id": "u26_t3_q4",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "The law ______ (not / come) into effect until the following year.",
+          "correct_answer": "was not to come",
+          "explanation": "Geçmişteki resmi takvim/kader."
+        },
+        {
+          "id": "u26_t3_q5",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "'Would' hangi durumda kullanılmaz?",
+          "options": [
+            "Niyet",
+            "Geçmiş rutin",
+            "Geçmişten bakılan gelecek",
+            "Şu anki kesin gerçek"
+          ],
+          "correct_answer": "Şu anki kesin gerçek",
+          "explanation": "Would varsayımsal veya geçmiş odaklıdır."
+        }
+      ]
+    }
+  ]
+}

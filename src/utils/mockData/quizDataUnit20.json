@@ -1,0 +1,198 @@
+{
+  "unit_id": 20,
+  "unit_title": "Bilim ve Etik",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 2: Varsayımsal Dünyalar (2nd Cond)",
+      "questions": [
+        {
+          "id": "u20_t1_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "If I ______ (be) you, I would think twice before signing the contract.",
+          "options": [
+            "am",
+            "was",
+            "were",
+            "been"
+          ],
+          "correct_answer": "were",
+          "explanation": "2nd Conditional tavsiye yapısında 'If I were you' kalıptır."
+        },
+        {
+          "id": "u20_t1_q2",
+          "type": "ethical_dilemma_conditional",
+          "difficulty": "hard",
+          "question_text": "If artificial intelligence ______ (become) self-aware tomorrow, how ______ humanity react?",
+          "options": [
+            "becomes / will",
+            "became / would",
+            "had become / would",
+            "becomes / would"
+          ],
+          "correct_answer": "became / would",
+          "explanation": "Varsayımsal bir gelecek senaryosu (2nd Conditional)."
+        },
+        {
+          "id": "u20_t1_q3",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "What would you do if you ______ (find) a 100-dollar bill on the street?",
+          "correct_answer": "found",
+          "explanation": "Şu anki hayali durumlar için 'find' V2 haliyle kullanılır."
+        },
+        {
+          "id": "u20_t1_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "If everyone ______ (speak) the same language, would there be fewer wars?",
+          "options": [
+            "speaks",
+            "spoke",
+            "has spoken",
+            "will speak"
+          ],
+          "correct_answer": "spoke",
+          "explanation": "Gerçeğe aykırı varsayım."
+        },
+        {
+          "id": "u20_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "I ______ (travel) the world if I were a billionaire.",
+          "correct_answer": "would travel",
+          "explanation": "Sonuç kısmı would + V1 ile kurulur."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Geçmiş Pişmanlıklar (3rd Cond)",
+      "questions": [
+        {
+          "id": "u20_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "If we ______ (listen) to the warning, we wouldn't have lost all our data.",
+          "options": [
+            "listened",
+            "had listened",
+            "would listen",
+            "listen"
+          ],
+          "correct_answer": "had listened",
+          "explanation": "Geçmişteki bir hatanın alternatif sonucu (3rd Conditional: If + Past Perfect)."
+        },
+        {
+          "id": "u20_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "If the scientist ______ (not / discover) the cure, many more people would have died.",
+          "correct_answer": "had not discovered",
+          "explanation": "Geçmişteki bir olayın 'olumsuz' şartı."
+        },
+        {
+          "id": "u20_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "She ______ (pass) the exam if she had studied more.",
+          "options": [
+            "would pass",
+            "passes",
+            "would have passed",
+            "passed"
+          ],
+          "correct_answer": "would have passed",
+          "explanation": "Geçmişteki sonucun gerçekleşmediğini belirtir (would have + V3)."
+        },
+        {
+          "id": "u20_t2_q4",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "If I ______ (know) you were coming, I would have baked a cake.",
+          "correct_answer": "had known",
+          "explanation": "Bilseydim (geçmiş) yapardım."
+        },
+        {
+          "id": "u20_t2_q5",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "3rd Conditional yapısı hangi tür durumlar için kullanılır?",
+          "options": [
+            "Genel gerçekler",
+            "Gelecekteki ihtimaller",
+            "Geçmişteki hayali durumlar (pişmanlıklar)",
+            "Şimdiki rutinler"
+          ],
+          "correct_answer": "Geçmişteki hayali durumlar (pişmanlıklar)",
+          "explanation": "Olan bir şeyin aksini geçmiş için hayal etmek."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Karma Koşullar",
+      "questions": [
+        {
+          "id": "u20_t3_q1",
+          "type": "ethical_dilemma_conditional",
+          "difficulty": "expert",
+          "question_text": "If you ______ (have) to choose between saving one friend or five strangers, what ______ you do?",
+          "options": [
+            "have / will",
+            "had / would",
+            "had had / would",
+            "have / would"
+          ],
+          "correct_answer": "had / would",
+          "explanation": "Etik ikilem (2nd Conditional)."
+        },
+        {
+          "id": "u20_t3_q2",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "If I ______ (not / miss) the train yesterday, I ______ (not / be) so tired now.",
+          "options": [
+            "hadn't missed / wouldn't be",
+            "didn't miss / wouldn't be",
+            "hadn't missed / wouldn't have been",
+            "don't miss / am not"
+          ],
+          "correct_answer": "hadn't missed / wouldn't be",
+          "explanation": "Mixed Conditional: Geçmişteki eylem (hadn't missed) + şimdiki sonuç (wouldn't be)."
+        },
+        {
+          "id": "u20_t3_q3",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "If humans ______ (can) fly, the world would be very different.",
+          "correct_answer": "could",
+          "explanation": "Can'in Past hali kullanılır."
+        },
+        {
+          "id": "u20_t3_q4",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "Hangi cümle 'Benim hatamdı' anlamı verir?",
+          "options": [
+            "If I studied, I would pass.",
+            "If I had studied, I would have passed.",
+            "If I study, I will pass.",
+            "I study and I pass."
+          ],
+          "correct_answer": "If I had studied, I would have passed.",
+          "explanation": "Geçmişteki başarısızlığın sorumluluğunu (pişmanlığını) ifade eder."
+        },
+        {
+          "id": "u20_t3_q5",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "Had I known about the party, I ______ (come).",
+          "correct_answer": "would have come",
+          "explanation": "Inversion (If I had known = Had I known) yapısı."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "unit_id": 16,
+  "unit_title": "Film, Müzik ve Sanat",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: İnsanlar ve Nesneler",
+      "questions": [
+        {
+          "id": "u16_t1_q1",
+          "type": "sentence_joining",
+          "difficulty": "medium",
+          "context": "I met a woman. She can speak seven languages.",
+          "question_text": "Join these sentences using 'who'.",
+          "options": [
+            "I met a woman who can speak seven languages.",
+            "I met a woman she who can speak seven languages.",
+            "I met who can speak seven languages woman.",
+            "A woman who I met seven languages."
+          ],
+          "correct_answer": "I met a woman who can speak seven languages.",
+          "explanation": "İnsanları nitelemek için 'who' kullanılır ve ikinci cümledeki zamir (she) atılır."
+        },
+        {
+          "id": "u16_t1_q2",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "Cansız nesneleri ve hayvanları nitelemek için hangisi kullanılır?",
+          "options": [
+            "Who",
+            "Whom",
+            "Which",
+            "Where"
+          ],
+          "correct_answer": "Which",
+          "explanation": "Nesneler için 'which' (veya that) kullanılır."
+        },
+        {
+          "id": "u16_t1_q3",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "The book ______ is on the table is mine.",
+          "correct_answer": "which",
+          "explanation": "Kitap bir nesne olduğu için which/that uygundur."
+        },
+        {
+          "id": "u16_t1_q4",
+          "type": "sentence_joining",
+          "difficulty": "hard",
+          "context": "The movie won three Oscars. We watched it last night.",
+          "question_text": "Combine these sentences using 'that'.",
+          "options": [
+            "The movie that we watched it last night won three Oscars.",
+            "The movie that we watched last night won three Oscars.",
+            "The movie won three Oscars that we watched it.",
+            "We watched the movie that won three Oscars it."
+          ],
+          "correct_answer": "The movie that we watched last night won three Oscars.",
+          "explanation": "İkinci cümledeki 'it' (movie) düşmelidir."
+        },
+        {
+          "id": "u16_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "Do you know the boy ______ lives next door?",
+          "correct_answer": "who",
+          "explanation": "Boy (çocuk/insan) için 'who' kullanılır."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Yerler ve İyelikler",
+      "questions": [
+        {
+          "id": "u16_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Yer bildiren (place) isimleri nitelemek için hangisi kullanılır?",
+          "options": [
+            "Who",
+            "Which",
+            "Where",
+            "When"
+          ],
+          "correct_answer": "Where",
+          "explanation": "Mekanlar için 'where' kullanılır."
+        },
+        {
+          "id": "u16_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "This is the restaurant ______ we had dinner.",
+          "correct_answer": "where",
+          "explanation": "Yemek yediğimiz restoran (mekan)."
+        },
+        {
+          "id": "u16_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "Aitlik (possession) bildiren isimler için hangisi kullanılır?",
+          "options": [
+            "Whose",
+            "Who's",
+            "Which",
+            "That"
+          ],
+          "correct_answer": "Whose",
+          "explanation": "'Whose' tamlamalarda kimin/neyin anlamı verir."
+        },
+        {
+          "id": "u16_t2_q4",
+          "type": "sentence_joining",
+          "difficulty": "hard",
+          "context": "I know a man. His daughter is a famous singer.",
+          "question_text": "Join these using 'whose'.",
+          "options": [
+            "I know a man who daughter is a singer.",
+            "I know a man whose daughter is a famous singer.",
+            "I know a man that daughter is singer.",
+            "A man whose I know daughter is singer."
+          ],
+          "correct_answer": "I know a man whose daughter is a famous singer.",
+          "explanation": "Adama ait bir şey (kızı) nitelendiği için 'whose' kullanılır."
+        },
+        {
+          "id": "u16_t2_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "A baker is someone ______ makes bread.",
+          "correct_answer": "who",
+          "explanation": "Fırıncı (insan) nitelemesi."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Tanımlayıcı Cümlecikler",
+      "questions": [
+        {
+          "id": "u16_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Hangi kelime hem 'who' hem 'which' yerine kullanılabilir (bazı durumlarda)?",
+          "options": [
+            "Where",
+            "That",
+            "Whose",
+            "What"
+          ],
+          "correct_answer": "That",
+          "explanation": "'That' hem insanlar hem nesneler için genel bir niteleyicidir."
+        },
+        {
+          "id": "u16_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "The computer ______ I bought yesterday is very fast.",
+          "correct_answer": "that",
+          "explanation": "Bilgisayar (nesne) için that/which uygundur."
+        },
+        {
+          "id": "u16_t3_q3",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Cümleyi tamamlayın: 'I like films ...'",
+          "options": [
+            "who have happy endings.",
+            "which have happy endings.",
+            "where has happy endings.",
+            "whose have happy endings."
+          ],
+          "correct_answer": "which have happy endings.",
+          "explanation": "Filmler nesne olduğu için which kullanılır."
+        },
+        {
+          "id": "u16_t3_q4",
+          "type": "sentence_joining",
+          "difficulty": "hard",
+          "context": "This is the artist. His paintings are sold for millions.",
+          "question_text": "Combine using a relative pronoun.",
+          "options": [
+            "This is the artist whose paintings are sold for millions.",
+            "This is the artist who his paintings are sold.",
+            "The artist which paintings are sold.",
+            "This is paintings whose artist is sold."
+          ],
+          "correct_answer": "This is the artist whose paintings are sold for millions.",
+          "explanation": "Ressama ait tablolar."
+        },
+        {
+          "id": "u16_t3_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "The hotel ______ we stayed was very expensive.",
+          "correct_answer": "where",
+          "explanation": "Kaldığımız otel (yer)."
+        }
+      ]
+    }
+  ]
+}

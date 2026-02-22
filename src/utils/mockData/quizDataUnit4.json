@@ -1,0 +1,180 @@
+{
+  "unit_id": 4,
+  "unit_title": "Sıradan Bir Gün",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Günlük Rutin Fiilleri",
+      "questions": [
+        {
+          "id": "u4_t1_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "Sabah uyanmak anlamına gelen ifade hangisidir?",
+          "options": [
+            "Wake up",
+            "Sleep",
+            "Walk",
+            "Eat"
+          ],
+          "correct_answer": "Wake up",
+          "explanation": "Wake up, uyanmak demektir."
+        },
+        {
+          "id": "u4_t1_q2",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "I ____ breakfast at 8:00. (Saat 8'de kahvaltı yaparım.)",
+          "correct_answer": "have",
+          "explanation": "Kahvaltı yapmak 'have breakfast' veya 'eat breakfast' olarak söylenir."
+        },
+        {
+          "id": "u4_t1_q3",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "'Brush teeth' ifadesi saçı taramak anlamına gelir.",
+          "correct_answer": "false",
+          "explanation": "'Brush teeth' dişleri fırçalamak demektir."
+        },
+        {
+          "id": "u4_t1_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Evde hazırlanıp dışarı çıkarken hangi ifadeyi kullanırız?",
+          "options": [
+            "Leave home",
+            "Come home",
+            "Stay home",
+            "Clean home"
+          ],
+          "correct_answer": "Leave home",
+          "explanation": "Evden ayrılmak, dışarı çıkmak 'Leave home' demektir."
+        },
+        {
+          "id": "u4_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "I ____ to bed at 11 PM. (Saat 11'de yatmaya giderim.)",
+          "correct_answer": "go",
+          "explanation": "Yatmaya gitmek, uyumak 'go to bed' kalıbıyla ifade edilir."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Geniş Zaman (I/You/We/They)",
+      "questions": [
+        {
+          "id": "u4_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "Geniş zamanla kurulan cümlelerde, 'I' öznesiyle ('go' fiili için) hangisi doğrudur?",
+          "options": [
+            "I go",
+            "I goes",
+            "I going",
+            "I is go"
+          ],
+          "correct_answer": "I go",
+          "explanation": "I, You, We, They özneleriyle fiil yalın halde (ek almadan) kullanılır."
+        },
+        {
+          "id": "u4_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "We ____ books every day. (Her gün kitap okuruz.)",
+          "correct_answer": "read",
+          "explanation": "'We' öznesiyle fiil yalın haldedir (read)."
+        },
+        {
+          "id": "u4_t2_q3",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "Geniş zamanda 'Onlar' öznesi için fiil daima 's' takısı alır.",
+          "correct_answer": "false",
+          "explanation": "Onlar (They) öznesinde fiil ek almaz."
+        },
+        {
+          "id": "u4_t2_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Aşağıdaki olumsuz cümlelerden hangisi doğrudur?",
+          "options": [
+            "They don't work.",
+            "They doesn't work.",
+            "They not work.",
+            "They aren't work."
+          ],
+          "correct_answer": "They don't work.",
+          "explanation": "I, You, We, They için olumsuz yardımcı fiil 'don't' kelimesidir."
+        },
+        {
+          "id": "u4_t2_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "____ you like tennis? (Tenis sever misin?)",
+          "correct_answer": "Do",
+          "explanation": "You öznesine geniş zamanda soru sorarken cümlenin başına 'Do' yardımcı fiili gelir."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Geniş Zaman (He/She/It)",
+      "questions": [
+        {
+          "id": "u4_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "He/She/It özneleri ile geniş zamanda olumlu cümlede fiile hangi ek gelir?",
+          "options": [
+            "-s / -es / -ies",
+            "-ing",
+            "-ed",
+            "-er"
+          ],
+          "correct_answer": "-s / -es / -ies",
+          "explanation": "Üçüncü tekil şahıslarda fiile geniş zamanda genellikle -s eklenir."
+        },
+        {
+          "id": "u4_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "He ____ to the park. (O parka gider.)",
+          "correct_answer": "goes",
+          "explanation": "'go' fiiline He öznesiyle '-es' (goes) eklenir."
+        },
+        {
+          "id": "u4_t3_q3",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "'She plays volleyball' cümlesi doğru bir geniş zaman cümlesidir.",
+          "correct_answer": "true",
+          "explanation": "'She' öznesiyle 'play' fiiline s takısı gelmiştir."
+        },
+        {
+          "id": "u4_t3_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "He/She/It ile olumsuz cümle yaparken hangi yardımcı fiili kullanırız?",
+          "options": [
+            "doesn't",
+            "don't",
+            "isn't",
+            "hasn't"
+          ],
+          "correct_answer": "doesn't",
+          "explanation": "Geniş zamanda 3. tekil şahıslar için 'doesn't' (does not) kullanılır."
+        },
+        {
+          "id": "u4_t3_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "____ she study English? (O İngilizce çalışır mı?)",
+          "correct_answer": "Does",
+          "explanation": "'She' öznesiyle soru cümlesi kurarken başa 'Does' getirilir."
+        }
+      ]
+    }
+  ]
+}

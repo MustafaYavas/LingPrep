@@ -1,0 +1,180 @@
+{
+  "unit_id": 5,
+  "unit_title": "Acıktım!",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Yiyecek İsimleri",
+      "questions": [
+        {
+          "id": "u5_t1_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "Elma İngilizcede ne demektir?",
+          "options": [
+            "Apple",
+            "Banana",
+            "Orange",
+            "Grape"
+          ],
+          "correct_answer": "Apple",
+          "explanation": "'Apple' elma demektir."
+        },
+        {
+          "id": "u5_t1_q2",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "I eat ____ for breakfast. (Kahvaltıda ekmek yerim.)",
+          "correct_answer": "bread",
+          "explanation": "Ekmek kelimesi 'bread'tir."
+        },
+        {
+          "id": "u5_t1_q3",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "'Cheese' peynir anlamına gelir.",
+          "correct_answer": "true",
+          "explanation": "'Cheese' bildiğimiz peynirdir."
+        },
+        {
+          "id": "u5_t1_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Hangi kelime bir meyveyi ifade eder?",
+          "options": [
+            "Strawberry",
+            "Chicken",
+            "Beef",
+            "Rice"
+          ],
+          "correct_answer": "Strawberry",
+          "explanation": "'Strawberry' çilek demektir, diğerleri et veya pirinç/pilavdır."
+        },
+        {
+          "id": "u5_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "A red vegetable: ____. (Kırmızı bir sebze: Domates)",
+          "correct_answer": "Tomato",
+          "explanation": "Domates İngilizcede 'tomato'dur."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: İçecekler",
+      "questions": [
+        {
+          "id": "u5_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "Su İngilizcede ne demektir?",
+          "options": [
+            "Water",
+            "Milk",
+            "Tea",
+            "Coffee"
+          ],
+          "correct_answer": "Water",
+          "explanation": "Su 'water' olarak yazılır."
+        },
+        {
+          "id": "u5_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "I drink a glass of ____. (Bir bardak süt içerim.)",
+          "correct_answer": "milk",
+          "explanation": "Süt 'milk' kelimesiyle ifade edilir."
+        },
+        {
+          "id": "u5_t2_q3",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "Türkler kahvaltıda genellikle 'Tea' içerler.",
+          "correct_answer": "true",
+          "explanation": "'Tea' çay demektir ve bu bilgi doğrudur."
+        },
+        {
+          "id": "u5_t2_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Meyveden sıkılan içeceklere ne ad verilir?",
+          "options": [
+            "Juice",
+            "Soup",
+            "Coke",
+            "Cola"
+          ],
+          "correct_answer": "Juice",
+          "explanation": "Meyve suyu anlamına gelen sözcük 'juice'tur."
+        },
+        {
+          "id": "u5_t2_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "Would you like some ____? (Biraz kahve ister misin?)",
+          "correct_answer": "coffee",
+          "explanation": "Kahve 'coffee' şeklinde yazılır."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Restoranda Sipariş",
+      "questions": [
+        {
+          "id": "u5_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "Bir garson sana 'Ne istersiniz?' diye sorarken hangi cümleyi kullanır?",
+          "options": [
+            "What would you like?",
+            "Who are you?",
+            "Where is the apple?",
+            "Why are you here?"
+          ],
+          "correct_answer": "What would you like?",
+          "explanation": "Sipariş alırken nazik bir ifade olan 'What would you like?' sıkça kullanılır."
+        },
+        {
+          "id": "u5_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "Can I ____ the menu, please? (Menüyü alabilir miyim lütfen?)",
+          "correct_answer": "have",
+          "explanation": "Bir şey isterken 'Can I have...?' kalıbı kullanılır."
+        },
+        {
+          "id": "u5_t3_q3",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "Garson siparişi bitirirken 'Anything else?' (Başka bir şey?) diye sorabilir.",
+          "correct_answer": "true",
+          "explanation": "'Anything else' başka bir isteğiniz var mı anlamında yaygındır."
+        },
+        {
+          "id": "u5_t3_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Hesabı ödemek istediğinde garsona ne dersin?",
+          "options": [
+            "The bill, please.",
+            "The table, please.",
+            "The plate, please.",
+            "The glass, please."
+          ],
+          "correct_answer": "The bill, please.",
+          "explanation": "Hesap veya adisyon 'bill' (veya 'check') olarak adlandırılır."
+        },
+        {
+          "id": "u5_t3_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "I would like to ____ a soup. (Bir çorba sipariş vermek istiyorum.)",
+          "correct_answer": "order",
+          "explanation": "Sipariş vermek anlamında 'order' fiili kullanılır."
+        }
+      ]
+    }
+  ]
+}

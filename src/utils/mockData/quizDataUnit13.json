@@ -1,0 +1,198 @@
+{
+  "unit_id": 13,
+  "unit_title": "Seyahat ve Macera",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Hikaye Başlangıçları",
+      "questions": [
+        {
+          "id": "u13_t1_q1",
+          "type": "narrative_blank",
+          "difficulty": "medium",
+          "question_text": "While I ______ (walk) along the beach, I ______ (find) a beautiful shell.",
+          "options": [
+            "was walking / found",
+            "walked / was finding",
+            "was walking / was finding",
+            "walked / found"
+          ],
+          "correct_answer": "was walking / found",
+          "explanation": "Uzun süren arka plan eylemi (walking) kısa bir eylemle (found) bölünmüştür."
+        },
+        {
+          "id": "u12_t1_q2",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "Past Continuous yapısının formülü nedir?",
+          "options": [
+            "is/are + Ving",
+            "was/were + Ving",
+            "had + V3",
+            "did + V1"
+          ],
+          "correct_answer": "was/were + Ving",
+          "explanation": "Geçmişte devam eden eylemler was/were ve fiile eklenen -ing ile kurulur."
+        },
+        {
+          "id": "u13_t1_q3",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "The sun ______ (shine) when we left the hotel this morning.",
+          "correct_answer": "was shining",
+          "explanation": "Olayın başlangıcındaki hava durumu gibi atmosferik detaylar Past Continuous ile verilir."
+        },
+        {
+          "id": "u13_t1_q4",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "'When' ve 'While' arasındaki fark nedir?",
+          "options": [
+            "When'den sonra genellikle kısa eylem (V2), While'dan sonra uzun eylem (Ving) gelir.",
+            "Tam tersidir.",
+            "İkisi de aynıdır.",
+            "While sadece gelecek zamanda kullanılır."
+          ],
+          "correct_answer": "When'den sonra genellikle kısa eylem (V2), While'dan sonra uzun eylem (Ving) gelir.",
+          "explanation": "While 'iken' anlamıyla süreci, When '-dığında' anlamıyla anı niteler."
+        },
+        {
+          "id": "u13_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "What ______ you ______ (do) at 10 PM last night?",
+          "correct_answer": "were / doing",
+          "explanation": "Belirli bir geçmiş zaman noktasında devam eden eylemi sormak için kullanılır."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Kesintiye Uğrayan Eylemler",
+      "questions": [
+        {
+          "id": "u13_t2_q1",
+          "type": "narrative_blank",
+          "difficulty": "hard",
+          "question_text": "The phone ______ (ring) while I ______ (have) a shower.",
+          "options": [
+            "was ringing / had",
+            "rang / was having",
+            "rang / had",
+            "was ringing / was having"
+          ],
+          "correct_answer": "rang / was having",
+          "explanation": "Duş alma süreci telefonun çalmasıyla kesilmiştir."
+        },
+        {
+          "id": "u13_t2_q2",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Aşağıdakilerden hangisi bir 'kesinti' (interruption) cümlesidir?",
+          "options": [
+            "I was reading while he was cooking.",
+            "I finished my work and went out.",
+            "I was reading when the lights went out.",
+            "I will read a book tonight."
+          ],
+          "correct_answer": "I was reading when the lights went out.",
+          "explanation": "Işığın sönmesi okuma eylemini kesmiştir."
+        },
+        {
+          "id": "u13_t2_q3",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "I ______ (not / look) where I was going and I fell over.",
+          "correct_answer": "wasn't looking",
+          "explanation": "Düşme anındaki süregelen 'bakmama' durumunu ifade eder."
+        },
+        {
+          "id": "u13_t2_q4",
+          "type": "narrative_blank",
+          "difficulty": "medium",
+          "question_text": "We ______ (see) a bear while we ______ (hike) in the mountains.",
+          "options": [
+            "saw / were hiking",
+            "were seeing / hiked",
+            "saw / hiked",
+            "was seeing / hiked"
+          ],
+          "correct_answer": "saw / were hiking",
+          "explanation": "Görmek (see) anlık, yürüyüş yapmak (hike) süreçtir."
+        },
+        {
+          "id": "u13_t2_q5",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "What ______ the pilot doing when the engine failure happened?",
+          "correct_answer": "was",
+          "explanation": "Pilot (tekil) için was kullanılır."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Paralel Eylemler",
+      "questions": [
+        {
+          "id": "u13_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Hangi cümle iki eylemin aynı anda (paralel) yapıldığını gösterir?",
+          "options": [
+            "I was watching TV when he arrived.",
+            "I was watching TV while she was reading.",
+            "I watched TV and then she read.",
+            "I will watch TV while she reads."
+          ],
+          "correct_answer": "I was watching TV while she was reading.",
+          "explanation": "İki tarafın da Past Continuous olması eylemlerin paralel olduğunu sezdirir."
+        },
+        {
+          "id": "u13_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "I broke my leg while I ______ (ski).",
+          "correct_answer": "was skiing",
+          "explanation": "Kayak yapma (ski) eylemi sırasında olan kazayı anlatır."
+        },
+        {
+          "id": "u13_t3_q3",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "'While' cümle başında kullanılırsa ortada hangi işaret olmalıdır?",
+          "options": [
+            "Noktalı virgül",
+            "Virgül",
+            "İki nokta",
+            "Hiçbir şey"
+          ],
+          "correct_answer": "Virgül",
+          "explanation": "Zaman bağlaçları (While, When, If) cümle başındaysa iki cümlecik virgülle ayrılır."
+        },
+        {
+          "id": "u13_t3_q4",
+          "type": "narrative_blank",
+          "difficulty": "hard",
+          "question_text": "It ______ (begin) to rain while they ______ (play) football.",
+          "options": [
+            "began / were playing",
+            "was beginning / played",
+            "begins / plays",
+            "began / played"
+          ],
+          "correct_answer": "began / were playing",
+          "explanation": "Başlamak (begin) anlık bir eylemdir."
+        },
+        {
+          "id": "u13_t3_q5",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "They ______ (wait) for the train when they heard the announcement.",
+          "correct_answer": "were waiting",
+          "explanation": "Duyuru anında beklemekte olduklarını anlatır."
+        }
+      ]
+    }
+  ]
+}

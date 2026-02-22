@@ -1,0 +1,198 @@
+{
+  "unit_id": 25,
+  "unit_title": "Kültürel Kimlik",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Odak Kaydırma",
+      "questions": [
+        {
+          "id": "u25_t1_q1",
+          "type": "rhetorical_refining",
+          "difficulty": "expert",
+          "question_text": "Transform: 'Traditional music defines a nation's identity, not its borders.' into a Cleft Sentence emphasizing 'music'.",
+          "options": [
+            "It is music that defines a nation's identity...",
+            "Music is what defines a nation's identity...",
+            "What defines identity is music...",
+            "It was music which defined identity..."
+          ],
+          "correct_answer": "It is music that defines a nation's identity...",
+          "explanation": "vurgulanmak istenen öge 'It is... that' arasına alınır."
+        },
+        {
+          "id": "u25_t1_q2",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "What I need ______ (be) a long holiday away from technology.",
+          "options": [
+            "is",
+            "are",
+            "was",
+            "be"
+          ],
+          "correct_answer": "is",
+          "explanation": "Pseudo-cleft sentence yapısı 'What-clause' ile kurulur."
+        },
+        {
+          "id": "u25_t1_q3",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "It was ______ 1980 that the law was finally changed.",
+          "correct_answer": "in",
+          "explanation": "Zaman vurgulu Cleft yapısında edat kullanımı."
+        },
+        {
+          "id": "u25_t1_q4",
+          "type": "rhetorical_refining",
+          "difficulty": "expert",
+          "question_text": "Rewrite 'I love the culture of Japan' using a 'What' cleft structure.",
+          "options": [
+            "What I love is the culture of Japan.",
+            "It is the culture of Japan that I love.",
+            "The culture of Japan is what I love.",
+            "All of the above"
+          ],
+          "correct_answer": "What I love is the culture of Japan.",
+          "explanation": "'What' ile başlayan yapı nesneyi vurgulamak için kullanılır."
+        },
+        {
+          "id": "u25_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "All I want ______ (be) for you to listen.",
+          "correct_answer": "is",
+          "explanation": "'All' ile başlayan Cleft yapısı tekillik bildirir."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Antropolojik Vurgular",
+      "questions": [
+        {
+          "id": "u25_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "Hangi cümle 'Benim hatamdı' vurgusu yapar? (Cleft structure)",
+          "options": [
+            "I made the mistake.",
+            "It was I who made the mistake.",
+            "The mistake was mine.",
+            "The mistake was made by me."
+          ],
+          "correct_answer": "It was I who made the mistake.",
+          "explanation": "Özneyi vurgulayan en sofistike Cleft yapısı budur."
+        },
+        {
+          "id": "u25_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "______ happened was that the car ran out of fuel.",
+          "correct_answer": "What",
+          "explanation": "Olayı vurgulamak için 'What happened' kalıbı kullanılır."
+        },
+        {
+          "id": "u25_t2_q3",
+          "type": "rhetorical_refining",
+          "difficulty": "expert",
+          "question_text": "Rewrite 'She values honesty above all' using 'It is...'",
+          "options": [
+            "It is honesty that she values above all.",
+            "Honesty is what she values.",
+            "What she values is honesty.",
+            "Valuing honesty is what she does."
+          ],
+          "correct_answer": "It is honesty that she values above all.",
+          "explanation": "Soyut kavram vurgusu."
+        },
+        {
+          "id": "u25_t2_q4",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "The person ______ told me about the ritual was a local elder.",
+          "options": [
+            "who",
+            "which",
+            "that",
+            "whom"
+          ],
+          "correct_answer": "who",
+          "explanation": "Cleft yapıda insan nitelemesi."
+        },
+        {
+          "id": "u25_t2_q5",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "It wasn't until midnight ______ we finally arrived.",
+          "correct_answer": "that",
+          "explanation": "'It wasn't until... that' zaman kısıtlı vurgu kalıbıdır."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Karma Fokus",
+      "questions": [
+        {
+          "id": "u25_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "question_text": "The reason ______ I left was the lack of cultural respect.",
+          "options": [
+            "why",
+            "that",
+            "which",
+            "how"
+          ],
+          "correct_answer": "why",
+          "explanation": "Neden vurgulu cümle yapısı."
+        },
+        {
+          "id": "u25_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "It ______ precisely because of her heritage that she chose this path.",
+          "correct_answer": "was",
+          "explanation": "Sebep vurgulu geçmiş zaman Cleft."
+        },
+        {
+          "id": "u25_t3_q3",
+          "type": "rhetorical_refining",
+          "difficulty": "expert",
+          "question_text": "Hangi yapı bir eylemi (verb) vurgulayabilir?",
+          "options": [
+            "What she did was (to) leave.",
+            "It was leaving she did.",
+            "She did leave.",
+            "Both A and C"
+          ],
+          "correct_answer": "Both A and C",
+          "explanation": "Cleft (What she did) ve Emphatic Do (She did leave) vurgu sağlar."
+        },
+        {
+          "id": "u25_t3_q4",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "Is it ______ you are looking for?",
+          "options": [
+            "this",
+            "that",
+            "it",
+            "which"
+          ],
+          "correct_answer": "this",
+          "explanation": "İşaret vurgulu soru."
+        },
+        {
+          "id": "u25_t3_q5",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "The thing ______ surprises me most is his tolerance.",
+          "correct_answer": "that",
+          "explanation": "Nesne niteleme cleft."
+        }
+      ]
+    }
+  ]
+}

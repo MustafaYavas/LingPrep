@@ -1,0 +1,180 @@
+{
+  "unit_id": 2,
+  "unit_title": "Bu Nedir?",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Bu ve Şu",
+      "questions": [
+        {
+          "id": "u2_t1_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "Yakındaki tekil bir nesneyi işaret ederken ne kullanılır?",
+          "options": [
+            "That",
+            "These",
+            "This",
+            "Those"
+          ],
+          "correct_answer": "This",
+          "explanation": "'This' (Bu) yakındaki tekil nesneler için kullanılır."
+        },
+        {
+          "id": "u2_t1_q2",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "____ is an apple. (Şu bir elmadır.)",
+          "correct_answer": "That",
+          "explanation": "Uzaktaki nesne için 'That' (Şu/O) kullanılır."
+        },
+        {
+          "id": "u2_t1_q3",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "'These' (Bunlar), yakındaki çoğul nesneler için kullanılır.",
+          "correct_answer": "true",
+          "explanation": "'These', 'This' sözcüğünün çoğuludur."
+        },
+        {
+          "id": "u2_t1_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Uzaktaki birden fazla arabayı işaret ederken ne kullanırsın?",
+          "options": [
+            "These cars",
+            "This car",
+            "Those cars",
+            "That car"
+          ],
+          "correct_answer": "Those cars",
+          "explanation": "'Those', uzaktaki çoğul nesneler için kullanılır."
+        },
+        {
+          "id": "u2_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "What ____ this? (Bu nedir?)",
+          "correct_answer": "is",
+          "explanation": "Tekil işaret zamirleriyle birlikte 'is' kullanılır."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Sınıf Eşyaları",
+      "questions": [
+        {
+          "id": "u2_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "Kitap İngilizcede ne demektir?",
+          "options": [
+            "Book",
+            "Pen",
+            "Desk",
+            "Bag"
+          ],
+          "correct_answer": "Book",
+          "explanation": "Book, kitap demektir."
+        },
+        {
+          "id": "u2_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "This is a ____. (Bu bir kalemdir.)",
+          "correct_answer": "pen",
+          "explanation": "Kalem İngilizcede 'pen' (tükenmez) veya 'pencil' (kurşun) olarak bilinir."
+        },
+        {
+          "id": "u2_t2_q3",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "'Desk' kelimesi 'Sandalye' anlamına gelir.",
+          "correct_answer": "false",
+          "explanation": "'Desk' çalışma masası/sıra anlamına gelir. Sandalye 'chair'dır."
+        },
+        {
+          "id": "u2_t2_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Tahtaya yazı yazmak için öğretmenin kullandığı nesne hangisidir?",
+          "options": [
+            "Bag",
+            "Board marker",
+            "Eraser",
+            "Notebook"
+          ],
+          "correct_answer": "Board marker",
+          "explanation": "Tahta kalemi 'board marker' olarak adlandırılır."
+        },
+        {
+          "id": "u2_t2_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "I write in my ____. (Defterime yazarım.)",
+          "correct_answer": "notebook",
+          "explanation": "Defterin İngilizce karşılığı 'notebook'tur."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Karışık",
+      "questions": [
+        {
+          "id": "u2_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "Hangi kelime bir pencereyi ifade eder?",
+          "options": [
+            "Window",
+            "Door",
+            "Wall",
+            "Floor"
+          ],
+          "correct_answer": "Window",
+          "explanation": "Window, pencere anlamına gelir."
+        },
+        {
+          "id": "u2_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "Open the ____. (Kapıyı aç.)",
+          "correct_answer": "door",
+          "explanation": "Kapı kelimesinin İngilizcesi 'door'dur."
+        },
+        {
+          "id": "u2_t3_q3",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "Zıt anlamlılar konusunda 'Open', 'Kapatmak' demektir.",
+          "correct_answer": "false",
+          "explanation": "Open 'Açmak', Close 'Kapatmak'tır."
+        },
+        {
+          "id": "u2_t3_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Resimde bir saat var. Ona ne deriz?",
+          "options": [
+            "Clock",
+            "Television",
+            "Laptop",
+            "Bag"
+          ],
+          "correct_answer": "Clock",
+          "explanation": "Duvar veya masa saati 'clock' olarak ifade edilir."
+        },
+        {
+          "id": "u2_t3_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "This is ____ computer. (Bu bir bilgisayar.)",
+          "correct_answer": "a",
+          "explanation": "Sessiz harfle başlayan tekil bir ismin önüne 'a' belgisiz tanımlığı gelir."
+        }
+      ]
+    }
+  ]
+}

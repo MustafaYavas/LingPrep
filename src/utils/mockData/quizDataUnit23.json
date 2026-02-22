@@ -1,0 +1,198 @@
+{
+  "unit_id": 23,
+  "unit_title": "Akademik Yazım",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Vurgulu Anlatım",
+      "questions": [
+        {
+          "id": "u23_t1_q1",
+          "type": "rhetorical_reformulation",
+          "difficulty": "expert",
+          "question_text": "Rewrite 'I have never seen such a lack of ethics' starting with 'Never'.",
+          "options": [
+            "Never I have seen such a lack of ethics...",
+            "Never have I seen such a lack of ethics...",
+            "Never saw I...",
+            "Never did I seen..."
+          ],
+          "correct_answer": "Never have I seen such a lack of ethics...",
+          "explanation": "Negatif zarf (Never) başa gelince devrik cümle (Inversion) kurulur."
+        },
+        {
+          "id": "u23_t1_q2",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "Not only ______ (he / be) talented, but he is also hardworking.",
+          "options": [
+            "he is",
+            "is he",
+            "does he",
+            "was he"
+          ],
+          "correct_answer": "is he",
+          "explanation": "'Not only' ile başlayan cümle devrik olur."
+        },
+        {
+          "id": "u23_t1_q3",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "Seldom ______ (we / experience) such extreme weather in this region.",
+          "correct_answer": "do we experience",
+          "explanation": "Seldom (nadiren) devriklik yaratır."
+        },
+        {
+          "id": "u23_t1_q4",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "question_text": "Little ______ (she / know) that the surprise was waiting for her.",
+          "options": [
+            "she knew",
+            "did she know",
+            "did she knew",
+            "knew she"
+          ],
+          "correct_answer": "did she know",
+          "explanation": "Little (hiç/pek az) devriklik yaratır."
+        },
+        {
+          "id": "u23_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "Only then ______ (I / realize) the mistake I had made.",
+          "correct_answer": "did I realize",
+          "explanation": "'Only then' zaman zarfı devriklik gerektirir."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Akademik Formatta Cümle Kurma",
+      "questions": [
+        {
+          "id": "u23_t2_q1",
+          "type": "rhetorical_reformulation",
+          "difficulty": "hard",
+          "question_text": "Hangi cümle daha VURGULU (Academic/Emphatic) durur?",
+          "options": [
+            "The rain started as soon as we left.",
+            "No sooner had we left than the rain started.",
+            "We left and then it rained.",
+            "Hardly we left when it rained."
+          ],
+          "correct_answer": "No sooner had we left than the rain started.",
+          "explanation": "'No sooner... than' kalıbı inversion ile daha retorik bir hava verir."
+        },
+        {
+          "id": "u23_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "Under no circumstances ______ (you / should) reveal your password.",
+          "correct_answer": "should you",
+          "explanation": "'Under no circumstances' (asla) yapısı devriktir."
+        },
+        {
+          "id": "u23_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "Scarcely ______ (the sun / set) when the stars appeared.",
+          "options": [
+            "had the sun set",
+            "the sun sets",
+            "did the sun set",
+            "was the sun setting"
+          ],
+          "correct_answer": "had the sun set",
+          "explanation": "'Scarcely... when' kalıbı Past Perfect ve Inversion ile kullanılır."
+        },
+        {
+          "id": "u23_t2_q4",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "Rarely ______ (she / go) to the cinema anymore.",
+          "correct_answer": "does she go",
+          "explanation": "Geniş zaman devrik yapı."
+        },
+        {
+          "id": "u23_t2_q5",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Inversion (Devrik yapı) ne zaman kullanılır?",
+          "options": [
+            "Sadece sorularda",
+            "Sadece gelecekte",
+            "Vurgu yapmak için veya negatif bir zarfla cümle başladığında",
+            "Sadece kısa cevaplarda"
+          ],
+          "correct_answer": "Vurgu yapmak için veya negatif bir zarfla cümle başladığında",
+          "explanation": "Akademik ve edebi anlatımda vurgu aracıdır."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Karma Akademik Yapılar",
+      "questions": [
+        {
+          "id": "u23_t3_q1",
+          "type": "rhetorical_reformulation",
+          "difficulty": "expert",
+          "question_text": "I didn't notice the fire until much later. -> Not until much later ______ I notice the fire.",
+          "options": [
+            "I did",
+            "did",
+            "was",
+            "not"
+          ],
+          "correct_answer": "did",
+          "explanation": "'Not until' ile başlayan yapıda inversion ana cümlede (notice tarafında) olur."
+        },
+        {
+          "id": "u23_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "So beautiful ______ (be) the view that we couldn't look away.",
+          "correct_answer": "was / is",
+          "explanation": "So + Sıfat... that yapısı devrik olabilir."
+        },
+        {
+          "id": "u23_t3_q3",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "Hangi kelime 'Only' ile başladığında ikinci cümlede devriklik İSTEMEZ?",
+          "options": [
+            "Only when",
+            "Only after",
+            "Only if",
+            "Soru kelimesiz Only"
+          ],
+          "correct_answer": "Soru kelimesiz Only",
+          "explanation": "Only + Zaman bağlacı olan durumlarda devriklik ana cümlede olur."
+        },
+        {
+          "id": "u23_t3_q4",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "Had I ______ (know) the truth, I wouldn't have said that.",
+          "correct_answer": "known",
+          "explanation": "Inversion (If I had known)."
+        },
+        {
+          "id": "u23_t3_q5",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "question_text": "Rewrite: 'We little suspected that he was a spy.'",
+          "options": [
+            "Little did we suspect...",
+            "Suspect we little...",
+            "We little had suspected...",
+            "Little had we suspect..."
+          ],
+          "correct_answer": "Little did we suspect...",
+          "explanation": "Little (zarf) başa gelir, Simple Past devriktir (did we suspect)."
+        }
+      ]
+    }
+  ]
+}

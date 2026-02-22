@@ -1,0 +1,202 @@
+{
+  "unit_id": 8,
+  "unit_title": "Gelecek Planları",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Planlar (Be going to)",
+      "questions": [
+        {
+          "id": "u8_t1_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "Önceden planlanmış kesin bir gelecek olayından bahsederken hangi yapı kullanılır?",
+          "options": [
+            "Will",
+            "Am/Is/Are going to",
+            "Did",
+            "Present Simple"
+          ],
+          "correct_answer": "Am/Is/Are going to",
+          "explanation": "Önceden alınmış kararlar 'be going to' ile anlatılır."
+        },
+        {
+          "id": "u8_t1_q2",
+          "type": "situational_response",
+          "difficulty": "medium",
+          "scenario": "Bir arkadaşına bu yaz tatilini nerede geçirmeyi planladığını söyleyeceksin.",
+          "question_text": "Hangi cümle doğrudur?",
+          "options": [
+            "I went to Rome last year.",
+            "I am going to visit Rome this summer.",
+            "I don't like Rome.",
+            "I sit in Rome now."
+          ],
+          "correct_answer": "I am going to visit Rome this summer.",
+          "explanation": "Yazın ziyareti bir plan olduğundan 'am going to' uygundur."
+        },
+        {
+          "id": "u8_t1_q3",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "She ____ going to buy a new car. (O yeni bir araba alacak.)",
+          "correct_answer": "is",
+          "explanation": "She öznesi 'is' yardımcı fiilini alır."
+        },
+        {
+          "id": "u8_t1_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "'We are going to stay at a hotel.' cümlesinin anlamı nedir?",
+          "options": [
+            "Otelde kaldık.",
+            "Bir otelde kalıyoruz.",
+            "Bir otelde kalacağız.",
+            "Otel sevmiyoruz."
+          ],
+          "correct_answer": "Bir otelde kalacağız.",
+          "explanation": "Gelecek zamana yönelik yapılmış bir plandır."
+        },
+        {
+          "id": "u8_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "They are going ____ watch a movie. (Bir film izleyecekler.)",
+          "correct_answer": "to",
+          "explanation": "Yapı eksiksiz olarak 'be going to' şeklindedir."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Tahminler ve Anlık Kararlar (Will)",
+      "questions": [
+        {
+          "id": "u8_t2_q1",
+          "type": "situational_response",
+          "difficulty": "medium",
+          "scenario": "Restorandasın, garson geldi ve siparişini sordu. O an karar verdin.",
+          "question_text": "Nasıl söylersin?",
+          "options": [
+            "I ordered yesterday.",
+            "I will have a steak, please.",
+            "I am going to eat steak next year.",
+            "I shouldn't eat steak."
+          ],
+          "correct_answer": "I will have a steak, please.",
+          "explanation": "Anlık karar ve siparişlerde 'will' kullanılır."
+        },
+        {
+          "id": "u8_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "I think it ____ rain tomorrow. (Bence yarın yağmur yağacak.)",
+          "correct_answer": "will",
+          "explanation": "Şahsi fikre dayalı tahminlerde 'think' sonrası 'will' kullanılır."
+        },
+        {
+          "id": "u8_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "'Will' kelimesinin olumsuz ve kısaltılmış hali nedir?",
+          "options": [
+            "Willn't",
+            "Won't",
+            "Wont",
+            "Not will"
+          ],
+          "correct_answer": "Won't",
+          "explanation": "Will not'ın kısaltması 'won't' olarak yazılır."
+        },
+        {
+          "id": "u8_t2_q4",
+          "type": "situational_response",
+          "difficulty": "hard",
+          "scenario": "Birinin çantası çok ağır görünüyor ve ona yardım etmeyi teklif edeceksin.",
+          "question_text": "Ne dersin?",
+          "options": [
+            "You are going to carry it.",
+            "I will help you with that bag.",
+            "You didn't help me.",
+            "I don't carry bags."
+          ],
+          "correct_answer": "I will help you with that bag.",
+          "explanation": "Gönüllü olma ve anlık yardım teklifleri 'will' ile verilir."
+        },
+        {
+          "id": "u8_t2_q5",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "____ you marry me? (Benimle evlenir misin?)",
+          "correct_answer": "Will",
+          "explanation": "Gelecek teklif ve ricalarında başa 'Will' gelir."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Gelecek Zamanı Genel Anlama",
+      "questions": [
+        {
+          "id": "u8_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "Gökyüzü kapkara bulutlarla kaplı. Yağmur yağacağı çok açık.",
+          "options": [
+            "It will rain.",
+            "It is going to rain.",
+            "It rains.",
+            "It rained."
+          ],
+          "correct_answer": "It is going to rain.",
+          "explanation": "Elinde somut ve fiziksel bir kanıt varsa (kara bulutlar) 'going to' kullanılır."
+        },
+        {
+          "id": "u8_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "What are you ____ to do tonight? (Bu gece ne yapacaksın?)",
+          "correct_answer": "going",
+          "explanation": "Plan sorulurken 'are you going to...' kalıbı kurulur."
+        },
+        {
+          "id": "u8_t3_q3",
+          "type": "situational_response",
+          "difficulty": "medium",
+          "scenario": "Telefonçalıyor ve odadaki tek kişi sensin. Açmaya karar veriyorsun.",
+          "question_text": "Bunu nasıl ifade edersin?",
+          "options": [
+            "I will answer it.",
+            "I am answering it yesterday.",
+            "I didn't answer.",
+            "You answer it."
+          ],
+          "correct_answer": "I will answer it.",
+          "explanation": "Anlık telefon açma reaksiyonları 'will' ile aktarılır."
+        },
+        {
+          "id": "u8_t3_q4",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Aşağıdakilerden hangisi bir gelecek planıdır?",
+          "options": [
+            "I am doing my homework now.",
+            "I am going to start a new job next week.",
+            "I worked hard.",
+            "I read books every day."
+          ],
+          "correct_answer": "I am going to start a new job next week.",
+          "explanation": "'next week' (haftaya) kelimesi bir plan bildirir."
+        },
+        {
+          "id": "u8_t3_q5",
+          "type": "fill_in_blank",
+          "difficulty": "easy",
+          "question_text": "I promise I ____ be late. (Söz veriyorum geç kalmayacağım.)",
+          "correct_answer": "won't",
+          "explanation": "Söz verirken (promise) her zaman 'will' veya olumsuzu 'won't' kullanılır."
+        }
+      ]
+    }
+  ]
+}

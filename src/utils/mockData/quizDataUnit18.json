@@ -1,0 +1,198 @@
+{
+  "unit_id": 18,
+  "unit_title": "Kişisel Gelişim",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Alışkanlık Analizi",
+      "questions": [
+        {
+          "id": "u18_t1_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "I remember ______ (lock) the door, but I can't find my keys now.",
+          "options": [
+            "locking",
+            "to lock",
+            "lock",
+            "locked"
+          ],
+          "correct_answer": "locking",
+          "explanation": "Geçmişte yapılmış bir eylemi hatırlarken 'remember + Gerund' kullanılır."
+        },
+        {
+          "id": "u18_t1_q2",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Don't forget ______ (buy) some milk on your way home.",
+          "options": [
+            "buying",
+            "to buy",
+            "buy",
+            "bought"
+          ],
+          "correct_answer": "to buy",
+          "explanation": "Gelecekte yapılması gereken bir görev hatırlatılırken 'forget + Infinitive' kullanılır."
+        },
+        {
+          "id": "u18_t1_q3",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "Studying for long hours makes me ______ (feel) exhausted.",
+          "correct_answer": "feel",
+          "explanation": "'Make' fiilinden sonra nesne gelirse fiil yalın halde (bare infinitive) kullanılır."
+        },
+        {
+          "id": "u18_t1_q4",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "I'm looking forward to ______ (meet) you in person.",
+          "options": [
+            "meet",
+            "meeting",
+            "to meet",
+            "met"
+          ],
+          "correct_answer": "meeting",
+          "explanation": "'Look forward to' kalıbındaki 'to' bir edattır (preposition), bu yüzden arkasından Gerund gelir."
+        },
+        {
+          "id": "u18_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "It is not worth ______ (worry) about small things.",
+          "correct_answer": "worrying",
+          "explanation": "'It's worth' yapısından sonra Gerund kullanılır."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Motivasyon ve Kararlar",
+      "questions": [
+        {
+          "id": "u18_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "She suggested ______ (take) a break before continuing the project.",
+          "options": [
+            "to take",
+            "taking",
+            "take",
+            "to taking"
+          ],
+          "correct_answer": "taking",
+          "explanation": "'Suggest' fiilinden sonra doğrudan Gerund gelir."
+        },
+        {
+          "id": "u18_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "I avoided ______ (answer) his personal questions during the interview.",
+          "correct_answer": "answering",
+          "explanation": "'Avoid' fiili Gerund ile kullanılır."
+        },
+        {
+          "id": "u18_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "The coach made the players ______ (run) ten laps around the field.",
+          "options": [
+            "to run",
+            "running",
+            "run",
+            "to running"
+          ],
+          "correct_answer": "run",
+          "explanation": "Zorunluluk bildiren 'make someone do something' yapısı."
+        },
+        {
+          "id": "u18_t2_q4",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "They managed ______ (finish) the task just in time.",
+          "correct_answer": "to finish",
+          "explanation": "'Manage' fiili Infinitive ile kullanılır."
+        },
+        {
+          "id": "u18_t2_q5",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Hangi fiil hem Gerund hem Infinitive alırken ANLAMI DEĞİŞMEZ?",
+          "options": [
+            "Remember",
+            "Stop",
+            "Begin",
+            "Forget"
+          ],
+          "correct_answer": "Begin",
+          "explanation": "Begin, start, continue gibi fiiller her iki yapıyla da benzer anlamda kullanılabilir."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Karma Zorluklar",
+      "questions": [
+        {
+          "id": "u18_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "question_text": "I regret ______ (tell) him the secret. Now everyone knows it.",
+          "options": [
+            "telling",
+            "to tell",
+            "tell",
+            "told"
+          ],
+          "correct_answer": "telling",
+          "explanation": "Yapılmış bir eylemden duyulan pişmanlık Gerund ile anlatılır."
+        },
+        {
+          "id": "u18_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "We regret ______ (inform) you that your application was unsuccessful.",
+          "correct_answer": "to inform",
+          "explanation": "Resmi bir duyuru veya üzücü haber verirken 'regret + Infinitive' kullanılır."
+        },
+        {
+          "id": "u18_t3_q3",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "He stopped ______ (smoke) two years ago to improve his health.",
+          "options": [
+            "to smoke",
+            "smoking",
+            "smoke",
+            "to smoking"
+          ],
+          "correct_answer": "smoking",
+          "explanation": "Bir alışkanlığı tamamen bırakmak Gerund ile anlatılır."
+        },
+        {
+          "id": "u18_t3_q4",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "On the way to work, he stopped ______ (buy) a newspaper.",
+          "correct_answer": "to buy",
+          "explanation": "Bir amaç için durmak 'stop + Infinitive' ile anlatılır."
+        },
+        {
+          "id": "u18_t3_q5",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "I can't imagine ______ (live) in such a cold city.",
+          "options": [
+            "living",
+            "to live",
+            "live",
+            "to living"
+          ],
+          "correct_answer": "living",
+          "explanation": "'Imagine' fiilinden sonra Gerund gelir."
+        }
+      ]
+    }
+  ]
+}

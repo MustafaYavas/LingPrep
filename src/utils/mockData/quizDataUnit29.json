@@ -1,0 +1,198 @@
+{
+  "unit_id": 29,
+  "unit_title": "Psikoloji ve Rüyalar",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Arzu ve Beklenti",
+      "questions": [
+        {
+          "id": "u29_t1_q1",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "I suggest that he ______ (be) more careful with his words in the future.",
+          "options": [
+            "is",
+            "was",
+            "be",
+            "to be"
+          ],
+          "correct_answer": "be",
+          "explanation": "Öneri (suggest) bildiren 'that-clause' içinde Subjunctive (fiilin yalın hali) kullanılır."
+        },
+        {
+          "id": "u29_t1_q2",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "It is essential that everyone ______ (arrive) on time for the therapy session.",
+          "options": [
+            "arrives",
+            "arrive",
+            "arriving",
+            "to arrive"
+          ],
+          "correct_answer": "arrive",
+          "explanation": "Zorunluluk (essential) yapısında Subjunctive."
+        },
+        {
+          "id": "u29_t1_q3",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "I wish I ______ (can / help) you with your dreams, but I am not an expert.",
+          "correct_answer": "could help",
+          "explanation": "Şu anki pişmanlık/istek (wish + V2)."
+        },
+        {
+          "id": "u29_t1_q4",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "The doctor recommended that she ______ (take) a week off to rest.",
+          "options": [
+            "takes",
+            "take",
+            "took",
+            "is taking"
+          ],
+          "correct_answer": "take",
+          "explanation": "Tavsiye (recommend) subjunctive."
+        },
+        {
+          "id": "u29_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "It is high time you ______ (start) taking your health seriously.",
+          "correct_answer": "started",
+          "explanation": "'It is high time' kalıbından sonra fiil V2 (geçmiş) halinde gelir."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Varsayımsal Analiz",
+      "questions": [
+        {
+          "id": "u29_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "She speaks as if she ______ (know) everything about psychology.",
+          "options": [
+            "knows",
+            "knew",
+            "know",
+            "has known"
+          ],
+          "correct_answer": "knew",
+          "explanation": "'As if / As though' gerçeğe aykırı varsayımda V2 ister."
+        },
+        {
+          "id": "u29_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "If only I ______ (not / say) those things yesterday!",
+          "correct_answer": "hadn't said",
+          "explanation": "Geçmiş pişmanlık (If only + Past Perfect)."
+        },
+        {
+          "id": "u29_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "question_text": "I'd rather you ______ (not / tell) anyone about our session.",
+          "options": [
+            "not tell",
+            "didn't tell",
+            "aren't telling",
+            "won't tell"
+          ],
+          "correct_answer": "didn't tell",
+          "explanation": "'I'd rather + Özne' yapısı şimdiki zaman için V2 ister."
+        },
+        {
+          "id": "u29_t2_q4",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "Suppose you ______ (be) invisible for a day, what would you do?",
+          "correct_answer": "were",
+          "explanation": "Varsayım (Suppose)."
+        },
+        {
+          "id": "u29_t2_q5",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Subjunctive Mood (be/take/arrivesiz yapı) neyi ifade eder?",
+          "options": [
+            "Geçmişi",
+            "Kesin olanı",
+            "Talep, öneri veya zorunluluğu",
+            "Sıklık zarflarını"
+          ],
+          "correct_answer": "Talep, öneri veya zorunluluğu",
+          "explanation": "Fiilin özle/zamanla değişmediği yapı."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Rüya ve Bilinçaltı",
+      "questions": [
+        {
+          "id": "u29_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "question_text": "It is imperative that the patient ______ (not / be) left alone.",
+          "options": [
+            "is not",
+            "not be",
+            "was not",
+            "not to be"
+          ],
+          "correct_answer": "not be",
+          "explanation": "Olumsuz Subjunctive: not + V1."
+        },
+        {
+          "id": "u29_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "If it ______ (not / be) for his help, I would still be struggling.",
+          "correct_answer": "were not",
+          "explanation": "2nd Conditional varsayım."
+        },
+        {
+          "id": "u29_t3_q3",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "I wish I ______ (live) in a world where dreams were reality.",
+          "options": [
+            "live",
+            "lived",
+            "am living",
+            "have lived"
+          ],
+          "correct_answer": "lived",
+          "explanation": "Şu anki gerçekliğin aksi."
+        },
+        {
+          "id": "u29_t3_q4",
+          "type": "fill_in_blank",
+          "difficulty": "expert",
+          "question_text": "God ______ (save) the King!",
+          "correct_answer": "save",
+          "explanation": "Dua/Dilek kalıbı (Subjunctive)."
+        },
+        {
+          "id": "u29_t3_q5",
+          "type": "multiple_choice",
+          "difficulty": "expert",
+          "question_text": "The board demanded that he ______ (resign) immediately.",
+          "options": [
+            "resigns",
+            "resigned",
+            "resign",
+            "must resign"
+          ],
+          "correct_answer": "resign",
+          "explanation": "Talep (demand) subjunctive."
+        }
+      ]
+    }
+  ]
+}

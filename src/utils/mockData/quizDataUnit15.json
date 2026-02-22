@@ -1,0 +1,198 @@
+{
+  "unit_id": 15,
+  "unit_title": "Sosyal Sorunlar & Çevre",
+  "tests": [
+    {
+      "id": "t1",
+      "title": "Test 1: Haber Dili (Present & Past Passive)",
+      "questions": [
+        {
+          "id": "u15_t1_q1",
+          "type": "contextual_multiple_choice",
+          "difficulty": "medium",
+          "context": "Wait! This door ______ (lock) every night at 10 PM by the security guard.",
+          "options": [
+            "is locked",
+            "locks",
+            "was locked",
+            "locking"
+          ],
+          "correct_answer": "is locked",
+          "explanation": "Rutin bir eylem ve kapı kendi kendini kilitleyemeyeceği için Present Passive (is + V3) kullanılır."
+        },
+        {
+          "id": "u15_t1_q2",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "Edilgen (Passive) yapının temel yardımcı fiili nedir?",
+          "options": [
+            "Do / Does",
+            "Have / Has",
+            "Am / Is / Are (Be)",
+            "Did"
+          ],
+          "correct_answer": "Am / Is / Are (Be)",
+          "explanation": "Passive yapı 'be + V3' (fiilin 3. hali) ile kurulur."
+        },
+        {
+          "id": "u15_t1_q3",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "The Pyramids ______ (build) thousands of years ago.",
+          "correct_answer": "were built",
+          "explanation": "Geçmişte yapılmış (ago) ve çoğul (Pyramids) olduğu için 'were built' kullanılır."
+        },
+        {
+          "id": "u15_t1_q4",
+          "type": "contextual_multiple_choice",
+          "difficulty": "hard",
+          "context": "Breaking News: A new species of bird ______ (discover) in the Amazon last month.",
+          "options": [
+            "is discovered",
+            "was discovered",
+            "discovered",
+            "has discovered"
+          ],
+          "correct_answer": "was discovered",
+          "explanation": "Belirli bir geçmiş zaman (last month) olduğu için Past Simple Passive kullanılır."
+        },
+        {
+          "id": "u15_t1_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "This book ______ (write) by Charles Dickens.",
+          "correct_answer": "was written",
+          "explanation": "Yazar tarafından yazılmış (geçmiş olay) olduğu için 'was written' uygundur."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Çevre ve Kirlilik",
+      "questions": [
+        {
+          "id": "u15_t2_q1",
+          "type": "contextual_multiple_choice",
+          "difficulty": "medium",
+          "context": "Millions of plastic bottles ______ (throw away) every day, which harms the ocean.",
+          "options": [
+            "is thrown away",
+            "are thrown away",
+            "throw away",
+            "are throwing away"
+          ],
+          "correct_answer": "are thrown away",
+          "explanation": "Çoğul özne ve her gün tekrarlanan edilgen durum."
+        },
+        {
+          "id": "u15_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "Paper ______ (recycle) to save trees.",
+          "correct_answer": "is recycled",
+          "explanation": "Kağıt geri dönüştürülür (genel bilgi)."
+        },
+        {
+          "id": "u15_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "'The window was broken.' cümlesinde eylemi yapan kişi belli midir?",
+          "options": [
+            "Evet",
+            "Hayır",
+            "Sadece 'by' varsa bellidir.",
+            "Geçmişte bellidir."
+          ],
+          "correct_answer": "Hayır",
+          "explanation": "Edilgen yapılarda odak eylemdedir, yapan kişi genellikle söylenmez."
+        },
+        {
+          "id": "u15_t2_q4",
+          "type": "contextual_multiple_choice",
+          "difficulty": "hard",
+          "context": "In many schools, students ______ (require) to wear a uniform.",
+          "options": [
+            "are required",
+            "is required",
+            "require",
+            "were required"
+          ],
+          "correct_answer": "are required",
+          "explanation": "Öğrencilerden istenir (zorunluluk)."
+        },
+        {
+          "id": "u15_t2_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "The bridge ______ (damage) by the storm last night.",
+          "correct_answer": "was damaged",
+          "explanation": "Fırtına tarafından (by) zarar verildi."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Nesne Odaklı Anlatım",
+      "questions": [
+        {
+          "id": "u15_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "Hangisi 'The chef cooked the fish' cümlesinin doğru edilgen halidir?",
+          "options": [
+            "The fish is cooked.",
+            "The fish was cooked by the chef.",
+            "The chef was cooked.",
+            "The fish cooked the chef."
+          ],
+          "correct_answer": "The fish was cooked by the chef.",
+          "explanation": "Nesne (fish) başa gelir, 'be + V3' yapı eklenir."
+        },
+        {
+          "id": "u15_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "English ______ (speak) all over the world.",
+          "correct_answer": "is spoken",
+          "explanation": "İngilizce konuşulur (genel gerçeklik)."
+        },
+        {
+          "id": "u15_t3_q3",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "'Make' fiilinin passive yapıda kullanılan 3. hali nedir?",
+          "options": [
+            "Maked",
+            "Make",
+            "Made",
+            "Making"
+          ],
+          "correct_answer": "Made",
+          "explanation": "Make düzensizdir (make/made/made)."
+        },
+        {
+          "id": "u15_t3_q4",
+          "type": "contextual_multiple_choice",
+          "difficulty": "medium",
+          "context": "Where ______ these cars ______ (manufacture)?",
+          "options": [
+            "are / manufactured",
+            "do / manufacture",
+            "is / manufactured",
+            "were / manufacture"
+          ],
+          "correct_answer": "are / manufactured",
+          "explanation": "Bu arabalar nerede üretiliyor? (Genel üretim yeri sorusu)."
+        },
+        {
+          "id": "u15_t3_q5",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "My bike ______ (steal) yesterday!",
+          "correct_answer": "was stolen",
+          "explanation": "Dün çalındı."
+        }
+      ]
+    }
+  ]
+}
