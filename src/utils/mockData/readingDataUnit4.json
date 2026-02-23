@@ -18,54 +18,24 @@
   ],
   "comprehension_questions": [
     {
-      "question": "Where did the author spend their childhood summers?",
+      "question": "How old is David?",
       "options": [
-        "In a big city",
-        "At a grandfather's farm",
-        "In a school camp",
-        "Near a beach"
+        "Ten years old",
+        "Twenty years old",
+        "Thirty years old",
+        "Fifteen years old"
       ],
-      "correct_answer": "At a grandfather's farm"
+      "correct_answer": "Twenty years old"
     },
     {
-      "question": "What was the name of the friendly dog?",
+      "question": "What is David's father's job?",
       "options": [
-        "Rex",
-        "Max",
-        "Buddy",
-        "Charlie"
+        "He is a nurse",
+        "He is a teacher",
+        "He is an engineer",
+        "He is a doctor"
       ],
-      "correct_answer": "Max"
-    },
-    {
-      "question": "What did the author do in the afternoon with friends?",
-      "options": [
-        "Fed the animals",
-        "Ate breakfast",
-        "Swam in the river",
-        "Listened to stories"
-      ],
-      "correct_answer": "Swam in the river"
-    },
-    {
-      "question": "Who found the author's lost toy?",
-      "options": [
-        "The grandmother",
-        "A friend",
-        "The grandfather",
-        "Max the dog"
-      ],
-      "correct_answer": "The grandfather"
-    },
-    {
-      "question": "What kind of stories did the grandfather tell?",
-      "options": [
-        "Fairy tales",
-        "Stories about his life",
-        "Funny jokes",
-        "Ghost stories"
-      ],
-      "correct_answer": "Stories about his life"
+      "correct_answer": "He is an engineer"
     }
   ]
 }

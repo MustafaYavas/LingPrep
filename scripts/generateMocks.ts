@@ -1,11 +1,12 @@
 import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
+import type { QuizUnit } from "./types";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const unitsData = [
+const unitsData: { id: number; title: string; tests: any[] }[] = [
   {
     id: 1,
     title: "Merhaba Dünya!",
@@ -849,7 +850,7 @@ unitsData.forEach((unit) => {
       unit_id: unit.id,
       unit_title: unit.title,
       tests: unit.tests,
-    },
+    } as QuizUnit,
     null,
     2,
   );

@@ -8,11 +8,7 @@ import {
   resetQuiz,
   QuestionCard,
 } from "@/features/quiz";
-import {
-  addCorrectAnswer,
-  addWrongAnswer,
-  completeTest,
-} from "@/features/progress";
+import { completeTest } from "@/features/progress";
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowLeft, CheckCircle2, XCircle } from "lucide-react";
 
@@ -27,9 +23,11 @@ export function QuizPage() {
     null,
   );
   const [correctCount, setCorrectCount] = React.useState(0);
+  const [wrongCount, setWrongCount] = React.useState(0);
 
   useEffect(() => {
     setCorrectCount(0);
+    setWrongCount(0);
   }, [testId]);
 
   useEffect(() => {
@@ -62,14 +60,13 @@ export function QuizPage() {
 
     if (isCorrect) {
       setCorrectCount((prev) => prev + 1);
-      dispatch(addCorrectAnswer());
     } else {
-      dispatch(addWrongAnswer());
+      setWrongCount((prev) => prev + 1);
     }
 
     setTimeout(() => {
+      dispatch(nextQuestion(testId));
       setFeedback(null);
-      dispatch(nextQuestion());
     }, 2000); // Wait 2 seconds before next question
   };
 
@@ -105,10 +102,15 @@ export function QuizPage() {
   useEffect(() => {
     if (isFinished && unitId && testId) {
       dispatch(
-        completeTest({ unitId: parseInt(unitId, 10), testId, correctCount }),
+        completeTest({
+          unitId: parseInt(unitId, 10),
+          testId,
+          correctCount,
+          wrongCount,
+        }),
       );
     }
-  }, [isFinished, unitId, testId, dispatch, correctCount]);
+  }, [isFinished, unitId, testId, dispatch, correctCount, wrongCount]);
 
   if (status === "loading") {
     return (
@@ -157,7 +159,7 @@ export function QuizPage() {
             </>
           )}
           <button
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/quizzes")}
             className="bg-primary hover:bg-primary-dark text-white font-semibold py-3 px-8 rounded-full transition-colors w-full"
           >
             Ana Sayfaya Dön
@@ -180,7 +182,7 @@ export function QuizPage() {
           Bu testi başarıyla bitirdiniz. Skorunuz: {correctCount}/5
         </p>
         <button
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/quizzes")}
           className="bg-primary hover:bg-primary-dark text-white font-semibold py-3 px-8 rounded-full transition-colors w-full"
         >
           Ana Sayfaya Dön
@@ -196,7 +198,7 @@ export function QuizPage() {
     <div className="max-w-4xl mx-auto h-[80vh] flex flex-col relative px-4">
       <div className="flex items-center justify-between mb-8 mt-4">
         <button
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/quizzes")}
           className="p-2 hover:bg-slate-200 rounded-full transition-colors"
         >
           <ArrowLeft className="w-6 h-6 text-slate-500" />

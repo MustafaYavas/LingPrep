@@ -1,0 +1,30 @@
+<svg width="220" height="220" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Speech Bubble Base -->
+  <path d="M40 40 
+           Q40 20 60 20 
+           H140 
+           Q160 20 160 40 
+           V110 
+           Q160 130 140 130 
+           H95 
+           L70 160 
+           V130 
+           H60 
+           Q40 130 40 110 Z" fill="#1E40AF"></path>
+
+  <!-- Red Corner Accent -->
+  <path d="M100 20 
+           H140 
+           Q160 20 160 40 
+           V85 
+           H100 Z" fill="#DC2626"></path>
+
+  <!-- Question Mark -->
+  <path d="M100 60
+           C100 50 115 50 115 65
+           C115 75 100 75 100 90" stroke="white" stroke-width="10" stroke-linecap="round" fill="none"></path>
+
+  <circle cx="100" cy="110" r="6" fill="white"></circle>
+
+</svg>

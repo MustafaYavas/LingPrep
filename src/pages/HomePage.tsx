@@ -22,8 +22,8 @@ export function HomePage() {
       {/* Feature Cards Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
         <FeatureCard
-          title="Kelime Alıştırmaları"
-          description="Kelime öğrenme ve tekrar et"
+          title="Grammar Alıştırmaları"
+          description="Kelime öğrenme ve tekrar"
           icon={PencilLine}
           onClick={() => navigate("/quizzes")}
         />

@@ -3,12 +3,12 @@ import { getFirestore, doc, setDoc } from "firebase/firestore";
 import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
-
 import * as dotenv from "dotenv";
+import type { QuizUnit, FirebaseConfig } from "./types";
 
 dotenv.config();
 
-const firebaseConfig = {
+const firebaseConfig: FirebaseConfig = {
   apiKey: process.env.VITE_FIREBASE_API_KEY,
   authDomain: process.env.VITE_FIREBASE_AUTH_DOMAIN,
   projectId: process.env.VITE_FIREBASE_PROJECT_ID,
@@ -35,7 +35,7 @@ async function uploadData() {
 
       if (fs.existsSync(dataPath)) {
         const fileContent = fs.readFileSync(dataPath, "utf-8");
-        const quizData = JSON.parse(fileContent);
+        const quizData: QuizUnit = JSON.parse(fileContent);
 
         const docId = quizData.unit_id.toString();
         console.log(`Uploading unit ${docId} to Firestore...`);

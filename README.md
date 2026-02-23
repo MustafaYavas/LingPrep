@@ -59,11 +59,13 @@ VITE_FIREBASE_APP_ID=your_app_id
 LingPrep uses mock data generated via AI scripts. To populate your Firestore:
 
 ```bash
-# Generate JSON mock files
-node scripts/generateReadingMocks.js
+# Generate JSON mock files (e.g., General or Reading)
+npx tsx scripts/generateReadingMocks.ts
+npx tsx scripts/generateMocks.ts
 
 # Upload data to Firestore
-node scripts/uploadReadingData.js
+npx tsx scripts/uploadReadingData.ts
+npx tsx scripts/uploadData.ts
 ```
 
 ### 5. Start Development Server

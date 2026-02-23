@@ -7,8 +7,8 @@ import { HomePage } from "@/pages/HomePage";
 import { QuizPage } from "@/pages/QuizPage";
 import { ReadingPage } from "@/pages/ReadingPage";
 import { ReadingUnitPage } from "@/pages/ReadingUnitPage";
-import { BookA } from "lucide-react";
 import { QuizzesPage } from "@/pages/QuizzesPage";
+import logo from "../../public/logo.svg";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
                   className="flex items-center space-x-3 text-primary hover:text-primary-dark transition-colors"
                 >
                   <div className="bg-primary-dark/10 p-2 rounded-xl">
-                    <BookA className="w-8 h-8" />
+                    <img src={logo} alt="Logo" className="w-8 h-8" />
                   </div>
                   <h1 className="text-3xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue-800">
                     LingPrep

@@ -29,12 +29,22 @@ const quizSlice = createSlice({
       state.currentQuestionIndex = 0;
       state.isFinished = false;
     },
-    nextQuestion: (state) => {
-      if (!state.currentUnit || !state.currentTestId) return;
+    nextQuestion: (state, action: PayloadAction<string | undefined>) => {
+      // If testId is provided in payload, use it (and update state)
+      if (action.payload) {
+        state.currentTestId = action.payload;
+      }
+
+      if (!state.currentUnit || !state.currentTestId) {
+        return;
+      }
+
       const test = state.currentUnit.tests.find(
         (t) => t.id === state.currentTestId,
       );
-      if (!test) return;
+      if (!test) {
+        return;
+      }
 
       if (state.currentQuestionIndex < test.questions.length - 1) {
         state.currentQuestionIndex += 1;
