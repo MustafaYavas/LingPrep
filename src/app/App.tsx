@@ -8,6 +8,7 @@ import { QuizPage } from "@/pages/QuizPage";
 import { ReadingPage } from "@/pages/ReadingPage";
 import { ReadingUnitPage } from "@/pages/ReadingUnitPage";
 import { QuizzesPage } from "@/pages/QuizzesPage";
+import { LevelCelebration } from "@/features/progress";
 import logo from "../../public/logo.svg";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <BrowserRouter>
+          <LevelCelebration />
           <div className="min-h-screen bg-slate-50 flex flex-col">
             <header className="bg-white shadow relative z-10">
               <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8 flex items-center justify-between">

@@ -5,4 +5,5 @@ export interface UserProgressState {
   currentScore: number;
   totalCorrectAnswers: number;
   totalWrongAnswers: number;
+  lastCompletedLevel?: string | null;
 }

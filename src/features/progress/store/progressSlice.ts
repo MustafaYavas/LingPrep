@@ -8,6 +8,7 @@ const initialState: UserProgressState = {
   currentScore: 0,
   totalCorrectAnswers: 0,
   totalWrongAnswers: 0,
+  lastCompletedLevel: null,
 };
 
 const progressSlice = createSlice({
@@ -34,12 +35,6 @@ const progressSlice = createSlice({
       // Update global stats based on improvement
       state.totalCorrectAnswers += improvement;
       state.currentScore += improvement * 10;
-
-      // Always add wrong answers to cumulative stats?
-      // Actually, if it's a "best attempt" system, maybe we should only add wrong answers once?
-      // But usually 'total' metrics are cumulative across all attempts.
-      // For now, let's keep wrong answers cumulative per the previous logic,
-      // but only incrementing the score for new achievements.
       state.totalWrongAnswers += wrongCount;
 
       if (!state.completedTests[unitId]) {
@@ -64,6 +59,22 @@ const progressSlice = createSlice({
           // 75% of 15 is 11.25, so >= 12 is passing
           if (!state.completedUnits.includes(unitId)) {
             state.completedUnits.push(unitId);
+
+            // Check if this was the last unit of a level
+            const levelBoundaries: Record<string, number> = {
+              A1: 5,
+              A2: 11,
+              B1: 17,
+              B2: 23,
+              C1: 29,
+            };
+
+            for (const [level, lastUnitId] of Object.entries(levelBoundaries)) {
+              if (unitId === lastUnitId) {
+                state.lastCompletedLevel = level;
+                break;
+              }
+            }
           }
         } else {
           // Failed! Reset progress for this unit if not already completed in the past
@@ -74,12 +85,16 @@ const progressSlice = createSlice({
         }
       }
     },
+    clearLevelCelebration: (state) => {
+      state.lastCompletedLevel = null;
+    },
     resetProgress: () => {
       return initialState;
     },
   },
 });
 
-export const { completeTest, resetProgress } = progressSlice.actions;
+export const { completeTest, clearLevelCelebration, resetProgress } =
+  progressSlice.actions;
 
 export default progressSlice.reducer;
