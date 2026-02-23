@@ -62,11 +62,14 @@ export function ReadingUnitPage() {
     } else {
       setShowResult(true);
       // Save progress with a special ID for reading units (e.g., unitId + 100)
+      const totalQuestions = unit.comprehension_questions.length;
+      const wrongCount = totalQuestions - score;
       dispatch(
         completeTest({
           unitId: parseInt(unitId!) + 100,
           testId: "reading",
           correctCount: score,
+          wrongCount,
         }),
       );
     }
