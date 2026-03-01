@@ -3,7 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "@/store/hooks";
 import { fetchListeningTasks } from "@/features/listening";
 import { Headphones, ArrowLeft } from "lucide-react";
-import { ListeningUnitCard } from "@/components/ui/ListeningUnitCard";
+import { getLevelStyles } from "@/utils/levelUtils";
+import { ListeningUnitCard } from "@/features/listening/components/ListeningUnitCard";
 
 export function ListeningPage() {
   const navigate = useNavigate();
@@ -42,7 +43,7 @@ export function ListeningPage() {
       <div className="flex items-center justify-between mb-8">
         <button
           onClick={() => navigate("/")}
-          className="flex items-center text-slate-500 hover:text-slate-800 transition-colors"
+          className="flex items-center text-slate-500 hover:text-slate-800 transition-colors cursor-pointer"
         >
           <ArrowLeft className="w-5 h-5 mr-2" />
           Ana Sayfa
@@ -63,7 +64,9 @@ export function ListeningPage() {
       {/* A1 Section */}
       <div className="mb-12">
         <h3 className="text-2xl font-bold text-slate-800 mb-6 flex items-center">
-          <span className="w-2 h-8 bg-blue-500 rounded-full mr-3"></span>
+          <span
+            className={`w-2 h-8 ${getLevelStyles("A1").indicator} rounded-full mr-3`}
+          ></span>
           A1 Başlangıç Seviyesi
         </h3>
         <div className="grid gap-6">
@@ -83,7 +86,9 @@ export function ListeningPage() {
       {/* A2 Section */}
       <div className="mb-12">
         <h3 className="text-2xl font-bold text-slate-800 mb-6 flex items-center">
-          <span className="w-2 h-8 bg-orange-500 rounded-full mr-3"></span>
+          <span
+            className={`w-2 h-8 ${getLevelStyles("A2").indicator} rounded-full mr-3`}
+          ></span>
           A2 Orta Seviye
         </h3>
         <div className="grid gap-6">
@@ -103,7 +108,9 @@ export function ListeningPage() {
       {/* B1 Section */}
       <div className="mb-12">
         <h3 className="text-2xl font-bold text-slate-800 mb-6 flex items-center">
-          <span className="w-2 h-8 bg-purple-600 rounded-full mr-3"></span>
+          <span
+            className={`w-2 h-8 ${getLevelStyles("B1").indicator} rounded-full mr-3`}
+          ></span>
           B1 Orta-İleri Seviye
         </h3>
         <div className="grid gap-6">
@@ -123,7 +130,9 @@ export function ListeningPage() {
       {/* B2 Section */}
       <div className="mb-12">
         <h3 className="text-2xl font-bold text-slate-800 mb-6 flex items-center">
-          <span className="w-2 h-8 bg-rose-600 rounded-full mr-3"></span>
+          <span
+            className={`w-2 h-8 ${getLevelStyles("B2").indicator} rounded-full mr-3`}
+          ></span>
           B2 İleri Seviye
         </h3>
         <div className="grid gap-6">
@@ -143,7 +152,9 @@ export function ListeningPage() {
       {/* C1 Section */}
       <div className="mb-12">
         <h3 className="text-2xl font-bold text-slate-800 mb-6 flex items-center">
-          <span className="w-2 h-8 bg-indigo-700 rounded-full mr-3"></span>
+          <span
+            className={`w-2 h-8 ${getLevelStyles("C1").indicator} rounded-full mr-3`}
+          ></span>
           C1 İleri Seviye (Advanced)
         </h3>
         <div className="grid gap-6">

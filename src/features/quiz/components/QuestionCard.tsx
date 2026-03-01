@@ -27,7 +27,7 @@ export function QuestionCard({ question, onAnswer }: QuestionCardProps) {
                 borderColor: "#3b82f6",
               }}
               whileTap={{ scale: 0.98 }}
-              className="w-full text-left p-4 rounded-xl border-2 border-slate-200 bg-white transition-colors duration-200 font-medium text-slate-700"
+              className="w-full text-left p-4 rounded-xl border-2 border-slate-200 bg-white transition-colors duration-200 font-medium text-slate-700 cursor-pointer"
               onClick={() => onAnswer(opt)}
             >
               {opt}
@@ -48,7 +48,7 @@ export function QuestionCard({ question, onAnswer }: QuestionCardProps) {
               color: "#166534",
             }}
             whileTap={{ scale: 0.95 }}
-            className="p-6 rounded-xl border-2 border-slate-200 bg-white font-bold text-lg text-slate-700"
+            className="p-6 rounded-xl border-2 border-slate-200 bg-white font-bold text-lg text-slate-700 cursor-pointer"
             onClick={() => onAnswer("true")}
           >
             Doğru
@@ -61,7 +61,7 @@ export function QuestionCard({ question, onAnswer }: QuestionCardProps) {
               color: "#991b1b",
             }}
             whileTap={{ scale: 0.95 }}
-            className="p-6 rounded-xl border-2 border-slate-200 bg-white font-bold text-lg text-slate-700"
+            className="p-6 rounded-xl border-2 border-slate-200 bg-white font-bold text-lg text-slate-700 cursor-pointer"
             onClick={() => onAnswer("false")}
           >
             Yanlış
@@ -94,7 +94,7 @@ export function QuestionCard({ question, onAnswer }: QuestionCardProps) {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             type="submit"
-            className="mt-6 bg-primary text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-primary-dark transition-colors"
+            className="mt-6 bg-primary text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-primary-dark transition-colors cursor-pointer"
           >
             Cevapla
           </motion.button>

@@ -70,7 +70,7 @@ export function HomePage() {
           </p>
           <button
             onClick={() => navigate("/quizzes")}
-            className="bg-white text-indigo-600 px-8 py-4 rounded-2xl font-bold flex items-center gap-2 hover:bg-indigo-50 transition-all hover:scale-105 active:scale-95 shadow-lg"
+            className="bg-white text-indigo-600 px-8 py-4 rounded-2xl font-bold flex items-center gap-2 hover:bg-indigo-50 transition-all hover:scale-105 active:scale-95 shadow-lg cursor-pointer"
           >
             Hemen Başla <ArrowRight className="w-5 h-5" />
           </button>

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Clock, FileText } from "lucide-react";
+import { getLevelStyles } from "@/utils/levelUtils";
 
 export function ReadingUnitCard({
   unit,
@@ -12,32 +13,38 @@ export function ReadingUnitCard({
 }) {
   const isCompleted = completedUnits.includes(unit.unit_id + 100);
 
+  // Deduce level based on existing ReadingPage logic
+  const level =
+    unit.unit_id >= 13
+      ? "C1"
+      : unit.unit_id >= 10
+        ? "B2"
+        : unit.unit_id >= 7
+          ? "B1"
+          : unit.unit_id >= 4
+            ? "A2"
+            : "A1";
+
+  const styles = getLevelStyles(level);
+
   return (
     <motion.div
       whileHover={{ scale: 1.01 }}
       onClick={() => navigate(`/reading/${unit.unit_id}`)}
-      className="bg-white p-6 rounded-2xl border-2 border-slate-100 shadow-sm hover:border-indigo-200 transition-all cursor-pointer flex flex-col md:flex-row md:items-center justify-between group"
+      className={`bg-white p-6 rounded-2xl border-2 border-slate-100 shadow-sm ${styles.hoverBorder} transition-all cursor-pointer flex flex-col md:flex-row md:items-center justify-between group`}
     >
       <div className="flex items-center space-x-6">
         <div
           className={`w-16 h-16 rounded-2xl flex items-center justify-center text-2xl font-bold ${
-            isCompleted
-              ? "bg-green-100 text-green-600"
-              : unit.unit_id >= 13
-                ? "bg-slate-100 text-slate-600"
-                : unit.unit_id >= 10
-                  ? "bg-red-50 text-red-600"
-                  : unit.unit_id >= 7
-                    ? "bg-purple-50 text-purple-600"
-                    : unit.unit_id >= 4
-                      ? "bg-orange-50 text-orange-600"
-                      : "bg-indigo-50 text-indigo-600"
+            isCompleted ? "bg-green-100 text-green-600" : styles.badge
           }`}
         >
           {unit.unit_id}
         </div>
         <div>
-          <h3 className="text-xl font-bold text-slate-800 group-hover:text-indigo-600 transition-colors">
+          <h3
+            className={`text-xl font-bold text-slate-800 group-hover:${styles.text} transition-colors`}
+          >
             {unit.title}
           </h3>
           <div className="flex items-center space-x-4 mt-1 text-sm text-slate-400">
@@ -58,17 +65,7 @@ export function ReadingUnitCard({
           </span>
         )}
         <button
-          className={`px-6 py-2 text-white rounded-xl font-bold transition-colors shadow-md ${
-            unit.unit_id >= 13
-              ? "bg-slate-700 hover:bg-slate-800 shadow-slate-100"
-              : unit.unit_id >= 10
-                ? "bg-red-600 hover:bg-red-700 shadow-red-100"
-                : unit.unit_id >= 7
-                  ? "bg-purple-600 hover:bg-purple-700 shadow-purple-100"
-                  : unit.unit_id >= 4
-                    ? "bg-orange-500 hover:bg-orange-600 shadow-orange-100"
-                    : "bg-indigo-600 hover:bg-indigo-700 shadow-indigo-100"
-          }`}
+          className={`px-6 py-2 text-white rounded-xl font-bold transition-colors shadow-md ${styles.button} cursor-pointer`}
         >
           Başla
         </button>

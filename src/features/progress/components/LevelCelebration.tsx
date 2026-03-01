@@ -110,7 +110,7 @@ export const LevelCelebration: React.FC = () => {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => dispatch(clearLevelCelebration())}
-                className="w-full bg-gradient-to-r from-primary to-primary-dark text-white font-bold py-5 rounded-2xl shadow-lg shadow-primary/30 hover:shadow-xl hover:shadow-primary/40 transition-all text-xl"
+                className="w-full bg-gradient-to-r from-primary to-primary-dark text-white font-bold py-5 rounded-2xl shadow-lg shadow-primary/30 hover:shadow-xl hover:shadow-primary/40 transition-all text-xl cursor-pointer"
               >
                 Macera Devam Ediyor
               </motion.button>

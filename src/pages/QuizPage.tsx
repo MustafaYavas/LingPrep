@@ -199,9 +199,10 @@ export function QuizPage() {
       <div className="flex items-center justify-between mb-8 mt-4">
         <button
           onClick={() => navigate("/quizzes")}
-          className="p-2 hover:bg-slate-200 rounded-full transition-colors"
+          className="flex items-center text-slate-500 hover:text-slate-800 transition-colors cursor-pointer"
         >
-          <ArrowLeft className="w-6 h-6 text-slate-500" />
+          <ArrowLeft className="w-6 h-6 text-slate-500 mr-2" />
+          Testler
         </button>
         <div className="text-slate-500 font-medium">
           Soru {currentQuestionIndex + 1} / {currentTest?.questions.length || 0}

@@ -16,6 +16,7 @@ import {
   Send,
 } from "lucide-react";
 import type { WritingTask } from "@/features/writing/types";
+import { getLevelStyles } from "@/utils/levelUtils";
 
 export function WritingTaskPage() {
   const { unitId } = useParams<{ unitId: string }>();
@@ -80,7 +81,7 @@ export function WritingTaskPage() {
       <div className="flex items-center justify-between mb-8">
         <button
           onClick={() => navigate("/writing")}
-          className="flex items-center text-slate-500 hover:text-slate-800 transition-colors"
+          className="flex items-center text-slate-500 hover:text-slate-800 transition-colors cursor-pointer"
         >
           <ArrowLeft className="w-5 h-5 mr-2" />
           Yazma Listesi
@@ -102,10 +103,16 @@ export function WritingTaskPage() {
           >
             {/* Task Card */}
             <div className="bg-white rounded-3xl p-8 shadow-xl shadow-slate-200/50 border border-slate-100">
-              <div className="flex items-center space-x-3 mb-6 p-3 bg-emerald-50 rounded-2xl w-fit">
-                <Lightbulb className="w-5 h-5 text-emerald-600" />
-                <span className="text-sm font-bold text-emerald-700">
-                  {task.level} Writing Görevi
+              <div
+                className={`flex items-center space-x-3 mb-6 p-3 ${getLevelStyles(task.level).bg} rounded-2xl w-fit`}
+              >
+                <Lightbulb
+                  className={`w-5 h-5 ${getLevelStyles(task.level).text}`}
+                />
+                <span
+                  className={`text-sm font-bold ${getLevelStyles(task.level).text}`}
+                >
+                  {task.level} Writing
                 </span>
               </div>
 
@@ -194,7 +201,7 @@ export function WritingTaskPage() {
                 <button
                   onClick={handleSubmit}
                   disabled={userText.trim().length < 10}
-                  className="bg-emerald-600 hover:bg-emerald-700 disabled:opacity-50 disabled:bg-slate-300 text-white p-4 rounded-2xl shadow-lg transition-all group"
+                  className="bg-emerald-600 hover:bg-emerald-700 disabled:opacity-50 disabled:bg-slate-300 text-white p-4 rounded-2xl shadow-lg transition-all group cursor-pointer"
                 >
                   <Send className="w-6 h-6 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
                 </button>
@@ -245,7 +252,7 @@ export function WritingTaskPage() {
 
             <button
               onClick={() => navigate("/writing")}
-              className="w-full py-5 bg-slate-800 text-white rounded-2xl font-black text-xl hover:bg-slate-900 transition-all shadow-lg flex items-center justify-center group"
+              className="w-full py-5 bg-slate-800 text-white rounded-2xl font-black text-xl hover:bg-slate-900 transition-all shadow-lg flex items-center justify-center group cursor-pointer"
             >
               Yazma Listesine Dön{" "}
               <ChevronRight className="ml-2 group-hover:translate-x-1 transition-transform" />

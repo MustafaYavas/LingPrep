@@ -3,7 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "@/store/hooks";
 import { fetchReadingUnits } from "@/features/reading";
 import { BookOpen, ArrowLeft } from "lucide-react";
-import { ReadingUnitCard } from "@/components/ui/ReadingUnitCard";
+import { getLevelStyles } from "@/utils/levelUtils";
+import { ReadingUnitCard } from "@/features/reading/components/ReadingUnitCard";
 
 export function ReadingPage() {
   const navigate = useNavigate();
@@ -42,7 +43,7 @@ export function ReadingPage() {
       <div className="flex items-center justify-between mb-8">
         <button
           onClick={() => navigate("/")}
-          className="flex items-center text-slate-500 hover:text-slate-800 transition-colors"
+          className="flex items-center text-slate-500 hover:text-slate-800 transition-colors cursor-pointer"
         >
           <ArrowLeft className="w-5 h-5 mr-2" />
           Ana Sayfa
@@ -63,7 +64,9 @@ export function ReadingPage() {
       {/* A1 Section */}
       <div className="mb-12">
         <h3 className="text-2xl font-bold text-slate-800 mb-6 flex items-center">
-          <span className="w-2 h-8 bg-indigo-500 rounded-full mr-3"></span>
+          <span
+            className={`w-2 h-8 ${getLevelStyles("A1").indicator} rounded-full mr-3`}
+          ></span>
           A1 Başlangıç Seviyesi
         </h3>
         <div className="grid gap-6">
@@ -83,7 +86,9 @@ export function ReadingPage() {
       {/* A2 Section */}
       <div className="mb-12">
         <h3 className="text-2xl font-bold text-slate-800 mb-6 flex items-center">
-          <span className="w-2 h-8 bg-orange-500 rounded-full mr-3"></span>
+          <span
+            className={`w-2 h-8 ${getLevelStyles("A2").indicator} rounded-full mr-3`}
+          ></span>
           A2 Orta Seviye
         </h3>
         <div className="grid gap-6">
@@ -102,7 +107,9 @@ export function ReadingPage() {
       {/* B1 Section */}
       <div className="mb-12">
         <h3 className="text-2xl font-bold text-slate-800 mb-6 flex items-center">
-          <span className="w-2 h-8 bg-purple-500 rounded-full mr-3"></span>
+          <span
+            className={`w-2 h-8 ${getLevelStyles("B1").indicator} rounded-full mr-3`}
+          ></span>
           B1 Orta Üstü Seviye
         </h3>
         <div className="grid gap-6">
@@ -121,7 +128,9 @@ export function ReadingPage() {
       {/* B2 Section */}
       <div className="mb-12">
         <h3 className="text-2xl font-bold text-slate-800 mb-6 flex items-center">
-          <span className="w-2 h-8 bg-red-500 rounded-full mr-3"></span>
+          <span
+            className={`w-2 h-8 ${getLevelStyles("B2").indicator} rounded-full mr-3`}
+          ></span>
           B2 İleri Seviye Hazırlık
         </h3>
         <div className="grid gap-6">
@@ -140,7 +149,9 @@ export function ReadingPage() {
       {/* C1 Section */}
       <div className="mb-12">
         <h3 className="text-2xl font-bold text-slate-800 mb-6 flex items-center">
-          <span className="w-2 h-8 bg-slate-600 rounded-full mr-3"></span>
+          <span
+            className={`w-2 h-8 ${getLevelStyles("C1").indicator} rounded-full mr-3`}
+          ></span>
           C1 Akademik ve İleri Seviye
         </h3>
         <div className="grid gap-6">

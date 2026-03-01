@@ -101,7 +101,7 @@ export function ReadingUnitPage() {
       <div className="flex items-center justify-between mb-8">
         <button
           onClick={() => navigate("/reading")}
-          className="flex items-center text-slate-500 hover:text-slate-800 transition-colors"
+          className="flex items-center text-slate-500 hover:text-slate-800 transition-colors cursor-pointer"
         >
           <ArrowLeft className="w-5 h-5 mr-2" />
           Okuma Listesi
@@ -131,7 +131,7 @@ export function ReadingUnitPage() {
                 <span
                   className={`text-sm font-bold ${getLevelTextColor(unit.unit_id)}`}
                 >
-                  {getLevel(unit.unit_id)} Reading Modu
+                  {getLevel(unit.unit_id)} Reading
                 </span>
               </div>
 
@@ -226,7 +226,7 @@ export function ReadingUnitPage() {
                         key={option}
                         disabled={isAnswered}
                         onClick={() => handleOptionSelect(option)}
-                        className={`p-5 rounded-2xl border-2 text-left font-bold text-lg transition-all flex items-center justify-between ${bgClass}`}
+                        className={`p-5 rounded-2xl border-2 text-left font-bold text-lg transition-all flex items-center justify-between cursor-pointer ${bgClass}`}
                       >
                         {option}
                         {isAnswered && isCorrect && (
@@ -245,7 +245,7 @@ export function ReadingUnitPage() {
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     onClick={handleNext}
-                    className="w-full mt-8 py-5 bg-slate-800 text-white rounded-2xl font-black text-xl hover:bg-slate-900 transition-all flex items-center justify-center"
+                    className="w-full mt-8 py-5 bg-slate-800 text-white rounded-2xl font-black text-xl hover:bg-slate-900 transition-all flex items-center justify-center cursor-pointer"
                   >
                     {currentQuestionIndex <
                     unit.comprehension_questions.length - 1
@@ -257,7 +257,7 @@ export function ReadingUnitPage() {
 
                 <button
                   onClick={() => setViewMode("reading")}
-                  className="w-full mt-4 text-slate-400 font-bold hover:text-indigo-500 transition-colors"
+                  className="w-full mt-4 text-slate-400 font-bold hover:text-indigo-500 transition-colors cursor-pointer"
                 >
                   Metne Tekrar Bak
                 </button>
@@ -296,7 +296,7 @@ export function ReadingUnitPage() {
 
             <button
               onClick={() => navigate("/reading")}
-              className="w-full py-5 bg-indigo-600 text-white rounded-2xl font-black text-xl hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-200"
+              className="w-full py-5 bg-indigo-600 text-white rounded-2xl font-black text-xl hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-200 cursor-pointer"
             >
               Okuma Listesine Dön
             </button>

@@ -71,7 +71,7 @@ export function AudioPlayer({ text }: AudioPlayerProps) {
       <div className="flex items-center gap-4 mt-6">
         <button
           onClick={isPlaying ? handlePause : handlePlay}
-          className="flex-1 py-3 px-4 bg-primary text-white font-medium rounded-xl hover:bg-primary-dark transition-colors flex items-center justify-center gap-2"
+          className="flex-1 py-3 px-4 bg-primary text-white font-medium rounded-xl hover:bg-primary-dark transition-colors flex items-center justify-center gap-2 cursor-pointer"
         >
           {isPlaying ? (
             <>
@@ -85,7 +85,7 @@ export function AudioPlayer({ text }: AudioPlayerProps) {
         </button>
         <button
           onClick={handleStop}
-          className="p-3 text-slate-600 bg-slate-100 hover:bg-slate-200 rounded-xl transition-colors"
+          className="p-3 text-slate-600 bg-slate-100 hover:bg-slate-200 rounded-xl transition-colors cursor-pointer"
           title="Stop"
         >
           <Square className="w-5 h-5" />
