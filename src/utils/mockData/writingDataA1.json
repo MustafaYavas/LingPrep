@@ -1,0 +1,98 @@
+[
+  {
+    "unit_id": 1,
+    "task_title": "Introduce Yourself",
+    "instruction": "Write a short paragraph (40-60 words) to introduce yourself. Answer these questions: What is your name? How old are you? Where are you from? What is your job/status?",
+    "target_structures": [
+      "To be (am/is/are)",
+      "Possessive adjectives (My, Your)",
+      "Numbers"
+    ],
+    "model_answer": "My name is John. I am twenty-five years old. I am from London, England. I am a student at the university. I live in a small apartment. My favorite color is blue. I am very happy to meet you.",
+    "grading_criteria": [
+      "Use of 'to be' verbs",
+      "Correct age and origin phrases",
+      "Capitalization of names and countries"
+    ]
+  },
+  {
+    "unit_id": 2,
+    "task_title": "My Room",
+    "instruction": "Write a short paragraph (40-60 words) about your room. Answer these questions: What color is your room? What furniture is there? Where is your bed?",
+    "target_structures": [
+      "There is / There are",
+      "Prepositions of place (on, in, under, next to)",
+      "Colors and furniture vocabulary"
+    ],
+    "model_answer": "My room is light blue and very clean. There is a big bed next to the window. There is a wooden desk and a comfortable chair. On the desk, there is a computer. There are two lamps on the table. I love my room.",
+    "grading_criteria": [
+      "Correct use of 'There is/are'",
+      "Use of prepositions of place",
+      "Furniture vocabulary"
+    ]
+  },
+  {
+    "unit_id": 3,
+    "task_title": "My Family",
+    "instruction": "Write a short paragraph (40-60 words) about your family. Answer these questions: How many people are in your family? What are their names and jobs? Do you have any pets?",
+    "target_structures": [
+      "Possessive 's",
+      "Jobs and family vocabulary",
+      "Have got / Has got"
+    ],
+    "model_answer": "There are four people in my family. My father's name is Mark. He is an engineer. My mother's name is Sarah. She is a teacher. I have one sister. Her name is Lily. We have a small dog named Max. I love my family.",
+    "grading_criteria": [
+      "Use of possessive 's",
+      "Family and job vocabulary",
+      "Sentence structure"
+    ]
+  },
+  {
+    "unit_id": 4,
+    "task_title": "My Daily Routine",
+    "instruction": "Write a short paragraph (40-60 words) about your day. Answer these questions: What time do you wake up? What do you eat for breakfast? How do you go to work/school?",
+    "target_structures": [
+      "Simple Present Tense",
+      "Time expressions (at ... o'clock)",
+      "Routine verbs"
+    ],
+    "model_answer": "I wake up at 7 o'clock every morning. I wash my face and brush my teeth. I have breakfast at 8 o'clock. I eat eggs and bread. I drink coffee. Then, I go to work by bus. I love my mornings.",
+    "grading_criteria": [
+      "Use of Simple Present Tense",
+      "Correct use of time (at ... o'clock)",
+      "Vocabulary related to daily life"
+    ]
+  },
+  {
+    "unit_id": 5,
+    "task_title": "My Favorite Food",
+    "instruction": "Write a short paragraph (40-60 words) about your favorite food. Answer these questions: What is your favorite food? What is in it? Why do you like it?",
+    "target_structures": [
+      "I like / I don't like",
+      "Food vocabulary",
+      "Adjectives (delicious, healthy)"
+    ],
+    "model_answer": "My favorite food is pasta with tomato sauce. It has tomatoes, cheese, and garlic. It is very delicious and easy to cook. I also like pizza, but I don't like fast food because it is not healthy. I eat pasta every Sunday.",
+    "grading_criteria": [
+      "Use of like/don't like",
+      "Food vocabulary",
+      "Adjectives for taste"
+    ]
+  },
+  {
+    "unit_id": 6,
+    "task_title": "My Weekend Plan",
+    "instruction": "Write a short paragraph (40-60 words) about your next weekend. Answer these questions: What do you do on Saturday? Who do you meet? Where do you go on Sunday?",
+    "target_structures": [
+      "Days of the week",
+      "Activity verbs",
+      "Prepositions of time (on)"
+    ],
+    "model_answer": "On Saturday morning, I go to the gym. Then, I meet my friends for lunch. On Sunday, I go to the park with my dog. We walk for one hour. In the evening, I watch a movie at home. It is a relaxing weekend.",
+    "grading_criteria": [
+      "Correct use of days",
+      "Activity verbs",
+      "Daily time expressions"
+    ]
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "unit_id": 25,
+    "task_title": "Existential Inquiry and Past Regrets",
+    "instruction": "Write a philosophical reflection (350-400 words) on a historical figure's life choices. Use internal Nuanced Modals (should have, could have, might have) to explore alternative realities and express philosophical regret.",
+    "target_structures": [
+      "Nuanced Modals of Past Likelihood",
+      "Subjunctive Mood",
+      "Philosophical Lexicon"
+    ],
+    "model_answer": "When evaluating the life of Vincent van Gogh, one often ponders the profound sorrow that permeated his existence. He might have experienced a more fulfilling life had his genius been recognized by his contemporaries. Perhaps society should have provided a network of psychological support for its most vulnerable artists. Instead, his tragic trajectory culminated in an agonizing end, a testament to societal neglect. One cannot help but consider the alternative realities that his life could have yielded. If he had possessed a steadfast benefactor, he could have dedicated his intellectual vigor solely to innovation, rather than grappling with crushing poverty. Moreover, the art establishment of the 19th century ought to have been more receptive to unconventional techniques; they might have salvaged a fragile mind from complete deterioration. The subjunctive inquiry remains: had he survived his inner demons, what further masterpieces might humanity possess today? It is deeply unfortunate that his contemporaries could not foresee the monumental impact of his brushstrokes. In retrospect, we must acknowledge that history is inherently unforgiving. We should have cultivated an environment where extraordinary sensitivity was nurtured rather than ostracized. Ultimately, revisiting his biography serves as a stark reminder of our collective responsibility. The tragedy is not merely that he perished prematurely, but that we, as a civilization, might have prevented it.",
+    "sophisticated_vocabulary": [
+      "permeated",
+      "trajectory",
+      "benefactor",
+      "deterioration",
+      "ostracized"
+    ],
+    "rhetorical_check": [
+      "Effective implementation of nuanced past modals (might have, should have)",
+      "Sophisticated tone suitable for philosophical inquiry",
+      "Integration of advanced conceptual vocabulary"
+    ]
+  },
+  {
+    "unit_id": 26,
+    "task_title": "Cultural Identity in Globalization",
+    "instruction": "Write an academic essay (350-400 words) analyzing the erosion of cultural identity in the era of globalization. Utilize Cleft Sentences (It is... that / What... is) to emphasize key arguments and centralize your intellectual focus.",
+    "target_structures": [
+      "Cleft Sentences",
+      "Academic Cohesion",
+      "Sociological Terminology"
+    ],
+    "model_answer": "The relentless march of globalization has unequivocally transformed the intricate mosaic of global cultures. While proponents celebrate unprecedented interconnectedness, critics point to an alarming homogenization of societal norms. What is primarily at stake in this modern paradigm is the profound erosion of indigenous linguistic and cultural heritages. It is the insidious spread of dominant Western media that subtly marginalizes local traditions, replacing them with a standardized, monocultural narrative. It was not until the late 20th century that sociologists began documenting the rapid extinction of minority dialects with quantifiable precision. What globalization fundamentally demands is a uniform market of consumers, which inherently contradicts the preservation of unique cultural idiosyncrasies. It is exactly this relentless pursuit of economic efficiency that forces youth in developing nations to abandon their ancestral customs in favor of globalized corporate aesthetics. Furthermore, what exacerbates this phenomenon is the digital divide; local artisans struggle to maintain visibility in an algorithm-driven ecosystem. It is the responsibility of international organizations, therefore, to implement robust safeguarding mechanisms. What we must champion is a paradigm of 'glocalization', where global connectivity does not necessitate local eradication. Ultimately, it is through the conscious celebration of diversity that humanity can navigate the complexities of a borderless world without losing its soul.",
+    "sophisticated_vocabulary": [
+      "unequivocally",
+      "homogenization",
+      "insidious",
+      "idiosyncrasies",
+      "eradication"
+    ],
+    "rhetorical_check": [
+      "Strategic use of Cleft Sentences to emphasize sociological arguments",
+      "Fluid academic cohesion and sophisticated signposting",
+      "Mastery of sociological and abstract terminology"
+    ]
+  },
+  {
+    "unit_id": 27,
+    "task_title": "The Ethics of Artificial Intelligence",
+    "instruction": "Write a critical report (350-400 words) on the failed ethical promises of early AI development. Use Future in the Past structures (was to have been, was going to) to contrast past expectations with our current reality.",
+    "target_structures": [
+      "Future in the Past",
+      "Critical/Analytical Discourse",
+      "Technological Ethics Lexicon"
+    ],
+    "model_answer": "In the nascent stages of algorithmic development, Silicon Valley pioneers painted a utopian vision of the future. Artificial Intelligence was to have been the ultimate equalizer, eradicating human prejudice from recruitment and judicial processes. Furthermore, autonomous systems were going to liberate humanity from monotonous labor, ushering in an era of unprecedented creative freedom. However, an analysis of the contemporary technological landscape reveals a starkly different reality. The algorithms that were expected to foster objectivity have, in reality, codified and amplified existing societal biases. Predictive policing software, which was to have eliminated subjective human error, has disproportionately targeted marginalized communities. Technologists genuinely believed they were building a meritocratic utopia; they were to have revolutionized society for the better. Instead, the lack of rigorous ethical oversight has led to the proliferation of opaque, unaccountable digital infrastructures. The data-driven economy was going to democratize information; conversely, it has consolidated power among a handful of monopolistic corporations. Looking back, regulatory frameworks should have been established before these transformative technologies were deployed at scale. The ethical integration of AI was supposed to be a collaborative endeavor between engineers and ethicists. To rectify these systemic failures, we must immediately implement comprehensive algorithmic audits and ensure transparency in machine learning paradigms.",
+    "sophisticated_vocabulary": [
+      "utopian",
+      "meritocratic",
+      "proliferation",
+      "opaque",
+      "paradigms"
+    ],
+    "rhetorical_check": [
+      "Accurate execution of Future in the Past to contrast expectations and reality",
+      "Critical, objective, and highly analytical tone",
+      "Use of advanced terminology related to technology and ethics"
+    ]
+  },
+  {
+    "unit_id": 28,
+    "task_title": "A Political Manifesto",
+    "instruction": "Draft a political manifesto (350-400 words) advocating for environmental justice. Employ Nominal Clauses (That... is evident, Why... remains a mystery) to create an authoritative, quasi-legal tone.",
+    "target_structures": [
+      "Nominal Clauses",
+      "Authoritative Persuasion",
+      "Political Rhetoric"
+    ],
+    "model_answer": "That our planet stands at the precipice of an irreversible ecological collapse is no longer a matter of scientific debate; it is an undeniable empirical reality. What this movement demands is a fundamental restructuring of our global economic priorities. That multinational conglomerates prioritize short-term profit over long-term sustainability is a profound indictment of our current regulatory frameworks. Why governments continue to subsidize the fossil fuel industry, despite overwhelming evidence of catastrophic climate change, remains a mystery to any rational observer. We firmly assert that access to clean air and uncontaminated water is a fundamental human right, not a marketable commodity. Whoever assumes the mantle of political leadership in the coming decade must be prepared to enact unprecedented legislative reforms. How we transition to a carbon-neutral infrastructure will determine the survival of countless vulnerable coastal communities. What is urgently required is the implementation of a comprehensive green taxation strategy, enforcing strict financial penalties on corporate polluters. That the burden of ecological degradation falls disproportionately on socio-economically disadvantaged populations is an intolerable injustice. We propose that a global environmental tribunal be established immediately to prosecute crimes of ecocide. Whether our species possesses the collective will to enact these radical transformations is the ultimate existential question of our era. The time for incremental reform has passed; what we need now is decisive, systemic revolution.",
+    "sophisticated_vocabulary": [
+      "precipice",
+      "empirical",
+      "indictment",
+      "commodity",
+      "tribunal"
+    ],
+    "rhetorical_check": [
+      "Authoritative and commanding use of Nominal Clauses as subjects",
+      "Persuasive political rhetoric and urgent tone",
+      "Elevated legal and political vocabulary"
+    ]
+  },
+  {
+    "unit_id": 29,
+    "task_title": "Analysis of a Modern Masterpiece",
+    "instruction": "Write a critical review (350-400 words) of a contemporary artwork or architectural design. Use Negative Inversion at least three times (e.g., Rarely have I seen..., Not only does...) to create a dramatic and highly persuasive tone.",
+    "target_structures": [
+      "Negative Inversion",
+      "Aesthetic/Critical Vocabulary",
+      "Complex Sentence Variety"
+    ],
+    "model_answer": "The new brutalist wing of the National Gallery of Modern Art has sparked fierce debate among architectural critics and the general public alike. Rarely has a contemporary structure captured the collective anxiety of an era as poignantly as this imposing, concrete monolith. Not only does the architect manipulate natural light to disorient the viewer, but she also employs raw, unfinished industrial materials to suggest a decaying, dystopian urban landscape. Seldom do we encounter a public space that challenges our fundamental notions of comfort and aesthetic pleasure so aggressively. Upon entering the main atrium, the visitor is immediately confronted by an overwhelming sense of spatial vertigo. Never before in the history of local public architecture has such a deliberate attempt been made to alienate the observer. The cavernous corridors, devoid of any ornamentation, force individuals to introspect, transforming a mere physical journey into a psychological ordeal. Only by engaging with the building’s spatial geometry for an extended period can the viewer begin to grasp the underlying philosophical nihilism that permeates the design. Under no circumstances should this structure be dismissed as a mere provocation; it is a profound commentary on the isolation inherent in modern urban existence. Scarcely had the doors opened to the public when prominent critics hailed it as a transgressive masterpiece. Ultimately, the building does not seek to comfort, but to interrogate. It stands as a testament to the visceral power of uncompromised architectural vision.",
+    "sophisticated_vocabulary": [
+      "poignantly",
+      "dystopian",
+      "vertigo",
+      "nihilism",
+      "transgressive"
+    ],
+    "rhetorical_check": [
+      "Masterful execution of Negative Inversion for rhetorical emphasis",
+      "Sophisticated tone characteristic of elite art criticism",
+      "Integration of advanced aesthetic and emotional vocabulary"
+    ]
+  },
+  {
+    "unit_id": 30,
+    "task_title": "Advanced Psychological Assessment",
+    "instruction": "Write a formal psychological or behavioral report (350-400 words) assessing a subject's coping mechanisms in high-stress environments. Utilize the Advanced Subjunctive mood and Participle Clauses to maintain a highly professional, objective, and authoritative register.",
+    "target_structures": [
+      "Advanced Subjunctive (I suggest he be...)",
+      "Participle Clauses",
+      "Clinical/Psychological Terminology"
+    ],
+    "model_answer": "This behavioral assessment evaluates the cognitive and emotional resilience of Subject 42, a senior executive operating within a high-stakes corporate environment. Having analyzed the subject’s responses during simulated crisis scenarios, it is evident that their primary coping mechanism is intense intellectualization. Confronted with sudden financial anomalies, the subject immediately suppressed emotional reactions, choosing instead to hyper-focus on data analysis. While this pragmatic approach is beneficial in the short term, it is imperative that the underlying emotional suppression be addressed. It is crucial that the subject not isolate themselves from peer support networks during prolonged periods of systemic stress. Driven by an innate fear of professional inadequacy, Subject 42 exhibits severe perfectionist tendencies. Were it not for their exceptional analytical acumen, this psychological rigidity would likely result in catastrophic burnout. Consequently, I strongly recommend that the subject be enrolled in an intensive mindfulness-based stress reduction program. Furthermore, it is essential that a mandatory delegation protocol be implemented immediately, ensuring that operational burdens are distributed equitably among the management team. Functioning under chronic sleep deprivation, the subject currently relies on unhealthy levels of caffeine to sustain cognitive vigilance. I advise that comprehensive somatic therapy be considered as a long-term intervention to reconnect the subject with physical stress indicators. Providing that these therapeutic interventions be consistently applied, there is a high probability of restoring the subject's emotional equilibrium. Sustained psychological flexibility is paramount to their continued executive effectiveness.",
+    "sophisticated_vocabulary": [
+      "intellectualization",
+      "acumen",
+      "vigilance",
+      "somatic",
+      "equilibrium"
+    ],
+    "rhetorical_check": [
+      "Precise clinical use of the Advanced Subjunctive for recommendations",
+      "Effective use of Participle Clauses for sentence variety and flow",
+      "Mastery of psychological and clinical terminology"
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "unit_id": 7,
+    "task_title": "An Unforgettable Memory",
+    "instruction": "Write a narrative paragraph (80-100 words) about an unforgettable memory from your past. Use at least 3 irregular verbs in the Past Simple tense and 2 time expressions (e.g., yesterday, last year).",
+    "target_structures": [
+      "Past Simple Tense",
+      "Irregular Verbs",
+      "Time Expressions"
+    ],
+    "model_answer": "Last summer, I went to Antalya with my best friends. It was an unforgettable holiday. We stayed in a beautiful hotel near the beach. On the second day, we swam in the sea and ate fresh fish at a local restaurant. The weather was perfect. Suddenly, I saw a famous actor, but I was too shy to speak to him. We took many photos and laughed a lot. We came back home after a week. I will never forget those amazing days because we had so much fun together.",
+    "grading_keys": [
+      "Correct use of Past Simple irregular verbs (went, swam, ate, saw, took, came)",
+      "Correct use of time expressions (Last summer, On the second day, after a week)",
+      "Narrative flow and logical sequence of events"
+    ]
+  },
+  {
+    "unit_id": 8,
+    "task_title": "What Have You Done Lately?",
+    "instruction": "Write an email to a friend (80-100 words) about your recent activities. Use the Present Perfect tense with 'just', 'already', and 'yet', and mention at least one finished action in the Past Simple.",
+    "target_structures": [
+      "Present Perfect Tense",
+      "Just / Already / Yet",
+      "Past Simple for completed actions"
+    ],
+    "model_answer": "Hi Sarah,\nHow are you? I have been very busy lately. I have already finished my English project for school, and I got a good grade yesterday. However, I haven't started reading the new science book yet because I didn't have time. I have just bought tickets for the concert next month! My brother went with me to the ticket office this morning. Have you seen the new action movie yet? We should go to the cinema together soon.\nBest wishes,\nAlex",
+    "grading_keys": [
+      "Correct use of Present Perfect with already/yet/just",
+      "Clear distinction between Present Perfect and Past Simple (got, went, didn't have)",
+      "Appropriate informal email format"
+    ]
+  },
+  {
+    "unit_id": 9,
+    "task_title": "My Next Holiday",
+    "instruction": "Write a paragraph (80-100 words) planning your next holiday. Use 'be going to' for your definite plans and 'will' for predictions or hopes about the trip.",
+    "target_structures": [
+      "Be going to (Plans)",
+      "Will (Predictions / Hopes)",
+      "Holiday vocabulary"
+    ],
+    "model_answer": "Next month, my family and I are going to visit Rome for our holiday. We have already booked the tickets. We are going to stay in a small hotel near the Colosseum. I think the weather will be very hot, so we will probably need light clothes. We are going to try authentic Italian pizza and pasta every day! I'm sure the food will be delicious. I hope we will see all the historical places, but I think we won't have enough time for everything. It is going to be a fantastic trip.",
+    "grading_keys": [
+      "Correct use of 'be going to' for established plans",
+      "Correct use of 'will/won't' for predictions and hopes",
+      "Appropriate holiday vocabulary"
+    ]
+  },
+  {
+    "unit_id": 10,
+    "task_title": "Comparing Two Cities",
+    "instruction": "Write a paragraph (80-100 words) comparing your hometown with another city. Use at least 3 comparative and 2 superlative adjectives.",
+    "target_structures": [
+      "Comparatives",
+      "Superlatives",
+      "Connectors (but, however)"
+    ],
+    "model_answer": "I live in Izmir, but I visited Istanbul last summer. Istanbul is much bigger and more crowded than Izmir. Izmir is quieter and the people are generally friendlier. In my opinion, Istanbul is the most beautiful city in Turkey because of the Bosphorus. However, Izmir is the best place for students because it is cheaper. I think Izmir is the most comfortable city to live in, but Istanbul is definitely the most exciting place to visit for a short holiday.",
+    "grading_keys": [
+      "Correct use of -er and 'more' (bigger, more crowded, quieter, friendlier, cheaper)",
+      "Correct use of 'the -est' and 'the most' (the most beautiful, the best, the most comfortable, the most exciting)",
+      "Logical flow with contrasting connectors"
+    ]
+  },
+  {
+    "unit_id": 11,
+    "task_title": "Healthy Lifestyle Advice",
+    "instruction": "Write a short article (80-100 words) giving advice on how to live a healthy life. Use 'should' or 'shouldn't' for advice, and 'must' or 'mustn't' for strong obligations.",
+    "target_structures": [
+      "Should / Shouldn't",
+      "Must / Mustn't",
+      "Health and lifestyle vocabulary"
+    ],
+    "model_answer": "To live a healthy and long life, you must take care of your body. First, you should eat a balanced diet with plenty of fruits and vegetables. You shouldn't eat too much fast food or drink sugary sodas because they are very bad for you. Furthermore, you must drink at least two liters of water every day to stay hydrated. For exercise, you should walk or run for thirty minutes at least three times a week. Finally, you mustn't smoke if you want to have healthy lungs. Good habits create a healthier future.",
+    "grading_keys": [
+      "Correct use of should/shouldn't for advice",
+      "Correct use of must/mustn't for strong necessity",
+      "Use of health-related vocabulary and logical sequencing"
+    ]
+  },
+  {
+    "unit_id": 12,
+    "task_title": "A Movie Review",
+    "instruction": "Write a short review (80-100 words) of a movie you watched recently. Use at least 3 descriptive adjectives and 2 adverbs of manner (e.g., slowly, well).",
+    "target_structures": [
+      "Adverbs of manner",
+      "Descriptive Adjectives",
+      "Expressing opinion"
+    ],
+    "model_answer": "I recently watched a fantastic science fiction movie called 'Interstellar'. The story is incredibly complex but very interesting. The visual effects are absolutely stunning, and the space scenes look very realistic. The actors performed their roles brilliantly, especially the main character who portrayed the emotional father perfectly. The music starts softly but builds up powerfully during the action scenes. Some parts of the movie move slowly, but the ending is completely surprising. I highly recommend this movie to anyone who loves space and emotional stories.",
+    "grading_keys": [
+      "Correct use of adverbs of manner (brilliantly, perfectly, softly, powerfully, slowly)",
+      "Correct use of descriptive adjectives (fantastic, complex, interesting, stunning, realistic, surprising)",
+      "Clear expression of opinion and recommendation"
+    ]
+  }
+]

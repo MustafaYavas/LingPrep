@@ -7,6 +7,8 @@ import { HomePage } from "@/pages/HomePage";
 import { QuizPage } from "@/pages/QuizPage";
 import { ReadingPage } from "@/pages/ReadingPage";
 import { ReadingUnitPage } from "@/pages/ReadingUnitPage";
+import { WritingPage } from "@/pages/WritingPage";
+import { WritingTaskPage } from "@/pages/WritingTaskPage";
 import { QuizzesPage } from "@/pages/QuizzesPage";
 import { LevelCelebration } from "@/features/progress";
 import logo from "../../public/logo.svg";
@@ -44,6 +46,8 @@ function App() {
                 <Route path="/quiz/:unitId/:testId" element={<QuizPage />} />
                 <Route path="/reading" element={<ReadingPage />} />
                 <Route path="/reading/:unitId" element={<ReadingUnitPage />} />
+                <Route path="/writing" element={<WritingPage />} />
+                <Route path="/writing/:unitId" element={<WritingTaskPage />} />
                 <Route path="*" element={<HomePage />} />
               </Routes>
             </main>

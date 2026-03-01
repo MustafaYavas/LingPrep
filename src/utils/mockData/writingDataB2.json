@@ -1,0 +1,140 @@
+[
+  {
+    "unit_id": 19,
+    "task_title": "Modern Habits and Technology",
+    "instruction": "Write an analytical essay (220-250 words) discussing whether modern technological habits are beneficial or harmful to society. Use Gerunds and Infinitives as complex subjects or objects.",
+    "target_structures": [
+      "Gerunds and Infinitives",
+      "Academic vocabulary",
+      "Essay structure (Thesis, Body, Conclusion)"
+    ],
+    "model_answer": "Relying heavily on technology has undeniably transformed the way modern society functions. Some critics argue that spending endless hours on digital devices leads to a noticeable decline in face-to-face communication. However, it is essential to consider the numerous advantages that modern tools offer. For instance, communicating instantly across vast distances enables businesses to operate globally. Furthermore, having access to an infinite amount of information allows individuals to educate themselves efficiently. Despite these benefits, one cannot ignore the psychological consequences. Constantly checking social media platforms tends to cause anxiety and depression among adolescents. To alleviate these issues, adopting a balanced approach is crucial. Parents should encourage young people to participate in outdoor activities rather than forcing them to give up their devices entirely. Ultimately, navigating the digital age requires self-discipline. We must learn to use technology as a tool for progress without allowing it to dominate our daily lives.",
+    "academic_vocabulary": [
+      "undeniably",
+      "adolescents",
+      "alleviate",
+      "consequences",
+      "discipline"
+    ],
+    "evaluation_criteria": [
+      "Effective use of Gerunds and Infinitives as complex grammatical components",
+      "Clear essay structure with a well-developed argument",
+      "Accurate integration of academic vocabulary"
+    ]
+  },
+  {
+    "unit_id": 20,
+    "task_title": "A Mysterious Historical Event",
+    "instruction": "Write an investigative text (220-250 words) about an unsolved historical mystery (e.g., the disappearance of the Mayans or the construction of Stonehenge). Use Modals of Deduction to express speculation about past events.",
+    "target_structures": [
+      "Modals of Deduction (must have, might have, can't have)",
+      "Objective tone",
+      "Linking words"
+    ],
+    "model_answer": "The sudden collapse of the Classic Maya civilization remains one of history's greatest archaeological mysteries. By the year 900 AD, thriving urban centers had been abandoned entirely. Historians speculate that a severe drought must have devastated their agricultural systems, leading to widespread famine. Alternatively, internal warfare and political instability might have played a crucial role in the society's downfall. They could have exhausted their natural resources through overpopulation and extensive deforestation. However, it can't have been a single cataclysmic event, as the decline occurred gradually over several decades. Modern archaeologists have discovered evidence suggesting that the ruling elite must have lost the trust of the common people after failing to secure water supplies. Although they might have attempted to relocate to northern regions, the lack of infrastructure would have hindered their survival. Ultimately, the exact sequence of events remains elusive. Until concrete texts are deciphered completely, we can only rely on scientific hypotheses to reconstruct their final days.",
+    "academic_vocabulary": [
+      "archaeological",
+      "devastated",
+      "cataclysmic",
+      "elite",
+      "hypotheses"
+    ],
+    "evaluation_criteria": [
+      "Appropriate and varied use of Modals of Deduction referring to the past",
+      "Cohesive narrative flow regarding historical events",
+      "Accurate integration of academic vocabulary"
+    ]
+  },
+  {
+    "unit_id": 21,
+    "task_title": "Rewriting History",
+    "instruction": "Write a reflective essay (220-250 words) analyzing a key historical decision (e.g., a major war or scientific discovery). Use 2nd and 3rd Conditionals to analyze hypothetical alternative outcomes.",
+    "target_structures": [
+      "2nd Conditional (Hypothetical present/future)",
+      "3rd Conditional (Hypothetical past)",
+      "Analytical tone"
+    ],
+    "model_answer": "The discovery of penicillin by Alexander Fleming in 1928 was a turning point in medical history. If Fleming had not noticed the mold in his petri dish, millions of soldiers would have died from bacterial infections during the Second World War. Without this crucial antibiotic, diseases that are easily curable today would still be fatal. Furthermore, if governments had not recognized the importance of mass-producing the drug, the global population growth would have been significantly slower. We can also consider hypothetical scenarios regarding the present. If antibiotics did not exist today, modern surgeries and organ transplants would be incredibly dangerous due to the high risk of postoperative infections. Alternatively, if scientists had discovered penicillin a century earlier, human longevity might have increased much sooner, potentially altering the course of the Industrial Revolution. In conclusion, single moments of scientific serendipity profoundly shape our existence. If we did not possess such medical advancements, our current society would look drastically different.",
+    "academic_vocabulary": [
+      "antibiotic",
+      "postoperative",
+      "longevity",
+      "serendipity",
+      "drastically"
+    ],
+    "evaluation_criteria": [
+      "Accurate construction of 2nd and 3rd Conditional sentences",
+      "Logical analysis of historical cause and hypothetical effect",
+      "Accurate integration of academic vocabulary"
+    ]
+  },
+  {
+    "unit_id": 22,
+    "task_title": "Fake News and Modern Media",
+    "instruction": "Write a formal opinion essay (220-250 words) on the impact of fake news on democracy. Use Reported Speech to cite claims from experts or summarize public opinions.",
+    "target_structures": [
+      "Reported Speech",
+      "Formal Opinion Structures",
+      "Discourse Markers"
+    ],
+    "model_answer": "The proliferation of digital news platforms has democratized information, but it has also facilitated the rapid spread of misinformation. Several prominent sociologists have recently argued that fake news poses an existential threat to modern democratic institutions. Last year, researchers from Stanford University stated that a vast majority of teenagers could not distinguish between credible journalism and sponsored content. Furthermore, political analysts have claimed that manipulated algorithms deliberately amplify sensationalist stories to maximize user engagement. Consequently, public discourse has become increasingly polarized. Critics often assert that social media corporations are responsible for regulating their platforms. In response, these companies recently announced that they would implement stricter fact-checking mechanisms in the near future. However, many privacy advocates counter that corporate censorship might suppress legitimate freedom of expression. Ultimately, the solution requires a multifaceted approach. Educators emphasize that schools must prioritize media literacy programs. If citizens are systematically trained to evaluate sources critically, the influence of deceptive narratives will inevitably diminish.",
+    "academic_vocabulary": [
+      "proliferation",
+      "sensationalist",
+      "polarized",
+      "censorship",
+      "multifaceted"
+    ],
+    "evaluation_criteria": [
+      "Effective and accurate use of Reported Speech to introduce external opinions",
+      "Formal tone with appropriate discourse markers (Consequently, Ultimately, Furthermore)",
+      "Accurate integration of academic vocabulary"
+    ]
+  },
+  {
+    "unit_id": 23,
+    "task_title": "Economic Investment Analysis",
+    "instruction": "Write a formal proposal (220-250 words) regarding an investment decision made five years ago. Use Mixed Conditionals to explain how that past decision affects the current economic situation.",
+    "target_structures": [
+      "Mixed Conditionals",
+      "Formal Connectors (Moreover, Consequently)",
+      "Business English Vocabulary"
+    ],
+    "model_answer": "This proposal aims to analyze the long-term impact of our corporate decision to delay technological modernization five years ago. If the company had invested in sustainable automation systems at that time, we would be the undisputed market leaders today. Such a strategic move would have reduced our current operational costs significantly. However, since the executive board decided to postpone the transition to avoid initial expenses, we are currently facing a severe competitive disadvantage. Had we acted sooner and integrated artificial intelligence into our supply chain, our profit margins would be much healthier in today's unpredictable economic climate. Moreover, our competitors, who embraced digital transformation early, now dominate the international marketplace. Consequently, we must immediately pivot our resources toward aggressive technological innovation. If we do not modernize our infrastructure within the next fiscal year, we will struggle to retain our existing clientele. In conclusion, while we cannot change past strategic miscalculations, acknowledging them allows us to rectify our trajectory.",
+    "academic_vocabulary": [
+      "modernization",
+      "undisputed",
+      "disadvantage",
+      "infrastructure",
+      "trajectory"
+    ],
+    "evaluation_criteria": [
+      "Accuracy of Mixed Conditionals linking past actions to present results",
+      "Professional and formal tone consistency appropriate for a business proposal",
+      "Effective use of academic and business vocabulary"
+    ]
+  },
+  {
+    "unit_id": 24,
+    "task_title": "The Future of Society",
+    "instruction": "Write a persuasive essay (220-250 words) about how artificial intelligence will change human relationships. Use Inversion and Emphasis structures (e.g., Not only... but also, Seldom do we...) to create a powerful narrative.",
+    "target_structures": [
+      "Inversion and Emphasis",
+      "Persuasive Tone",
+      "Advanced vocabulary"
+    ],
+    "model_answer": "The relentless advancement of artificial intelligence is fundamentally restructuring the fabric of human social interaction. Seldom in history have we witnessed a technological paradigm shift that alters our personal relationships so profoundly. Not only are people relying on algorithms to find romantic partners, but they are also utilizing emotional AI companions to combat loneliness. Never before has society outsourced its emotional intimacy to machines. While proponents argue that these tools foster digital connectivity, I firmly believe they erode authentic human empathy. Rarely do we take the time to engage in deep, uninterrupted conversations anymore. Only by consciously disconnecting from our devices can we preserve the true depth of human connection. It is the subtle nuances of physical interaction that algorithms fail to replicate. Under no circumstances should we allow efficiency and artificial convenience to replace genuine vulnerability. Ultimately, we must dictate the role of technology in our lives, rather than letting it dictate us. Only then will our society thrive.",
+    "academic_vocabulary": [
+      "paradigm",
+      "profoundly",
+      "proponents",
+      "vulnerability",
+      "efficiency"
+    ],
+    "evaluation_criteria": [
+      "Correct execution of negative inversion and emphasized structures",
+      "Strong, persuasive, and engaging rhetorical tone",
+      "Accurate integration of advanced academic vocabulary"
+    ]
+  }
+]

@@ -13,6 +13,7 @@ import storage from "redux-persist/lib/storage"; // defaults to localStorage for
 import progressReducer from "@/features/progress/store/progressSlice";
 import quizReducer from "@/features/quiz/store/quizSlice";
 import { readingReducer } from "@/features/reading";
+import { writingReducer } from "@/features/writing";
 
 const persistConfig = {
   key: "lingprep-root",
@@ -24,6 +25,7 @@ const rootReducer = combineReducers({
   progress: progressReducer,
   quiz: quizReducer,
   reading: readingReducer,
+  writing: writingReducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

@@ -144,3 +144,62 @@ export const units = [
     level: "C1",
   },
 ];
+
+// READING
+export const getLevel = (unitId: number) => {
+  if (unitId <= 3) return "A1";
+  if (unitId <= 6) return "A2";
+  if (unitId <= 9) return "B1";
+  if (unitId <= 12) return "B2";
+  return "C1";
+};
+
+export const getLevelBgColor = (unitId: number) => {
+  if (unitId <= 3) return "bg-indigo-50";
+  if (unitId <= 6) return "bg-orange-50";
+  if (unitId <= 9) return "bg-purple-50";
+  if (unitId <= 12) return "bg-red-50";
+  return "bg-slate-50";
+};
+
+export const getLevelBgDarkColor = (unitId: number) => {
+  if (unitId <= 3) return "bg-indigo-500";
+  if (unitId <= 6) return "bg-orange-500";
+  if (unitId <= 9) return "bg-purple-500";
+  if (unitId <= 12) return "bg-red-500";
+  return "bg-slate-500";
+};
+
+export const getLevelBgHoverColor = (unitId: number) => {
+  if (unitId <= 3) return "hover:bg-indigo-600";
+  if (unitId <= 6) return "hover:bg-orange-600";
+  if (unitId <= 9) return "hover:bg-purple-600";
+  if (unitId <= 12) return "hover:bg-red-600";
+  return "hover:bg-slate-600";
+};
+
+export const getLevelTextColor = (unitId: number) => {
+  if (unitId <= 3) return "text-indigo-600";
+  if (unitId <= 6) return "text-orange-600";
+  if (unitId <= 9) return "text-purple-600";
+  if (unitId <= 12) return "text-red-600";
+  return "text-slate-600";
+};
+
+export const getLevelFirstLetterColor = (unitId: number) => {
+  if (unitId <= 3) return `first-letter:${getLevelTextColor(unitId)}`;
+  if (unitId <= 6) return `first-letter:${getLevelTextColor(unitId)}`;
+  if (unitId <= 9) return `first-letter:${getLevelTextColor(unitId)}`;
+  if (unitId <= 12) return `first-letter:${getLevelTextColor(unitId)}`;
+  return `first-letter:${getLevelTextColor(unitId)}`;
+};
+
+// WRITING
+
+export const getWordCountRange = (level: string) => {
+  if (level === "A1") return "40-60";
+  if (level === "A2") return "80-100";
+  if (level === "B1") return "150-180";
+  if (level === "B2") return "220-250";
+  return "350-400";
+};

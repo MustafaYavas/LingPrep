@@ -3,13 +3,14 @@ import { useAppSelector } from "@/store/hooks";
 import {
   BookOpen,
   PencilLine,
+  PenTool,
   ArrowRight,
   Trophy,
   Flame,
   Zap,
 } from "lucide-react";
 import { motion } from "framer-motion";
-import { FeatureCard } from "@/components/FeatureCard";
+import { FeatureCard } from "@/components/ui/FeatureCard";
 
 export function HomePage() {
   const navigate = useNavigate();
@@ -33,6 +34,13 @@ export function HomePage() {
           description="Uzun metinler ve anlama soruları"
           icon={BookOpen}
           onClick={() => navigate("/reading")}
+        />
+
+        <FeatureCard
+          title="Yazma Alıştırmaları"
+          description="Metin yazma ve örnek kıyaslama"
+          icon={PenTool}
+          onClick={() => navigate("/writing")}
         />
       </div>
 

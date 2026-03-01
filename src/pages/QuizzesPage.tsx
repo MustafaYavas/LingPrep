@@ -2,7 +2,7 @@ import { useAppSelector } from "@/store/hooks";
 import { units } from "@/utils/utils";
 import { Trophy, Flame, BookOpen, ArrowLeft } from "lucide-react";
 import { motion } from "framer-motion";
-import { UnitSection } from "@/components/UnitSection";
+import { UnitSection } from "@/components/ui/UnitSection";
 import { useNavigate } from "react-router-dom";
 
 export function QuizzesPage() {

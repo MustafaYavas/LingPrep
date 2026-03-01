@@ -53,3 +53,16 @@ export interface FirebaseConfig {
   appId: string | undefined;
   measurementId?: string | undefined;
 }
+export interface WritingTask {
+  unit_id: number;
+  task_title: string;
+  instruction: string;
+  target_structures: string[];
+  model_answer: string;
+  grading_criteria?: string[];
+  grading_keys?: string[];
+  academic_vocabulary?: string[];
+  evaluation_criteria?: string[];
+  sophisticated_vocabulary?: string[];
+  rhetorical_check?: string[];
+}

@@ -15,6 +15,14 @@ import {
   BookMarked,
 } from "lucide-react";
 import type { ReadingUnit } from "@/features/reading/types";
+import {
+  getLevel,
+  getLevelBgColor,
+  getLevelBgDarkColor,
+  getLevelBgHoverColor,
+  getLevelFirstLetterColor,
+  getLevelTextColor,
+} from "@/utils/utils";
 
 export function ReadingUnitPage() {
   const { unitId } = useParams<{ unitId: string }>();
@@ -114,10 +122,16 @@ export function ReadingUnitPage() {
               exit={{ opacity: 0, x: 20 }}
               className="bg-white rounded-3xl p-8 shadow-xl shadow-slate-200/50 border border-slate-100"
             >
-              <div className="flex items-center space-x-3 mb-6 p-3 bg-indigo-50 rounded-2xl w-fit">
-                <Lightbulb className="w-5 h-5 text-indigo-600" />
-                <span className="text-sm font-bold text-indigo-700">
-                  A1 Reading Modu
+              <div
+                className={`flex items-center space-x-3 mb-6 p-3 ${getLevelBgColor(unit.unit_id)} rounded-2xl w-fit`}
+              >
+                <Lightbulb
+                  className={`w-5 h-5 ${getLevelTextColor(unit.unit_id)}`}
+                />
+                <span
+                  className={`text-sm font-bold ${getLevelTextColor(unit.unit_id)}`}
+                >
+                  {getLevel(unit.unit_id)} Reading Modu
                 </span>
               </div>
 
@@ -129,7 +143,7 @@ export function ReadingUnitPage() {
                 {unit.text_paragraphs.map((para, i) => (
                   <p
                     key={i}
-                    className="first-letter:text-3xl first-letter:font-bold first-letter:text-indigo-600 first-letter:mr-1"
+                    className={`first-letter:text-3xl ${getLevelFirstLetterColor(unit.unit_id)} first-letter:font-bold first-letter:mr-1`}
                   >
                     {para}
                   </p>
@@ -152,7 +166,7 @@ export function ReadingUnitPage() {
 
               <button
                 onClick={() => setViewMode("questions")}
-                className="w-full mt-10 py-5 bg-indigo-600 text-white rounded-2xl font-black text-xl hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-200 flex items-center justify-center group"
+                className={`w-full mt-10 py-5 ${getLevelBgDarkColor(unit.unit_id)} text-white rounded-2xl font-black text-xl cursor-pointer ${getLevelBgHoverColor(unit.unit_id)} transition-all shadow-lg shadow-indigo-200 flex items-center justify-center group`}
               >
                 Sorulara Geç{" "}
                 <ChevronRight className="ml-2 group-hover:translate-x-1 transition-transform" />

@@ -1,0 +1,98 @@
+[
+  {
+    "unit_id": 13,
+    "task_title": "Technology Addiction",
+    "instruction": "Write a 150-180 word essay about technology addiction. Compare people's general habits with how your own habits are changing right now using Present Simple and Present Continuous tenses.",
+    "target_structures": [
+      "Present Simple (Habits)",
+      "Present Continuous (Changing situations)",
+      "Contrast conjunctions"
+    ],
+    "model_answer": "Nowadays, technology addiction is a growing problem around the world. Most people spend several hours a day on their smartphones. They usually check their social media accounts immediately after they wake up. This habit consumes a lot of valuable time. However, I am trying to change my daily routine these days. I am reading more books instead of scrolling through internet feeds. Furthermore, the way we communicate is constantly changing. While older generations prefer calling, teenagers are constantly sending text messages. Unfortunately, our dependency on screens is increasing every single day. I believe that everyone needs to limit their screen time because it affects our mental health. Currently, I am feeling much better because I am spending less time online.",
+    "grading_keys": [
+      "Appropriate use of Present Simple for general facts and habits (spend, check, consumes, prefer)",
+      "Appropriate use of Present Continuous for current trends and changing habits (am trying, is changing, are sending, is increasing)",
+      "Vocabulary related to technology and habits"
+    ]
+  },
+  {
+    "unit_id": 14,
+    "task_title": "A Life-Changing Journey",
+    "instruction": "Write a 150-180 word narrative about a memorable journey. Focus on describing the atmosphere and background events using the Past Continuous tense.",
+    "target_structures": [
+      "Past Continuous",
+      "Past Simple",
+      "Descriptive adjectives"
+    ],
+    "model_answer": "A few years ago, I travelled to a remote village in the mountains, and it was a journey that changed my perspective completely. While I was taking the train, the sun was shining brightly, and the birds were flying over the green valleys. I was looking out the window when I suddenly realized how peaceful nature could be. Other passengers were talking quietly, and some children were playing in the corridor. When I finally arrived, the local people were preparing for a traditional festival. They were wearing colorful clothes and singing traditional songs. I was watching them with great admiration. The atmosphere was absolutely magical. That day, I learned to appreciate the simple moments in life. While I was returning home, I felt like a completely different person.",
+    "grading_keys": [
+      "Effective use of Past Continuous to describe background actions (was taking, was shining, were flying, were preparing)",
+      "Correct interruption of Past Continuous with Past Simple (was looking... when I realized)",
+      "Use of specific descriptive vocabulary to set the scene"
+    ]
+  },
+  {
+    "unit_id": 15,
+    "task_title": "The World in 10 Years",
+    "instruction": "Write a 150-180 word article about your predictions for the world in ten years. Use the First Conditional to express likely future situations based on present conditions.",
+    "target_structures": [
+      "First Conditional",
+      "Future predictions (will)",
+      "Linking words"
+    ],
+    "model_answer": "The world is changing rapidly, and I often wonder what our lives will look like in ten years. If we continue to develop artificial intelligence at this speed, many jobs will completely disappear. However, if governments invest in new educational programs, people will easily find different career opportunities. Furthermore, climate change is a crucial issue. If we do not reduce our carbon emissions soon, global temperatures will definitely rise to dangerous levels. Consequently, extreme weather events will become more common if we ignore these warnings. On a positive note, transportation will improve significantly. If scientists succeed in their current projects, electric flying cars will become a reality for ordinary people. Ultimately, our future depends on our current actions. If we make smart decisions today, our world will be a better place tomorrow.",
+    "grading_keys": [
+      "Accurate use of First Conditional structures (If + present, ... will + infinitive)",
+      "Coherent logical transition between ideas (Furthermore, Consequently, On a positive note)",
+      "Appropriate vocabulary for future predictions and global issues"
+    ]
+  },
+  {
+    "unit_id": 16,
+    "task_title": "Environmental Protection Report",
+    "instruction": "Write a 150-180 word report about plastic pollution. You must explain how plastics are processed using the Passive Voice, and provide your opinion on why it is a major issue.",
+    "target_structures": [
+      "Passive Voice",
+      "Formal/Objective tone",
+      "Environmental vocabulary"
+    ],
+    "model_answer": "Plastic pollution has become one of the most significant environmental issues today. Millions of tons of waste are produced globally every single year. Unfortunately, a large percentage of this waste is not recycled properly. Instead, it is thrown into rivers and oceans, where marine habitats are destroyed. In some environmentally conscious cities, plastic bottles and bags are collected by municipal workers and taken to recycling centers. Once there, the plastic is melted and transformed into new products. However, these positive steps are not enough. It is estimated that thousands of sea animals are killed annually by consuming plastic debris. In my opinion, stricter laws must be implemented by governments immediately. Additionally, single-use plastics should be banned to prevent further destruction of our planet. The protection of our environment is a responsibility that cannot be ignored.",
+    "grading_keys": [
+      "Accurate formation and use of Passive Voice in various tenses (are produced, is not recycled, are collected, is melted, must be implemented, should be banned)",
+      "Maintenance of an objective and formal tone suitable for a report",
+      "Relevant vocabulary (marine habitats, carbon emissions, municipal workers)"
+    ]
+  },
+  {
+    "unit_id": 17,
+    "task_title": "My Favorite Artist",
+    "instruction": "Write a 150-180 word review of your favorite artist, director, or author. Use Relative Clauses (who, which, that, where) to provide detailed descriptions and background information.",
+    "target_structures": [
+      "Relative Clauses (Defining and Non-defining)",
+      "Descriptive language",
+      "Expressing artistic opinions"
+    ],
+    "model_answer": "My absolute favorite film director is Christopher Nolan, who is known for his complex and mind-bending movies. The film which first introduced me to his work was 'Inception'. It is a masterpiece that explores the hidden depths of the human subconscious. The main character, who is played by Leonardo DiCaprio, has to steal information from people's dreams. Nolan is a visionary artist whose unique storytelling style keeps the audience constantly engaged. Furthermore, the practical effects that he uses in his films look incredibly realistic compared to heavy computer graphics. The studio where he shoots most of his scenes is located in Los Angeles. I admire him deeply because he always challenges his viewers. Anyone who enjoys deep psychological thrillers should definitely watch his entire filmography. His movies are experiences which you will never forget.",
+    "grading_keys": [
+      "Accurate and natural use of Relative Pronouns (who, which, that, whose, where)",
+      "Correct punctuation in non-defining relative clauses",
+      "Rich descriptive language and engaging review structure"
+    ]
+  },
+  {
+    "unit_id": 18,
+    "task_title": "What Have I Achieved?",
+    "instruction": "Write a 150-180 word reflection on your personal or academic achievements over the last few years. Emphasize the duration and ongoing nature of your efforts using the Present Perfect tense with 'since' and 'for'.",
+    "target_structures": [
+      "Present Perfect Tense",
+      "Since and For",
+      "Vocabulary for skills and achievements"
+    ],
+    "model_answer": "When I look back at the past few years, I realize that I have achieved several important goals. First of all, I have studied English for three years, and my communication skills have improved significantly. I haven't taken any official exams yet, but I have already read three thick novels in English. Furthermore, I have been interested in programming since 2021. I have learned Python and JavaScript, which has opened many doors for me. I have worked on various small projects for the last six months to build my portfolio. On a personal level, I have practiced meditation since last summer. It has helped me stay calm during stressful exam periods. I have met many inspiring people along this journey who have motivated me continually. Overall, I have worked very hard to improve myself, and I am excited to see what the future holds.",
+    "grading_keys": [
+      "Accurate use of Present Perfect to describe ongoing states and past actions with present relevance",
+      "Correct distinction and usage of 'since' (point in time) and 'for' (duration)",
+      "Cohesive reflection on personal growth and achievements"
+    ]
+  }
+]
