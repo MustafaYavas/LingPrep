@@ -1,0 +1,184 @@
+[
+  {
+    "unit_id": 1,
+    "unit_title": "Modern Habits & Digital Wellbeing",
+    "audio_script": "[Host]: In today's panel, we're examining how modern habits affect our mental health. Dr. Aris, you've mentioned that avoiding screen time is becoming increasingly difficult. \n[Dr. Aris]: Precisely. We've seen a surge in people struggling to balance their digital lives. It's not just about using social media; it's the constant urge to check notifications that disrupts our focus. I recommend practicing 'digital fasting'—choosing to disconnect for set periods. \n[Host]: Many people enjoy stayng connected, though. Isn't it hard to stop being online? \n[Dr. Aris]: It is. But failing to set boundaries can lead to burnout. We should prioritize engaging in real-world activities. I've noticed that starting to exercise or simply going for a walk without a phone helps significantly. It's worth trying to change these deep-seated habits before they become detrimental.",
+    "listening_task": {
+      "type": "Inference & Analysis",
+      "questions": [
+        {
+          "question": "What does Dr. Aris identify as the main cause of focus disruption?",
+          "options": [
+            "The complexity of social media algorithms.",
+            "The constant urge to check notifications.",
+            "The low quality of online content.",
+            "The lack of interesting real-world activities."
+          ],
+          "correct_answer": "The constant urge to check notifications."
+        },
+        {
+          "question": "What specific technique does Dr. Aris recommend for digital wellbeing?",
+          "options": [
+            "Deleting all social media apps.",
+            "Buying a phone with fewer features.",
+            "Practicing 'digital fasting'.",
+            "Working longer hours to stay busy."
+          ],
+          "correct_answer": "Practicing 'digital fasting'."
+        },
+        {
+          "question": "According to the talk, what is a potential consequence of failing to set digital boundaries?",
+          "options": [
+            "Increased productivity.",
+            "Better social connections.",
+            "Burnout.",
+            "Improved sleep quality."
+          ],
+          "correct_answer": "Burnout."
+        },
+        {
+          "question": "Which activity does Dr. Aris suggest to help disconnect?",
+          "options": [
+            "Watching educational videos.",
+            "Going for a walk without a phone.",
+            "Playing complex video games.",
+            "Listening to podcasts about health."
+          ],
+          "correct_answer": "Going for a walk without a phone."
+        }
+      ]
+    },
+    "focus_sounds": [
+      "Gerunds and Infinitives usage",
+      "Linking 'going for a walk' naturally"
+    ]
+  },
+  {
+    "unit_id": 2,
+    "unit_title": "The Mystery of the Open Safe",
+    "audio_script": "[Inspector]: We found the safe wide open this morning. No signs of a break-in. \n[Detective]: Interesting. The thief must have known the code beforehand. Looking at the dust on the keypad, it's clear only specific buttons were pressed. \n[Inspector]: could he have been working with someone on the security team? \n[Detective]: It's a possibility. If he had been a professional, he wouldn't have left his gloves on the floor. He might have been in a hurry, or perhaps he was interrupted by the night watchman. \n[Inspector]: But the watchman says he didn't hear anything. \n[Detective]: Then he must have been sleeping. Or he could have been part of the plan itself. Let's look closer at the fingerprints near the door handles.",
+    "listening_task": {
+      "type": "Logical Deduction",
+      "questions": [
+        {
+          "question": "What is the Detective's initial deduction about the safe's code?",
+          "options": [
+            "The safe was broken into by force.",
+            "The thief guessed the code randomly.",
+            "The thief must have known the code beforehand.",
+            "The code was written on the wall nearby."
+          ],
+          "correct_answer": "The thief must have known the code beforehand."
+        },
+        {
+          "question": "Why does the Detective think the thief might not be a professional?",
+          "options": [
+            "Because he didn't steal all the money.",
+            "Because he left his gloves on the floor.",
+            "Because he used an outdated method.",
+            "Because he was caught on camera."
+          ],
+          "correct_answer": "Because he left his gloves on the floor."
+        },
+        {
+          "question": "What does the Detective suggest about the night watchman's claim?",
+          "options": [
+            "He might have been extremely brave.",
+            "He must have been sleeping or involved in the plan.",
+            "He should have called the police instantly.",
+            "He couldn't have seen the thief in the dark."
+          ],
+          "correct_answer": "He must have been sleeping or involved in the plan."
+        },
+        {
+          "question": "What is the next step the Detective plans to take?",
+          "options": [
+            "Interviewing the building owner.",
+            "Testing the alarm system.",
+            "Examining fingerprints near the door handles.",
+            "Resetting the safe's security code."
+          ],
+          "correct_answer": "Examining fingerprints near the door handles."
+        },
+        {
+          "question": "Which modal verb phrase expresses a strong deduction about the past in the text?",
+          "options": [
+            "Could have been",
+            "Must have known",
+            "Might have been",
+            "Wouldn't have left"
+          ],
+          "correct_answer": "Must have known."
+        }
+      ]
+    },
+    "focus_sounds": [
+      "Modals of Deduction: must have, could have, might have",
+      "Inspector/Detective dialogue intonation"
+    ]
+  },
+  {
+    "unit_id": 3,
+    "unit_title": "The Decisive Battle of the 15th Century",
+    "audio_script": "[Narrator]: If the king hadn't decided to divide his forces, the battle would have ended very differently. History tell us that weather played a crucial role. If it hadn't rained so heavily that morning, the cavalry would have arrived on time to support the infantry. Strategists argue that if the opposing general were less experienced, he might have fallen for the king's trap. However, because the terrain was muddy and the signals were lost in the mist, the trap failed. If they could go back in time, the advisors would certainly recommend a more cautious approach. This single day changed the map of Europe forever. Had the outcome been different, we wouldn't be speaking the languages we do today.",
+    "listening_task": {
+      "type": "Historical Analysis",
+      "questions": [
+        {
+          "question": "What mistake did the king make according to the narrator?",
+          "options": [
+            "He waited too long to attack.",
+            "He decided to divide his forces.",
+            "He ignored his advisors' warnings.",
+            "He retreated before the battle began."
+          ],
+          "correct_answer": "He decided to divide his forces."
+        },
+        {
+          "question": "How did the rain affect the battle's outcome?",
+          "options": [
+            "It made the weapons stop working.",
+            "It prevented the cavalry from arriving on time.",
+            "It forced both sides to stop fighting.",
+            "It caused the king to get sick."
+          ],
+          "correct_answer": "It prevented the cavalry from arriving on time."
+        },
+        {
+          "question": "What does the narrator say about the opposing general?",
+          "options": [
+            "He was too young to lead.",
+            "He fell for every trap the king set.",
+            "He was experienced and didn't fall for the trap.",
+            "He surrendered early in the morning."
+          ],
+          "correct_answer": "He was experienced and didn't fall for the trap."
+        },
+        {
+          "question": "What would advisors recommend if they could go back in time?",
+          "options": [
+            "A more aggressive attack.",
+            "A complete surrender.",
+            "A more cautious approach.",
+            "A different location for the battle."
+          ],
+          "correct_answer": "A more cautious approach."
+        },
+        {
+          "question": "Which structure is used to describe an impossible condition in the past?",
+          "options": [
+            "First Conditional",
+            "Second Conditional",
+            "Third Conditional",
+            "Present Simple"
+          ],
+          "correct_answer": "Third Conditional"
+        }
+      ]
+    },
+    "focus_sounds": [
+      "Hypothetical past scenarios (3rd Conditional)",
+      "Narrative pace and dramatic emphasis"
+    ]
+  }
+]

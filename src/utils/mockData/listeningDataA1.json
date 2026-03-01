@@ -1,0 +1,138 @@
+[
+  {
+    "unit_id": 1,
+    "unit_title": "Introduce Yourself",
+    "audio_script": "Hi, I'm Linda. I'm twenty years old. I'm from Canada. I'm a student at a language school. I'm very happy to be here. [pause] My favorite number is seven. Nice to meet you!",
+    "listening_task": {
+      "type": "Multiple Choice",
+      "questions": [
+        {
+          "question": "Where is Linda from?",
+          "options": ["England", "USA", "Canada", "Australia"],
+          "correct_answer": "Canada"
+        },
+        {
+          "question": "What is her job?",
+          "options": ["Teacher", "Doctor", "Student", "Engineer"],
+          "correct_answer": "Student"
+        }
+      ]
+    },
+    "focus_sounds": ["To Be verbs (I'm)", "Numbers", "Countries"]
+  },
+  {
+    "unit_id": 2,
+    "unit_title": "My Room",
+    "audio_script": "Hello, Tom! This is my new room. It's very nice. There is a big bed next to the wall. [pause] There is a small desk and a chair. There are two lamps on the desk. I like it a lot.",
+    "listening_task": {
+      "type": "Multiple Choice",
+      "questions": [
+        {
+          "question": "What is next to the wall?",
+          "options": ["A desk", "A big bed", "A chair", "A lamp"],
+          "correct_answer": "A big bed"
+        },
+        {
+          "question": "How many lamps are there?",
+          "options": ["One", "Two", "Three", "Four"],
+          "correct_answer": "Two"
+        }
+      ]
+    },
+    "focus_sounds": ["There is / There are", "Prepositions of place"]
+  },
+  {
+    "unit_id": 3,
+    "unit_title": "My Family",
+    "audio_script": "Look at my photos! This is my family. My mother's name is Emma. She is a doctor. [pause] My father's name is John. He is a teacher. I have one brother. We have a small cat. Her name is Luna.",
+    "listening_task": {
+      "type": "Multiple Choice",
+      "questions": [
+        {
+          "question": "What is Emma's job?",
+          "options": ["Teacher", "Doctor", "Student", "Nurse"],
+          "correct_answer": "Doctor"
+        },
+        {
+          "question": "Do they have a pet?",
+          "options": [
+            "Yes, a dog",
+            "Yes, a cat",
+            "No, they don't",
+            "Yes, a bird"
+          ],
+          "correct_answer": "Yes, a cat"
+        }
+      ]
+    },
+    "focus_sounds": ["Possessives", "Family names", "Jobs"]
+  },
+  {
+    "unit_id": 4,
+    "unit_title": "My Daily Routine",
+    "audio_script": "Hi everyone! I am Sarah. My day starts very early. I wake up at 6:30. [pause] I get up and I drink a big glass of water. Then, I have breakfast at 7 o'clock. I eat cereal and I drink orange juice. I don't drink coffee. [pause] At 8:30, I go to work by train. I start work at 9:00. I love my job! What about you? When do you start work?",
+    "listening_task": {
+      "type": "Multiple Choice",
+      "questions": [
+        {
+          "question": "What time does Sarah have breakfast?",
+          "options": ["6:30", "7:00", "8:30", "9:00"],
+          "correct_answer": "7:00"
+        },
+        {
+          "question": "How does she go to work?",
+          "options": ["By bus", "By car", "By train", "She walks"],
+          "correct_answer": "By train"
+        }
+      ]
+    },
+    "focus_sounds": ["Time expressions (at 7:00)", "Present simple verbs"]
+  },
+  {
+    "unit_id": 5,
+    "unit_title": "My Favorite Food",
+    "audio_script": "Are you hungry? I love food! My favorite food is pizza. I like cheese and tomatoes on my pizza. [pause] But I don't like onions. They are not good. I also eat a lot of fruit. Apples are my favorite.",
+    "listening_task": {
+      "type": "Multiple Choice",
+      "questions": [
+        {
+          "question": "What is the speaker's favorite food?",
+          "options": ["Pasta", "Apples", "Onions", "Pizza"],
+          "correct_answer": "Pizza"
+        },
+        {
+          "question": "What does the speaker NOT like?",
+          "options": ["Cheese", "Tomatoes", "Onions", "Fruit"],
+          "correct_answer": "Onions"
+        }
+      ]
+    },
+    "focus_sounds": ["Like / Don't Like", "Food vocabulary"]
+  },
+  {
+    "unit_id": 6,
+    "unit_title": "My Weekend Plan",
+    "audio_script": "Hey! It's Friday. Do you have plans for the weekend? [pause] On Saturday, I go to the cinema with my friends. We watch a funny movie. Then, on Sunday, I stay at home. I read a book and I sleep. It's a quiet day.",
+    "listening_task": {
+      "type": "Multiple Choice",
+      "questions": [
+        {
+          "question": "What does the speaker do on Saturday?",
+          "options": [
+            "Go to the park",
+            "Go to the cinema",
+            "Stay at home",
+            "Read a book"
+          ],
+          "correct_answer": "Go to the cinema"
+        },
+        {
+          "question": "What kind of day is Sunday?",
+          "options": ["A busy day", "A funny day", "A quiet day", "A loud day"],
+          "correct_answer": "A quiet day"
+        }
+      ]
+    },
+    "focus_sounds": ["Days of the week", "Action verbs"]
+  }
+]

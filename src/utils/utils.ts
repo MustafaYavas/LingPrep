@@ -195,11 +195,27 @@ export const getLevelFirstLetterColor = (unitId: number) => {
 };
 
 // WRITING
-
 export const getWordCountRange = (level: string) => {
   if (level === "A1") return "40-60";
   if (level === "A2") return "80-100";
   if (level === "B1") return "150-180";
   if (level === "B2") return "220-250";
   return "350-400";
+};
+
+// LISTENING
+export const getLevelBgColorListening = (level: string) => {
+  if (level === "A1") return "bg-indigo-50";
+  if (level === "A2") return "bg-orange-50";
+  if (level === "B1") return "bg-purple-50";
+  if (level === "B2") return "bg-red-50";
+  return "bg-slate-50";
+};
+
+export const getLevelTextColorListening = (level: string) => {
+  if (level === "A1") return "text-indigo-600";
+  if (level === "A2") return "text-orange-600";
+  if (level === "B1") return "text-purple-600";
+  if (level === "B2") return "text-red-600";
+  return "text-slate-600";
 };

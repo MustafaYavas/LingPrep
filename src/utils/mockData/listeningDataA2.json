@@ -1,0 +1,209 @@
+[
+  {
+    "unit_id": 1,
+    "unit_title": "Unforgettable Memory",
+    "audio_script": "Mark: Hi Lisa! I haven't seen you for a long time. Where were you? \nLisa: Oh, hi Mark! Last month, I went to Paris for a short holiday. \nMark: Really? That's amazing! Did you see the Eiffel Tower? \nLisa: Yes, I did! I climbed to the second floor. It was very crowded but the view was beautiful. \nMark: What was your favorite part of the trip? \nLisa: The food! I ate a lot of delicious croissants and cheese. It was an unforgettable memory.",
+    "listening_task": {
+      "type": "Identification",
+      "questions": [
+        {
+          "question": "Where did Lisa go for her holiday?",
+          "options": ["London", "Rome", "Paris", "New York"],
+          "correct_answer": "Paris"
+        },
+        {
+          "question": "What was Lisa's favorite part of the trip?",
+          "options": [
+            "The Eiffel Tower",
+            "The food",
+            "The museums",
+            "The weather"
+          ],
+          "correct_answer": "The food"
+        }
+      ]
+    },
+    "focus_sounds": [
+      "Past simple verbs (went, did, ate)",
+      "Intonation in questions"
+    ]
+  },
+  {
+    "unit_id": 2,
+    "unit_title": "Last Week",
+    "audio_script": "Tom: Hey Jenny! Have you finished the project yet? \nJenny: Not yet, Tom. I have been very busy lately. \nTom: What did you do last week? \nJenny: Well, on Monday, I traveled to a conference in Berlin. I met some interesting people there. Then, on Wednesday, I came back and started writing my report. \nTom: Have you written everything? \nJenny: I have written half of it. I will finish it tomorrow.",
+    "listening_task": {
+      "type": "Identification",
+      "questions": [
+        {
+          "question": "Why hasn't Jenny finished the project yet?",
+          "options": [
+            "She was sick.",
+            "She was on holiday.",
+            "She was very busy.",
+            "She forgot about it."
+          ],
+          "correct_answer": "She was very busy."
+        },
+        {
+          "question": "What did Jenny do on Monday?",
+          "options": [
+            "She traveled to Berlin.",
+            "She wrote a report.",
+            "She stayed at home.",
+            "She finished her project."
+          ],
+          "correct_answer": "She traveled to Berlin."
+        }
+      ]
+    },
+    "focus_sounds": [
+      "Present perfect vs. Past simple",
+      "Contractions (haven't)"
+    ]
+  },
+  {
+    "unit_id": 3,
+    "unit_title": "Holiday Plan",
+    "audio_script": "Agent: Good morning! How can I help you? \nCustomer: Good morning. I am going to plan a holiday for my family next summer. \nAgent: Great! Where are you going to go? \nCustomer: We haven't decided yet. Maybe we will go to the mountains. \nAgent: If you like nature, the Alps will be a perfect choice. \nCustomer: That sounds wonderful. We are going to need a big cabin because there are five of us.",
+    "listening_task": {
+      "type": "Identification",
+      "questions": [
+        {
+          "question": "What is the customer planning?",
+          "options": ["A business trip", "A holiday", "A party", "A new house"],
+          "correct_answer": "A holiday"
+        },
+        {
+          "question": "Where might the family go?",
+          "options": [
+            "To the beach",
+            "To a city",
+            "To the mountains",
+            "To a desert"
+          ],
+          "correct_answer": "To the mountains"
+        }
+      ]
+    },
+    "focus_sounds": ["Be going to vs. Will", "Sentence stress"]
+  },
+  {
+    "unit_id": 4,
+    "unit_title": "Two Cities",
+    "audio_script": "Mark: Hey Sarah! Where are you going for your holiday? \nSarah: I'm not sure. I'm thinking about London or Rome. \nMark: Well, London is much bigger than Rome, but Rome is sunnier. \nSarah: True. London is more expensive, but it has the most amazing museums. \nMark: That's right. However, the food in Rome is better than the food in London. \nSarah: You're right. Rome is also more relaxing. I think I will choose Rome this year!",
+    "listening_task": {
+      "type": "Identification",
+      "questions": [
+        {
+          "question": "Which city does Mark think is sunnier?",
+          "options": ["London", "Rome", "Both", "None"],
+          "correct_answer": "Rome"
+        },
+        {
+          "question": "What is Sarah's final decision?",
+          "options": [
+            "She will go to London",
+            "She will stay home",
+            "She will go to Rome",
+            "She is still not sure"
+          ],
+          "correct_answer": "She will go to Rome"
+        }
+      ]
+    },
+    "focus_sounds": ["Linking 'than' with adjectives", "Comparative stress"]
+  },
+  {
+    "unit_id": 5,
+    "unit_title": "Health Advice",
+    "audio_script": "Doctor: Hello, Mr. Smith. How are you feeling today? \nMr. Smith: Not very well, doctor. I have a terrible headache and my throat hurts. \nDoctor: I see. You should drink plenty of water and get some rest. \nMr. Smith: Should I take any medicine? \nDoctor: Yes, I will give you a prescription. But you shouldn't go to work for two days. You need to stay at home and sleep.",
+    "listening_task": {
+      "type": "Identification",
+      "questions": [
+        {
+          "question": "What is Mr. Smith's problem?",
+          "options": [
+            "A backache",
+            "A stomachache",
+            "A headache and a sore throat",
+            "A broken leg"
+          ],
+          "correct_answer": "A headache and a sore throat"
+        },
+        {
+          "question": "What shouldn't Mr. Smith do?",
+          "options": ["Drink water", "Rest", "Take medicine", "Go to work"],
+          "correct_answer": "Go to work"
+        }
+      ]
+    },
+    "focus_sounds": [
+      "Should / Shouldn't pronunciation",
+      "Silent 'l' in should/shouldn't"
+    ]
+  },
+  {
+    "unit_id": 6,
+    "unit_title": "Movie Review",
+    "audio_script": "Host: Welcome to 'Quick Reviews'. Today, I'm talking about the new sci-fi movie, 'Star Journey'. \nHost: The story is simply incredible. It's much more exciting than the previous movie. The actors perform beautifully, especially the main character. \nHost: However, the movie is extremely long. It's almost three hours! Some parts move too slowly. \nHost: Overall, it is a fantastic visual experience. If you like space adventures, you should definitely watch it.",
+    "listening_task": {
+      "type": "Identification",
+      "questions": [
+        {
+          "question": "What kind of movie is 'Star Journey'?",
+          "options": ["Comedy", "Sci-fi", "Horror", "Romance"],
+          "correct_answer": "Sci-fi"
+        },
+        {
+          "question": "What is a negative point about the movie according to the host?",
+          "options": [
+            "The acting is bad.",
+            "The story is boring.",
+            "It is too long.",
+            "The visuals are poor."
+          ],
+          "correct_answer": "It is too long."
+        }
+      ]
+    },
+    "focus_sounds": [
+      "Adverb placement (simply, beautifully, extremely)",
+      "Intonation for emphasis"
+    ]
+  },
+  {
+    "unit_id": 7,
+    "unit_title": "Job Application",
+    "audio_script": "Interviewer: Good morning. Please, take a seat. \nApplicant: Thank you. \nInterviewer: So, I have read your CV. Can you tell me why you want to work for our company? \nApplicant: Well, your company is very innovative. I have always wanted to work in a dynamic environment like this. \nInterviewer: I see. What are your main strengths? \nApplicant: I am very organized and I work well in a team. I also have good communication skills.",
+    "listening_task": {
+      "type": "Identification",
+      "questions": [
+        {
+          "question": "Why does the applicant want to work for the company?",
+          "options": [
+            "Because the salary is high.",
+            "Because the company is innovative.",
+            "Because it is close to home.",
+            "Because it is easy work."
+          ],
+          "correct_answer": "Because the company is innovative."
+        },
+        {
+          "question": "What is ONE of the applicant's strengths?",
+          "options": [
+            "Being lazy",
+            "Working alone",
+            "Being organized",
+            "Poor communication"
+          ],
+          "correct_answer": "Being organized"
+        }
+      ]
+    },
+    "focus_sounds": [
+      "Formal tone and vocabulary",
+      "Word stress in multi-syllable words"
+    ]
+  }
+]

@@ -66,3 +66,20 @@ export interface WritingTask {
   sophisticated_vocabulary?: string[];
   rhetorical_check?: string[];
 }
+
+export interface ListeningQuestion {
+  question: string;
+  options: string[];
+  correct_answer: string;
+}
+
+export interface ListeningTask {
+  unit_id: number;
+  unit_title: string;
+  audio_script: string;
+  listening_task: {
+    type: string;
+    questions: ListeningQuestion[];
+  };
+  focus_sounds: string[];
+}

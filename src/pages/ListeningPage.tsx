@@ -1,24 +1,24 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "@/store/hooks";
-import { fetchReadingUnits } from "@/features/reading";
-import { BookOpen, ArrowLeft } from "lucide-react";
-import { ReadingUnitCard } from "@/components/ui/ReadingUnitCard";
+import { fetchListeningTasks } from "@/features/listening";
+import { Headphones, ArrowLeft } from "lucide-react";
+import { ListeningUnitCard } from "@/components/ui/ListeningUnitCard";
 
-export function ReadingPage() {
+export function ListeningPage() {
   const navigate = useNavigate();
   const dispatch = useAppDispatch();
-  const { units, status, error } = useAppSelector((state) => state.reading);
+  const { tasks, status, error } = useAppSelector((state) => state.listening);
   const { completedUnits } = useAppSelector((state) => state.progress);
 
   useEffect(() => {
-    dispatch(fetchReadingUnits());
+    dispatch(fetchListeningTasks());
   }, [dispatch]);
 
   if (status === "loading") {
     return (
       <div className="flex items-center justify-center min-h-[60vh]">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600"></div>
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
       </div>
     );
   }
@@ -28,8 +28,8 @@ export function ReadingPage() {
       <div className="text-center py-12">
         <p className="text-red-500">Hata: {error}</p>
         <button
-          onClick={() => dispatch(fetchReadingUnits())}
-          className="mt-4 px-6 py-2 bg-indigo-600 text-white rounded-lg"
+          onClick={() => dispatch(fetchListeningTasks())}
+          className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg"
         >
           Tekrar Dene
         </button>
@@ -51,28 +51,28 @@ export function ReadingPage() {
 
       <header className="mb-12">
         <h2 className="text-4xl font-extrabold text-slate-800 mb-4 flex items-center">
-          <BookOpen className="mr-4 text-indigo-600 w-10 h-10" /> Reading
+          <Headphones className="mr-4 text-blue-600 w-10 h-10" /> Listening
           Alıştırmaları
         </h2>
         <p className="text-lg text-slate-500">
-          Okuma kapasiteni ve kelime bilgini geliştirmek için özenle seçilmiş
-          A1, A2, B1, B2 ve C1 düzeyinde metinler.
+          Dinleme becerilerini geliştirmek için hazırlanan sesli metinler ve
+          anlama soruları.
         </p>
       </header>
 
       {/* A1 Section */}
       <div className="mb-12">
         <h3 className="text-2xl font-bold text-slate-800 mb-6 flex items-center">
-          <span className="w-2 h-8 bg-indigo-500 rounded-full mr-3"></span>
+          <span className="w-2 h-8 bg-blue-500 rounded-full mr-3"></span>
           A1 Başlangıç Seviyesi
         </h3>
         <div className="grid gap-6">
-          {units
-            .filter((u) => u.unit_id <= 3)
-            .map((unit) => (
-              <ReadingUnitCard
-                key={unit.unit_id}
-                unit={unit}
+          {tasks
+            .filter((t) => t.level === "A1")
+            .map((task) => (
+              <ListeningUnitCard
+                key={task.id || `${task.level}-${task.unit_id}`}
+                task={task}
                 completedUnits={completedUnits}
                 navigate={navigate}
               />
@@ -87,69 +87,72 @@ export function ReadingPage() {
           A2 Orta Seviye
         </h3>
         <div className="grid gap-6">
-          {units
-            .filter((u) => u.unit_id >= 4 && u.unit_id <= 6)
-            .map((unit, index) => (
-              <ReadingUnitCard
-                key={index}
-                unit={unit}
+          {tasks
+            .filter((t) => t.level === "A2")
+            .map((task) => (
+              <ListeningUnitCard
+                key={task.id || `${task.level}-${task.unit_id}`}
+                task={task}
                 completedUnits={completedUnits}
                 navigate={navigate}
               />
             ))}
         </div>
       </div>
+
       {/* B1 Section */}
       <div className="mb-12">
         <h3 className="text-2xl font-bold text-slate-800 mb-6 flex items-center">
-          <span className="w-2 h-8 bg-purple-500 rounded-full mr-3"></span>
-          B1 Orta Üstü Seviye
+          <span className="w-2 h-8 bg-purple-600 rounded-full mr-3"></span>
+          B1 Orta-İleri Seviye
         </h3>
         <div className="grid gap-6">
-          {units
-            .filter((u) => u.unit_id >= 7 && u.unit_id <= 9)
-            .map((unit) => (
-              <ReadingUnitCard
-                key={unit.unit_id}
-                unit={unit}
+          {tasks
+            .filter((t) => t.level === "B1")
+            .map((task) => (
+              <ListeningUnitCard
+                key={task.id || `${task.level}-${task.unit_id}`}
+                task={task}
                 completedUnits={completedUnits}
                 navigate={navigate}
               />
             ))}
         </div>
       </div>
+
       {/* B2 Section */}
       <div className="mb-12">
         <h3 className="text-2xl font-bold text-slate-800 mb-6 flex items-center">
-          <span className="w-2 h-8 bg-red-500 rounded-full mr-3"></span>
-          B2 İleri Seviye Hazırlık
+          <span className="w-2 h-8 bg-rose-600 rounded-full mr-3"></span>
+          B2 İleri Seviye
         </h3>
         <div className="grid gap-6">
-          {units
-            .filter((u) => u.unit_id >= 10 && u.unit_id <= 12)
-            .map((unit) => (
-              <ReadingUnitCard
-                key={unit.unit_id}
-                unit={unit}
+          {tasks
+            .filter((t) => t.level === "B2")
+            .map((task) => (
+              <ListeningUnitCard
+                key={task.id || `${task.level}-${task.unit_id}`}
+                task={task}
                 completedUnits={completedUnits}
                 navigate={navigate}
               />
             ))}
         </div>
       </div>
+
       {/* C1 Section */}
       <div className="mb-12">
         <h3 className="text-2xl font-bold text-slate-800 mb-6 flex items-center">
-          <span className="w-2 h-8 bg-slate-600 rounded-full mr-3"></span>
-          C1 Akademik ve İleri Seviye
+          <span className="w-2 h-8 bg-indigo-700 rounded-full mr-3"></span>
+          C1 İleri Seviye (Advanced)
         </h3>
         <div className="grid gap-6">
-          {units
-            .filter((u) => u.unit_id >= 13 && u.unit_id <= 15)
-            .map((unit) => (
-              <ReadingUnitCard
-                key={unit.unit_id}
-                unit={unit}
+          {tasks
+            .filter((t) => t.level === "C1")
+            .map((task) => (
+              <ListeningUnitCard
+                key={task.id || `${task.level}-${task.unit_id}`}
+                task={task}
                 completedUnits={completedUnits}
                 navigate={navigate}
               />

@@ -8,6 +8,7 @@ import {
   Trophy,
   Flame,
   Zap,
+  Headphones,
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { FeatureCard } from "@/components/ui/FeatureCard";
@@ -34,6 +35,13 @@ export function HomePage() {
           description="Uzun metinler ve anlama soruları"
           icon={BookOpen}
           onClick={() => navigate("/reading")}
+        />
+
+        <FeatureCard
+          title="Dinleme Alıştırmaları"
+          description="Sesli metinler ve dinlediğini anlama"
+          icon={Headphones}
+          onClick={() => navigate("/listening")}
         />
 
         <FeatureCard

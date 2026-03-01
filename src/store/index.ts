@@ -14,6 +14,7 @@ import progressReducer from "@/features/progress/store/progressSlice";
 import quizReducer from "@/features/quiz/store/quizSlice";
 import { readingReducer } from "@/features/reading";
 import { writingReducer } from "@/features/writing";
+import { listeningReducer } from "@/features/listening";
 
 const persistConfig = {
   key: "lingprep-root",
@@ -26,6 +27,7 @@ const rootReducer = combineReducers({
   quiz: quizReducer,
   reading: readingReducer,
   writing: writingReducer,
+  listening: listeningReducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

@@ -10,6 +10,8 @@ import { ReadingUnitPage } from "@/pages/ReadingUnitPage";
 import { WritingPage } from "@/pages/WritingPage";
 import { WritingTaskPage } from "@/pages/WritingTaskPage";
 import { QuizzesPage } from "@/pages/QuizzesPage";
+import { ListeningPage } from "@/pages/ListeningPage";
+import { ListeningTaskPage } from "@/pages/ListeningTaskPage";
 import { LevelCelebration } from "@/features/progress";
 import logo from "../../public/logo.svg";
 
@@ -48,6 +50,11 @@ function App() {
                 <Route path="/reading/:unitId" element={<ReadingUnitPage />} />
                 <Route path="/writing" element={<WritingPage />} />
                 <Route path="/writing/:unitId" element={<WritingTaskPage />} />
+                <Route path="/listening" element={<ListeningPage />} />
+                <Route
+                  path="/listening/:level/:unitId"
+                  element={<ListeningTaskPage />}
+                />
                 <Route path="*" element={<HomePage />} />
               </Routes>
             </main>

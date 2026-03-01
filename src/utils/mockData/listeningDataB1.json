@@ -1,0 +1,242 @@
+[
+  {
+    "unit_id": 1,
+    "unit_title": "Technology Addiction",
+    "audio_script": "Host: Welcome to 'Modern Minds'. Today, we are exploring technology addiction. Many of us are experiencing this right now. Dr. Green, what exactly is happening? \nDr. Green: Well, it's quite simple. We are constantly checking our phones because our brains release dopamine every time we get a notification. It makes us feel good temporarily. \nHost: So, we are training our brains to need the phone? \nDr. Green: Exactly. Most people don't realize how much time they actually spend looking at screens. While we think we are just relaxing, we are actually increasing our stress levels. \nHost: What can we do about it? \nDr. Green: I suggest putting down your phone two hours before bed. It helps your brain to naturally calm down before sleep.",
+    "listening_task": {
+      "type": "Multiple Choice",
+      "questions": [
+        {
+          "question": "Why do people constantly check their phones according to Dr. Green?",
+          "options": [
+            "Because they are bored and have nothing to do.",
+            "Because their brains release a feel-good chemical called dopamine.",
+            "Because they need to reply to important work emails.",
+            "Because they want to stay updated on the latest news."
+          ],
+          "correct_answer": "Because their brains release a feel-good chemical called dopamine."
+        },
+        {
+          "question": "What is the true effect of looking at screens when we think we are relaxing?",
+          "options": [
+            "It decreases our stress levels.",
+            "It makes us feel tired faster.",
+            "It is actually increasing our stress levels.",
+            "It improves our focus."
+          ],
+          "correct_answer": "It is actually increasing our stress levels."
+        },
+        {
+          "question": "What advice does Dr. Green give at the end?",
+          "options": [
+            "To ignore notifications all day.",
+            "To go to bed earlier.",
+            "To put down the phone two hours before sleep.",
+            "To buy a new phone."
+          ],
+          "correct_answer": "To put down the phone two hours before sleep."
+        }
+      ]
+    },
+    "focus_sounds": [
+      "Present Simple vs. Continuous structure",
+      "Stress on key verbs in changing states"
+    ]
+  },
+  {
+    "unit_id": 2,
+    "unit_title": "A Life-Changing Journey",
+    "audio_script": "Speaker: Two years ago, I took a trip that completely changed my perspective on life. While I was traveling through the mountains of Nepal, I realized how simple happiness could be. The sun was shining brightly, and the local people were smiling despite their hard living conditions. \nAt that moment, I was worrying about my stressful job back home. I was constantly checking my emails, even though the internet connection was terrible. \nOne afternoon, an old man invited me into his home for tea. While we were drinking, he told me stories about his family. I wasn't thinking about my job anymore. I finally understood that I was missing the most important parts of life.",
+    "listening_task": {
+      "type": "Multiple Choice",
+      "questions": [
+        {
+          "question": "Where was the speaker traveling when they had this realization?",
+          "options": [
+            "Along the beaches of Thailand.",
+            "Through the mountains of Nepal.",
+            "In a busy city in Japan.",
+            "Inside a small village in Europe."
+          ],
+          "correct_answer": "Through the mountains of Nepal."
+        },
+        {
+          "question": "What was the speaker doing despite the terrible internet connection?",
+          "options": [
+            "They were drinking tea with locals.",
+            "They were taking beautiful photos.",
+            "They were constantly checking emails.",
+            "They were calling their family."
+          ],
+          "correct_answer": "They were constantly checking emails."
+        },
+        {
+          "question": "What happened while the speaker was drinking tea with the old man?",
+          "options": [
+            "The speaker remembered an important work meeting.",
+            "The old man told stories about his family.",
+            "The internet connection suddenly improved.",
+            "The speaker decided to move to Nepal."
+          ],
+          "correct_answer": "The old man told stories about his family."
+        },
+        {
+          "question": "What was the speaker's final realization?",
+          "options": [
+            "That traveling is too expensive.",
+            "That they missed their stressful job.",
+            "That they needed a new computer for travel.",
+            "That they were missing the most important parts of life."
+          ],
+          "correct_answer": "That they were missing the most important parts of life."
+        }
+      ]
+    },
+    "focus_sounds": [
+      "Past Continuous vs. Past Simple",
+      "Intonation showing realization and emotion"
+    ]
+  },
+  {
+    "unit_id": 3,
+    "unit_title": "The World in 10 Years",
+    "audio_script": "Presenter: Good morning, everyone. Today, I'll be sharing some predictions about our world in 2036. If we look at current trends, significant changes will happen. \nFirstly, if we continue to develop artificial intelligence at this speed, many traditional jobs will disappear. However, if that happens, entirely new industries will be created to replace them. \nSecondly, what about transportation? If electric vehicles become cheaper, gas-powered cars will probably be illegal in major cities. \nFinally, if we don't start taking climate change seriously immediately, a lot of coastal towns will face serious flooding problems. We have the technology to prevent this, but if we wait too long, it will be too late.",
+    "listening_task": {
+      "type": "Multiple Choice",
+      "questions": [
+        {
+          "question": "What will disappear if AI continues to develop rapidly?",
+          "options": [
+            "Many traditional jobs.",
+            "New industries.",
+            "Public transportation.",
+            "Major cities."
+          ],
+          "correct_answer": "Many traditional jobs."
+        },
+        {
+          "question": "What is predicted to become illegal in major cities?",
+          "options": [
+            "Using artificial intelligence.",
+            "Gas-powered cars.",
+            "Living in coastal towns.",
+            "Driving electric vehicles."
+          ],
+          "correct_answer": "Gas-powered cars."
+        },
+        {
+          "question": "What problem will coastal towns face if climate change isn't addressed?",
+          "options": [
+            "They will lose all their jobs.",
+            "They will have no electricity.",
+            "They will face serious flooding problems.",
+            "They will run out of fresh water."
+          ],
+          "correct_answer": "They will face serious flooding problems."
+        },
+        {
+          "question": "Which grammatical structure is predominantly used throughout this presentation?",
+          "options": [
+            "The Second Conditional",
+            "The Passive Voice",
+            "The Present Perfect",
+            "The First Conditional"
+          ],
+          "correct_answer": "The First Conditional"
+        }
+      ]
+    },
+    "focus_sounds": [
+      "First Conditional emphasis",
+      "Future predictions intonation"
+    ]
+  },
+  {
+    "unit_id": 4,
+    "unit_title": "Environmental Issues",
+    "audio_script": "Host: Today, we are discussing ocean pollution. Most people don't know how plastic is actually managed. \nGuest: You're right. In our facilities, tons of plastic are collected from the beaches every single day. First, the waste is sorted by machines, and then it is processed into small pellets. \nHost: Where do these pellets go? \nGuest: These pellets are later sold to companies to make new products, like clothing and outdoor equipment. It is a long process, but it's how nature is protected from further damage. It should be realized that everything we throw away is eventually returned to our local ecosystem.",
+    "listening_task": {
+      "type": "Multiple Choice",
+      "questions": [
+        {
+          "question": "What is the first step in the plastic management process mentioned?",
+          "options": [
+            "Selling to companies",
+            "Sorting by machines",
+            "Cleaning the pellets",
+            "Burning the waste"
+          ],
+          "correct_answer": "Sorting by machines"
+        },
+        {
+          "question": "What are the small plastic pellets used to make?",
+          "options": [
+            "New plastic bottles",
+            "Food packaging",
+            "Clothing and outdoor equipment",
+            "Cleaning supplies"
+          ],
+          "correct_answer": "Clothing and outdoor equipment"
+        },
+        {
+          "question": "The guest mentions that nature 'is protected'. Which structure is this an example of?",
+          "options": [
+            "Past Simple",
+            "Active Voice",
+            "Passive Voice",
+            "Present Continuous"
+          ],
+          "correct_answer": "Passive Voice"
+        }
+      ]
+    },
+    "focus_sounds": [
+      "Pay attention to the stress on 'how' and 'where' in passive sentences.",
+      "Clear pronunciation of passive verb endings"
+    ]
+  },
+  {
+    "unit_id": 5,
+    "unit_title": "Art Review",
+    "audio_script": "Critic: Welcome back to 'Art Talk'. This week, I visited the gallery downtown which is currently displaying works by Elena Rossi. Rossi is an artist whose paintings usually focus on modern city life. \nThe exhibition, which opened last Tuesday, has received mixed reviews. The main painting, which shows a crowded subway car at midnight, is incredibly powerful. However, the smaller pieces that are displayed in the back room aren't very impressive. \nThe people who visited on opening night seemed very confused by the lighting. They used very dark lights which made it difficult to see the details that make Rossi's work so special.",
+    "listening_task": {
+      "type": "Multiple Choice",
+      "questions": [
+        {
+          "question": "What do Elena Rossi's paintings usually focus on?",
+          "options": [
+            "Beautiful landscapes",
+            "Modern city life",
+            "Historical events",
+            "Portrait drawings"
+          ],
+          "correct_answer": "Modern city life"
+        },
+        {
+          "question": "What is the subject of the 'incredibly powerful' main painting?",
+          "options": [
+            "A dark lighting setup",
+            "A crowded subway car at midnight",
+            "A bustling city market",
+            "A quiet room in the back"
+          ],
+          "correct_answer": "A crowded subway car at midnight"
+        },
+        {
+          "question": "Why were people confused on the opening night?",
+          "options": [
+            "The paintings were too small.",
+            "The gallery was closed.",
+            "The artist did not arrive.",
+            "The lighting was very dark."
+          ],
+          "correct_answer": "The lighting was very dark."
+        }
+      ]
+    },
+    "focus_sounds": [
+      "Relative Clauses identifying and describing subjects",
+      "Voice pausing before and after non-defining clauses"
+    ]
+  }
+]

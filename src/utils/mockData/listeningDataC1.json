@@ -1,0 +1,234 @@
+[
+  {
+    "unit_id": 1,
+    "unit_title": "Existential Inquiry: The Seminar",
+    "audio_script": "[Professor]: Welcome, everyone. Today's seminar delves into the heart of existential inquiry. We must ask ourselves: what does it truly mean to lead an 'authentic' life? [pause] **Sartre** famously argued that 'existence precedes essence'. This implies that we are not born with a fixed purpose; rather, we define ourselves through every choice we make. [long pause] Had we been born into a world where our destiny was predetermined, our freedom would be an illusion. [rising intonation] However, this radical freedom brings with it a profound sense of 'anguish'. Why? Because we are entirely responsible for our actions. We might have wished for a celestial guide to direct us, but we find ourselves alone. [pause] I suggest each of you be prepared to discuss whether this burden of choice is a gift or a curse in our next session.",
+    "listening_task": {
+      "type": "Rhetorical & Philosophical Analysis",
+      "questions": [
+        {
+          "question": "What is the core meaning of the phrase 'existence precedes essence' as discussed in the seminar?",
+          "options": [
+            "We are born with a clear, biological purpose.",
+            "Our essence is determined by our ancestors' choices.",
+            "Human beings define their own identity through their choices.",
+            "The physical world is more important than abstract ideas."
+          ],
+          "correct_answer": "Human beings define their own identity through their choices."
+        },
+        {
+          "question": "According to the professor, why does radical freedom lead to 'anguish'?",
+          "options": [
+            "Because most people do not want to be free.",
+            "Because it makes it difficult to make any decisions at all.",
+            "Because we are solely responsible for the consequences of our actions.",
+            "Because we cannot find enough resources to exercise our freedom."
+          ],
+          "correct_answer": "Because we are solely responsible for the consequences of our actions."
+        },
+        {
+          "question": "What hypothetical scenario does the professor use to illustrate the nature of freedom?",
+          "options": [
+            "A world where everyone is inherently evil.",
+            "A world where our destiny is pre-ordained or predetermined.",
+            "A society that encourages total isolation.",
+            "A seminar where no one is allowed to speak."
+          ],
+          "correct_answer": "A world where our destiny is pre-ordained or predetermined."
+        },
+        {
+          "question": "What does the professor imply by saying we 'might have wished for a celestial guide'?",
+          "options": [
+            "We are literally searching for stars to guide our travels.",
+            "We often desire an external authority or deity to provide us with meaning.",
+            "We need better maps for our philosophical journeys.",
+            "Most students are religious."
+          ],
+          "correct_answer": "We often desire an external authority or deity to provide us with meaning."
+        },
+        {
+          "question": "Which grammatical structure is used when the professor says 'I suggest each of you be prepared'?",
+          "options": [
+            "The Past Continuous",
+            "The Present Perfect",
+            "The Subjunctive Mood",
+            "The Future in the Past"
+          ],
+          "correct_answer": "The Subjunctive Mood"
+        },
+        {
+          "question": "What is the primary format of this listening text?",
+          "options": [
+            "A casual conversation between friends.",
+            "A clinical case discussion.",
+            "A philosophical seminar lecture.",
+            "A corporate negotiation."
+          ],
+          "correct_answer": "A philosophical seminar lecture."
+        }
+      ]
+    },
+    "focus_sounds": [
+      "Nuanced Modals and Speculation",
+      "Subjunctive 'be prepared' emphasis"
+    ]
+  },
+  {
+    "unit_id": 2,
+    "unit_title": "AI Ethics: The Future Science Panel",
+    "audio_script": "[Moderator]: Our next topic is the ethical dimension of Artificial Intelligence. **Never** before has a technology challenged our definition of consciousness so fundamentally. [pause] **What is at stake is nothing less than the future of human agency.** [long pause] Some argue that AI was to have changed the world for the better by now, yet we see increasing bias in automated systems. [rising intonation] Not only must we develop technical safeguards, but we also need a robust legal framework. [pause] Were it not for the speed of development, we might have time for a more gradual integration. However, the reality is that we are in a race. It is crucial that the developer be aware of the social consequences. [pause] Only by collaborating internationally can we ensure that AI remains a tool for progress rather than a source of inequality.",
+    "listening_task": {
+      "type": "Critical Analysis",
+      "questions": [
+        {
+          "question": "What is the moderator's stance on the impact of AI on human consciousness?",
+          "options": [
+            "It has had very little effect so far.",
+            "It is the most significant challenge to our definition of consciousness in history.",
+            "It will eventually make humans more conscious.",
+            "It is primarily a tool for data processing."
+          ],
+          "correct_answer": "It is the most significant challenge to our definition of consciousness in history."
+        },
+        {
+          "question": "What does the moderator mean by the cleft sentence 'What is at stake is nothing less than...'?",
+          "options": [
+            "The technology is very expensive to maintain.",
+            "The fundamental capacity of humans to act independently is at risk.",
+            "There is a lot of money to be made in the AI industry.",
+            "The technological progress has stopped."
+          ],
+          "correct_answer": "The fundamental capacity of humans to act independently is at risk."
+        },
+        {
+          "question": "The moderator uses 'was to have changed' to imply what about AI's progress?",
+          "options": [
+            "It has exceeded all expectations.",
+            "It has met all of its original goals.",
+            "There was an unfulfilled expectation of positive change by this point.",
+            "It was never intended to change the world."
+          ],
+          "correct_answer": "There was an unfulfilled expectation of positive change by this point."
+        },
+        {
+          "question": "What does the moderator suggest regarding the speed of AI development?",
+          "options": [
+            "It is slow enough to allow for deep reflection.",
+            "It is accelerating at a manageable pace.",
+            "The rapid pace prevents us from having a gradual integration.",
+            "We should stop development immediately."
+          ],
+          "correct_answer": "The rapid pace prevents us from having a gradual integration."
+        },
+        {
+          "question": "According to the panel, how can progress be ensured while avoiding inequality?",
+          "options": [
+            "By increasing competition between developers.",
+            "Through international collaboration.",
+            "By allowing AI to manage the legal systems.",
+            "By focusing solely on technical safeguards."
+          ],
+          "correct_answer": "Through international collaboration."
+        },
+        {
+          "question": "Identify the inversion used in the opening statement.",
+          "options": [
+            "AI remains a tool.",
+            "It is crucial that...",
+            "Never before has a technology challenged...",
+            "What is at stake is..."
+          ],
+          "correct_answer": "Never before has a technology challenged..."
+        }
+      ]
+    },
+    "focus_sounds": [
+      "Negative Inversion 'Never before'",
+      "Cleft Sentence emphasis"
+    ]
+  },
+  {
+    "unit_id": 3,
+    "unit_title": "Cultural Assimilation: A Sociological Critique",
+    "audio_script": "[Professor]: Today we critique the concept of cultural assimilation. **Seldom** have sociologists agreed on a single definition, yet the pressure to conform remains palpable. [pause] **What is often ignored is the loss of cultural heritage in the process of integration.** [long pause] Having realized the complexity of identity, many modern scholars are shifting towards a model of 'pluralism'. [pause] It is essentially the belief that a society can be strengthened by its differences. [rising intonation] Should a community be forced to abandon its language, the psychological impact can be devastating. [pause] Driven by economic necessity, many migrants feel they have no choice but to assimilate. [pause] I suggest the government be more inclusive in its policies. [long pause] Were we to truly value diversity, we would see integration not as a loss, but as an enrichment of the national fabric.",
+    "listening_task": {
+      "type": "Thematic & Linguistic Analysis",
+      "questions": [
+        {
+          "question": "What does the professor suggest about the definition of cultural assimilation?",
+          "options": [
+            "It is a simple and well-understood term.",
+            "Sociologists have a very hard time agreeing on what it actually means.",
+            "It is no longer a relevant concept in modern sociology.",
+            "It is the same as pluralism."
+          ],
+          "correct_answer": "Sociologists have a very hard time agreeing on what it actually means."
+        },
+        {
+          "question": "What is 'often ignored' during the assimilation process, according to the text?",
+          "options": [
+            "The economic benefits to the host country.",
+            "The specific laws regarding migration.",
+            "The loss of cultural heritage.",
+            "The increase in population density."
+          ],
+          "correct_answer": "The loss of cultural heritage."
+        },
+        {
+          "question": "What is the core belief of 'pluralism' as stated in the critique?",
+          "options": [
+            "Everyone must speak the same language.",
+            "Society is weakened by having too many cultures.",
+            "Society is actually strengthened by its cultural differences.",
+            "Integration is impossible."
+          ],
+          "correct_answer": "Society is actually strengthened by its cultural differences."
+        },
+        {
+          "question": "According to the text, what drives many migrants to feel forced to assimilate?",
+          "options": [
+            "A desire for new fashion trends.",
+            "A total rejection of their own culture.",
+            "Economic necessity.",
+            "Instructional requirements from the host government."
+          ],
+          "correct_answer": "Economic necessity."
+        },
+        {
+          "question": "What does the professor suggest the government should do?",
+          "options": [
+            "Enforce stricter immigration laws.",
+            "Be more inclusive in its policies.",
+            "Provide more language classes.",
+            "Encourage people to move to other countries."
+          ],
+          "correct_answer": "Be more inclusive in its policies."
+        },
+        {
+          "question": "Identify the participle clause used to describe the scholarly shift.",
+          "options": [
+            "Driven by economic necessity...",
+            "Having realized the complexity of identity...",
+            "What is often ignored...",
+            "Should a community be forced..."
+          ],
+          "correct_answer": "Having realized the complexity of identity..."
+        },
+        {
+          "question": "What is the tone of the concluding statement?",
+          "options": [
+            "Indifferent and purely objective.",
+            "Angry and accusatory.",
+            "Advocating for a more inclusive and appreciative view of diversity.",
+            "Skeptical about the possibility of integration."
+          ],
+          "correct_answer": "Advocating for a more inclusive and appreciative view of diversity."
+        }
+      ]
+    },
+    "focus_sounds": [
+      "Negative Inversion 'Seldom have...'",
+      "Participle Clauses 'Driven by...', 'Having realized...'"
+    ]
+  }
+]
