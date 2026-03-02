@@ -18,7 +18,6 @@
 - **Styling**: Tailwind CSS & Framer Motion (Animations)
 - **Icons**: Lucide React
 - **Database**: Firebase Firestore
-- **Deployment**: [Configure as needed]
 
 ## 📋 Prerequisites
 
