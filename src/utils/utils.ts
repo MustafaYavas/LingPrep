@@ -187,11 +187,11 @@ export const getLevelTextColor = (unitId: number) => {
 };
 
 export const getLevelFirstLetterColor = (unitId: number) => {
-  if (unitId <= 3) return `first-letter:${getLevelTextColor(unitId)}`;
-  if (unitId <= 6) return `first-letter:${getLevelTextColor(unitId)}`;
-  if (unitId <= 9) return `first-letter:${getLevelTextColor(unitId)}`;
-  if (unitId <= 12) return `first-letter:${getLevelTextColor(unitId)}`;
-  return `first-letter:${getLevelTextColor(unitId)}`;
+  if (unitId <= 3) return `first-letter:text-indigo-600`;
+  if (unitId <= 6) return `first-letter:text-orange-600`;
+  if (unitId <= 9) return `first-letter:text-purple-600`;
+  if (unitId <= 12) return `first-letter:text-red-600`;
+  return `first-letter:text-slate-600`;
 };
 
 // WRITING

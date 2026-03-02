@@ -277,7 +277,7 @@ export function ReadingUnitPage() {
               Harika İş!
             </h2>
             <p className="text-xl text-slate-500 mb-8">
-              A1 Reading:{" "}
+              {getLevel(unit.unit_id)} Reading:{" "}
               <span className="text-indigo-600 font-black">{unit.title}</span>{" "}
               ünitesini tamamladın.
             </p>
