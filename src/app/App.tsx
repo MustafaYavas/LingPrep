@@ -13,7 +13,7 @@ import { QuizzesPage } from "@/pages/QuizzesPage";
 import { ListeningPage } from "@/pages/ListeningPage";
 import { ListeningTaskPage } from "@/pages/ListeningTaskPage";
 import { LevelCelebration } from "@/features/progress";
-import logo from "../../public/logo.svg";
+import logo from "@/assets/logo.svg";
 
 function App() {
   return (

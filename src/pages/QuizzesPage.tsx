@@ -1,12 +1,23 @@
-import { useAppSelector } from "@/store/hooks";
+import { useState } from "react";
+import { useAppSelector, useAppDispatch } from "@/store/hooks";
 import { units } from "@/utils/utils";
-import { Trophy, Flame, BookOpen, ArrowLeft } from "lucide-react";
+import { Trophy, Flame, BookOpen, ArrowLeft, RotateCcw } from "lucide-react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { UnitSection } from "@/features/quiz/components/UnitSection";
+import {
+  resetProgress,
+  resetCurrentLevelProgress,
+} from "@/features/progress/store/progressSlice";
+import { ConfirmModal } from "@/components/ui/ConfirmModal";
 
 export function QuizzesPage() {
   const navigate = useNavigate();
+  const dispatch = useAppDispatch();
+  const [resetModalState, setResetModalState] = useState<{
+    isOpen: boolean;
+    type: "all" | "current" | null;
+  }>({ isOpen: false, type: null });
   const { currentScore, completedUnits, completedTests } = useAppSelector(
     (state) => state.progress,
   );
@@ -28,6 +39,34 @@ export function QuizzesPage() {
             ? "A2 Orta Seviye"
             : "A1 Başlangıç";
 
+  const levelCode =
+    completedUnits.length >= 23
+      ? "C1"
+      : completedUnits.length >= 17
+        ? "B2"
+        : completedUnits.length >= 11
+          ? "B1"
+          : completedUnits.length >= 5
+            ? "A2"
+            : "A1";
+
+  const handleResetAll = () => {
+    setResetModalState({ isOpen: true, type: "all" });
+  };
+
+  const handleResetCurrentLevel = () => {
+    setResetModalState({ isOpen: true, type: "current" });
+  };
+
+  const executeReset = () => {
+    if (resetModalState.type === "all") {
+      dispatch(resetProgress());
+    } else if (resetModalState.type === "current") {
+      dispatch(resetCurrentLevelProgress(levelCode));
+    }
+    setResetModalState({ isOpen: false, type: null });
+  };
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <div className="flex items-center justify-between mb-8">
@@ -38,6 +77,25 @@ export function QuizzesPage() {
           <ArrowLeft className="w-5 h-5 mr-2" />
           Ana Sayfa
         </button>
+
+        <div className="flex items-center gap-4">
+          <button
+            onClick={handleResetCurrentLevel}
+            className="flex items-center text-sm font-medium text-slate-500 hover:text-orange-600 transition-colors cursor-pointer px-3 py-2 rounded-lg hover:bg-orange-50"
+            title="Mevcut Seviyeyi Sıfırla"
+          >
+            <RotateCcw className="w-4 h-4 mr-2" />
+            Mevcut Seviyeyi Sıfırla ({levelCode})
+          </button>
+          <button
+            onClick={handleResetAll}
+            className="flex items-center text-sm font-medium text-slate-500 hover:text-red-600 transition-colors cursor-pointer px-3 py-2 rounded-lg hover:bg-red-50"
+            title="Tüm İlerlemeyi Sıfırla"
+          >
+            <RotateCcw className="w-4 h-4 mr-2" />
+            Tüm İlerlemeyi Sıfırla
+          </button>
+        </div>
       </div>
 
       {/* Header Stats */}
@@ -129,6 +187,21 @@ export function QuizzesPage() {
         completedTests={completedTests}
         level="C1"
         previousLevelLastUnitId={b2Units[b2Units.length - 1]?.id}
+      />
+
+      <ConfirmModal
+        isOpen={resetModalState.isOpen}
+        title="Emin Misiniz?"
+        message={
+          resetModalState.type === "all"
+            ? "Tüm Grammar ilerlemenizi (puan ve seviyeler) sıfırlamak istediğinize emin misiniz? Bu işlem geri alınamaz."
+            : `Sadece mevcut seviyenizdeki (${levelCode}) Grammar ilerlemenizi sıfırlamak istediğinize emin misiniz?`
+        }
+        onConfirm={executeReset}
+        onCancel={() => setResetModalState({ isOpen: false, type: null })}
+        confirmText="Evet, Sıfırla"
+        cancelText="İptal"
+        isDestructive={true}
       />
     </div>
   );

@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import type { WritingTask } from "@/features/writing/types";
 import { getLevelStyles } from "@/utils/levelUtils";
+import { getWordCountRange } from "@/utils/utils";
 
 export function WritingTaskPage() {
   const { unitId } = useParams<{ unitId: string }>();
@@ -47,8 +48,13 @@ export function WritingTaskPage() {
     }
   }, [unitId]);
 
+  const minRequiredStr = task
+    ? getWordCountRange(task.level).split("-")[0]
+    : "10";
+  const minRequired = parseInt(minRequiredStr, 10);
+
   const handleSubmit = () => {
-    if (userText.trim().length < 10) return;
+    if (userText.trim().length === 0 || wordCount < minRequired) return;
     setIsSubmitted(true);
 
     // Save progress with a special ID for writing tasks (e.g., unitId + 200)
@@ -64,6 +70,7 @@ export function WritingTaskPage() {
 
   const wordCount =
     userText.trim() === "" ? 0 : userText.trim().split(/\s+/).length;
+  const isEnoughWords = wordCount >= minRequired;
 
   if (loading) {
     return (
@@ -87,7 +94,7 @@ export function WritingTaskPage() {
           Yazma Listesi
         </button>
         <div className="flex items-center space-x-2">
-          <PenTool className="w-5 h-5 text-emerald-500" />
+          <PenTool className="w-5 h-5 text-indigo-600" />
           <span className="font-bold text-slate-700">{task.task_title}</span>
         </div>
       </div>
@@ -132,7 +139,7 @@ export function WritingTaskPage() {
                     {task.target_structures.map((s) => (
                       <span
                         key={s}
-                        className="px-3 py-1 bg-blue-50 text-blue-600 text-xs font-bold rounded-lg border border-blue-100 uppercase"
+                        className={`px-3 py-1 ${getLevelStyles(task.level).badge} text-xs font-bold rounded-lg border border-blue-100 uppercase`}
                       >
                         {s}
                       </span>
@@ -190,18 +197,29 @@ export function WritingTaskPage() {
                 value={userText}
                 onChange={(e) => setUserText(e.target.value)}
                 placeholder="Buraya yazmaya başla..."
-                className="w-full min-h-[300px] p-6 text-xl text-slate-700 bg-slate-50 rounded-2xl border-2 border-transparent focus:border-emerald-500 focus:bg-white outline-none transition-all resize-none"
+                className={`w-full min-h-[300px] p-6 text-xl text-slate-700 bg-slate-50 rounded-2xl border-2 border-transparent ${getLevelStyles(task.level).focusBorder} focus:bg-white outline-none transition-all resize-none`}
               />
               <div className="absolute bottom-12 right-12 flex items-center space-x-4">
-                <span
-                  className={`text-sm font-bold ${wordCount >= 40 && wordCount <= 60 ? "text-emerald-500" : "text-slate-400"}`}
-                >
-                  {wordCount} kelime
-                </span>
+                <div className="flex flex-col items-end">
+                  <span
+                    className={`text-sm font-bold ${
+                      isEnoughWords ? "text-emerald-500" : "text-red-500"
+                    }`}
+                  >
+                    {wordCount} / {minRequired} kelime
+                  </span>
+                  {!isEnoughWords && (
+                    <span
+                      className={`text-xs ${getLevelStyles(task.level).text} mt-1`}
+                    >
+                      En az {minRequired} kelime yazmalısın
+                    </span>
+                  )}
+                </div>
                 <button
                   onClick={handleSubmit}
-                  disabled={userText.trim().length < 10}
-                  className="bg-emerald-600 hover:bg-emerald-700 disabled:opacity-50 disabled:bg-slate-300 text-white p-4 rounded-2xl shadow-lg transition-all group cursor-pointer"
+                  disabled={!isEnoughWords}
+                  className={`${getLevelStyles(task.level).button} disabled:opacity-50 disabled:bg-slate-300 text-white p-4 rounded-2xl shadow-lg transition-all group cursor-pointer`}
                 >
                   <Send className="w-6 h-6 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
                 </button>

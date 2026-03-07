@@ -4,21 +4,193 @@
   "tests": [
     {
       "id": "t1",
-      "title": "Test 1: Alışkanlıklar Analizi",
+      "title": "Test 1: Gerunds",
       "questions": [
         {
           "id": "u18_t1_q1",
           "type": "multiple_choice",
           "difficulty": "medium",
-          "question_text": "I remember ______ (lock) the door, but I can't find my keys now.",
+          "question_text": "I enjoy ___ books.",
           "options": [
-            "locking",
-            "to lock",
-            "lock",
-            "locked"
+            "read",
+            "to read",
+            "reading",
+            "reads"
           ],
-          "correct_answer": "locking",
-          "explanation": "Geçmişte yapılmış bir eylemi hatırlarken 'remember + Gerund' kullanılır."
+          "correct_answer": "reading",
+          "explanation": "Enjoy fiilinden sonra gelen fiil V-ing (gerund) alır."
+        },
+        {
+          "id": "u18_t1_q2",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "She avoids ___ (talk) to him.",
+          "correct_answer": "talking",
+          "explanation": "Avoid daima gerund ile kullanılır."
+        },
+        {
+          "id": "u18_t1_q3",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "___ English is fun.",
+          "options": [
+            "Learn",
+            "To learning",
+            "Learning",
+            "Learnt"
+          ],
+          "correct_answer": "Learning",
+          "explanation": "Cümle öznesi olarak kullanıldığında fiil isim fiil (gerund) olur."
+        },
+        {
+          "id": "u18_t1_q4",
+          "type": "true_false",
+          "difficulty": "medium",
+          "question_text": "'Mind' fiilinden sonra infinitive (to + verb) gelir.",
+          "correct_answer": "false",
+          "explanation": "Örn: Do you mind closing the door? Gerund gelir."
+        },
+        {
+          "id": "u18_t1_q5",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "They finished ___ their homework.",
+          "options": [
+            "do",
+            "to do",
+            "doing",
+            "did"
+          ],
+          "correct_answer": "doing",
+          "explanation": "Finish fiili kendisinden sonra V-ing gerektirir."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Infinitives",
+      "questions": [
+        {
+          "id": "u18_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "I want ___ a new language.",
+          "options": [
+            "learn",
+            "learning",
+            "to learn",
+            "learns"
+          ],
+          "correct_answer": "to learn",
+          "explanation": "Want fiilinden sonra to + V1 (infinitive) gelir."
+        },
+        {
+          "id": "u18_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "She decided ___ (go) to Paris.",
+          "correct_answer": "to go",
+          "explanation": "Decide infinitive ile kullanılır."
+        },
+        {
+          "id": "u18_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "We hope ___ you soon.",
+          "options": [
+            "seeing",
+            "see",
+            "to see",
+            "saw"
+          ],
+          "correct_answer": "to see",
+          "explanation": "Hope her zaman to verb ile kullanılır."
+        },
+        {
+          "id": "u18_t2_q4",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "'Need' fiilinden sonra genellikle infinitive kullanılır.",
+          "correct_answer": "true",
+          "explanation": "Örn: I need to sleep."
+        },
+        {
+          "id": "u18_t2_q5",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "He promised ___ me.",
+          "options": [
+            "helping",
+            "to help",
+            "help",
+            "helped"
+          ],
+          "correct_answer": "to help",
+          "explanation": "Promise de to + infinitive gerektirir."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Anlam Değişimi (Stop, Remember, Forget)",
+      "questions": [
+        {
+          "id": "u18_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "I stopped ___ coffee.",
+          "options": [
+            "to drink",
+            "drinking",
+            "drink",
+            "drank"
+          ],
+          "correct_answer": "drinking",
+          "explanation": "Stop + V-ing, o eylemi tamamen bırakmak anlamına gelir."
+        },
+        {
+          "id": "u18_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "I remembered ___ (lock) the door before leaving.",
+          "correct_answer": "to lock",
+          "explanation": "Yapması gereken bir eylemi hatırlamak: remember to yapısıdır."
+        },
+        {
+          "id": "u18_t3_q3",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "I will never forget ___ you for the first time.",
+          "options": [
+            "to meet",
+            "meeting",
+            "meet",
+            "met"
+          ],
+          "correct_answer": "meeting",
+          "explanation": "Forget + V-ing geçmişte yaşanan ve hatırlanan bir olayı unutmamaktır."
+        },
+        {
+          "id": "u18_t3_q4",
+          "type": "true_false",
+          "difficulty": "hard",
+          "question_text": "'Stop to talk' konuşmayı bırakmak anlamına gelir.",
+          "correct_answer": "false",
+          "explanation": "Konuşmak için durmak anlamına gelir."
+        },
+        {
+          "id": "u18_t3_q5",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "She tried ___ the heavy box, but it was too heavy.",
+          "options": [
+            "to lift",
+            "lifting",
+            "lift",
+            "lifted"
+          ],
+          "correct_answer": "to lift",
+          "explanation": "Try to V1: çaba göstermek, zorlamak demektir."
         }
       ]
     }

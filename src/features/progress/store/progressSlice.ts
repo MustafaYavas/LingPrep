@@ -1,5 +1,6 @@
 import { createSlice, type PayloadAction } from "@reduxjs/toolkit";
 import type { UserProgressState } from "../types";
+import { units } from "@/utils/utils";
 
 const initialState: UserProgressState = {
   completedUnits: [],
@@ -91,10 +92,47 @@ const progressSlice = createSlice({
     resetProgress: () => {
       return initialState;
     },
+    resetCurrentLevelProgress: (state, action: PayloadAction<string>) => {
+      const levelToReset = action.payload;
+
+      const levelUnits = units
+        .filter((u) => u.level === levelToReset)
+        .map((u) => u.id);
+
+      levelUnits.forEach((unitId) => {
+        const unitTests = state.testScores[unitId] || {};
+        const totalCorrectInUnit = Object.values(unitTests).reduce(
+          (a, b) => a + b,
+          0,
+        );
+
+        state.totalCorrectAnswers = Math.max(
+          0,
+          state.totalCorrectAnswers - totalCorrectInUnit,
+        );
+        state.currentScore = Math.max(
+          0,
+          state.currentScore - totalCorrectInUnit * 10,
+        );
+
+        delete state.testScores[unitId];
+        delete state.completedTests[unitId];
+
+        state.completedUnits = state.completedUnits.filter(
+          (id) => id !== unitId,
+        );
+      });
+
+      state.lastCompletedLevel = null;
+    },
   },
 });
 
-export const { completeTest, clearLevelCelebration, resetProgress } =
-  progressSlice.actions;
+export const {
+  completeTest,
+  clearLevelCelebration,
+  resetProgress,
+  resetCurrentLevelProgress,
+} = progressSlice.actions;
 
 export default progressSlice.reducer;

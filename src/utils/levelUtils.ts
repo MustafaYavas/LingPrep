@@ -4,6 +4,7 @@ export interface LevelStyle {
   text: string; // text-color-600
   border: string; // border-color-100
   hoverBorder: string; // hover:border-color-200
+  focusBorder: string; // focus:border-color-200
   button: string; // bg-color-600 hover:bg-color-700 shadow-color-100
   badge: string; // bg-color-100 text-color-600
   icon: string; // text-color-500/600
@@ -21,6 +22,7 @@ export const getLevelStyles = (level: string): LevelStyle => {
         text: "text-blue-600",
         border: "border-blue-100",
         hoverBorder: "hover:border-blue-200",
+        focusBorder: "focus:border-blue-200",
         button: "bg-blue-600 hover:bg-blue-700 shadow-blue-100",
         badge: "bg-blue-100 text-blue-600",
         icon: "text-blue-600",
@@ -33,6 +35,7 @@ export const getLevelStyles = (level: string): LevelStyle => {
         text: "text-orange-600",
         border: "border-orange-100",
         hoverBorder: "hover:border-orange-200",
+        focusBorder: "focus:border-orange-200",
         button: "bg-orange-500 hover:bg-orange-600 shadow-orange-100",
         badge: "bg-orange-100 text-orange-600",
         icon: "text-orange-600",
@@ -45,6 +48,7 @@ export const getLevelStyles = (level: string): LevelStyle => {
         text: "text-purple-600",
         border: "border-purple-100",
         hoverBorder: "hover:border-purple-200",
+        focusBorder: "focus:border-purple-200",
         button: "bg-purple-600 hover:bg-purple-700 shadow-purple-100",
         badge: "bg-purple-100 text-purple-600",
         icon: "text-purple-600",
@@ -57,6 +61,7 @@ export const getLevelStyles = (level: string): LevelStyle => {
         text: "text-rose-600",
         border: "border-rose-100",
         hoverBorder: "hover:border-rose-200",
+        focusBorder: "focus:border-rose-200",
         button: "bg-rose-600 hover:bg-rose-700 shadow-rose-100",
         badge: "bg-rose-100 text-rose-600",
         icon: "text-rose-600",
@@ -69,6 +74,7 @@ export const getLevelStyles = (level: string): LevelStyle => {
         text: "text-indigo-700",
         border: "border-indigo-100",
         hoverBorder: "hover:border-indigo-200",
+        focusBorder: "focus:border-indigo-200",
         button: "bg-indigo-700 hover:bg-indigo-800 shadow-indigo-100",
         badge: "bg-indigo-100 text-indigo-700",
         icon: "text-indigo-700",
@@ -81,6 +87,7 @@ export const getLevelStyles = (level: string): LevelStyle => {
         text: "text-slate-600",
         border: "border-slate-100",
         hoverBorder: "hover:border-slate-200",
+        focusBorder: "focus:border-slate-200",
         button: "bg-slate-600 hover:bg-slate-700 shadow-slate-100",
         badge: "bg-slate-100 text-slate-600",
         icon: "text-slate-600",

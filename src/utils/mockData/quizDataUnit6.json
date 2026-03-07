@@ -4,22 +4,193 @@
   "tests": [
     {
       "id": "t1",
-      "title": "Test 1: Durum Yanıtları (Was/Were)",
+      "title": "Test 1: Was/Were Kullanımı",
       "questions": [
         {
           "id": "u6_t1_q1",
-          "type": "situational_response",
-          "difficulty": "medium",
-          "scenario": "Dün arkadaşının partisine gidemediğin için ondan özür dilemen ve nedenini açıklaman gerekiyor.",
-          "question_text": "Aşağıdaki ifadelerden hangisi bu durum için uygundur?",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "I ___ very tired yesterday.",
           "options": [
-            "I am sick today.",
-            "I was very tired yesterday, sorry.",
-            "I will go to the party.",
-            "Were you at the party?"
+            "am",
+            "was",
+            "were",
+            "is"
           ],
-          "correct_answer": "I was very tired yesterday, sorry.",
-          "explanation": "Geçmişteki bir mazereti anlatırken 'was' kullanılır."
+          "correct_answer": "was",
+          "explanation": "I öznesi ile geçmiş zamanda 'was' kullanılır."
+        },
+        {
+          "id": "u6_t1_q2",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "They ___ at the cinema last night.",
+          "options": [
+            "was",
+            "are",
+            "were",
+            "been"
+          ],
+          "correct_answer": "were",
+          "explanation": "Çoğul öznelerde 'were' kullanılır."
+        },
+        {
+          "id": "u6_t1_q3",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "___ you at home? (Evde miydin?)",
+          "correct_answer": "Were",
+          "explanation": "You öznesiyle 'were' kullanılır."
+        },
+        {
+          "id": "u6_t1_q4",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "'She were happy' gramer olarak doğrudur.",
+          "correct_answer": "false",
+          "explanation": "She öznesi 'was' alır."
+        },
+        {
+          "id": "u6_t1_q5",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Where ___ you yesterday?",
+          "options": [
+            "was",
+            "did",
+            "are",
+            "were"
+          ],
+          "correct_answer": "were",
+          "explanation": "Where were you? geçmiş zaman durum cümlesidir."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Düzenli Fiiller (Past Simple)",
+      "questions": [
+        {
+          "id": "u6_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "I ___ tennis yesterday.",
+          "options": [
+            "play",
+            "played",
+            "playing",
+            "plays"
+          ],
+          "correct_answer": "played",
+          "explanation": "Geçmiş zamanda düzenli fiillere -ed takısı gelir."
+        },
+        {
+          "id": "u6_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "She ___ (watch) a movie last night.",
+          "correct_answer": "watched",
+          "explanation": "watch fiili düzenlidir, watched olur."
+        },
+        {
+          "id": "u6_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "We ___ to music.",
+          "options": [
+            "listened",
+            "listen",
+            "listens",
+            "listening"
+          ],
+          "correct_answer": "listened",
+          "explanation": "Düzenli geçmiş zaman 'listened'."
+        },
+        {
+          "id": "u6_t2_q4",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "Geçmişte olumsuz cümle yaparken 'didn't + fiilin 1. hali' kullanılır.",
+          "correct_answer": "true",
+          "explanation": "did yardımcı fiili kullanıldıysa asıl fiil yalın olur."
+        },
+        {
+          "id": "u6_t2_q5",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "I didn't ___ TV.",
+          "options": [
+            "watched",
+            "watches",
+            "watch",
+            "watching"
+          ],
+          "correct_answer": "watch",
+          "explanation": "didn't sonrasında fiil yalın haldedir."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Düzensiz Fiiller",
+      "questions": [
+        {
+          "id": "u6_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Go fiilinin 2. hali nedir?",
+          "options": [
+            "goed",
+            "goes",
+            "went",
+            "gone"
+          ],
+          "correct_answer": "went",
+          "explanation": "Go düzensiz bir fiildir ve went olur."
+        },
+        {
+          "id": "u6_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "She ___ (buy) a new car yesterday.",
+          "correct_answer": "bought",
+          "explanation": "Buy fiilinin 2. hali bought."
+        },
+        {
+          "id": "u6_t3_q3",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "He ___ to school.",
+          "options": [
+            "come",
+            "comed",
+            "came",
+            "coming"
+          ],
+          "correct_answer": "came",
+          "explanation": "Come fiilinin 2. hali came."
+        },
+        {
+          "id": "u6_t3_q4",
+          "type": "true_false",
+          "difficulty": "hard",
+          "question_text": "'See' fiilinin 2. hali 'seed' şeklindedir.",
+          "correct_answer": "false",
+          "explanation": "See fiilinin 2. hali saw'dur."
+        },
+        {
+          "id": "u6_t3_q5",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "They ___ dinner at 8 PM.",
+          "options": [
+            "have",
+            "had",
+            "haved",
+            "has"
+          ],
+          "correct_answer": "had",
+          "explanation": "Have fiilinin 2. hali had'dir."
         }
       ]
     }

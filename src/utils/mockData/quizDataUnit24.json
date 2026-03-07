@@ -4,21 +4,193 @@
   "tests": [
     {
       "id": "t1",
-      "title": "Test 1: Ontolojik Çıkarımlar",
+      "title": "Test 1: Deduction (Çıkarım Modalları)",
       "questions": [
         {
           "id": "u24_t1_q1",
-          "type": "nuance_differentiation",
-          "difficulty": "expert",
-          "question_text": "His silence ______ (be) interpreted as consent, but knowing his character, it was more likely a sign of profound disagreement.",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "He has a big luxury car. He ___ be rich.",
           "options": [
-            "must have been",
-            "could have been",
-            "should have been",
-            "was to have been"
+            "must",
+            "can't",
+            "should",
+            "might"
           ],
-          "correct_answer": "could have been",
-          "explanation": "Birden fazla ihtimal arasından birini (yanlışlanabilir olanı) seçerken 'could have been' nüansı tercih edilir."
+          "correct_answer": "must",
+          "explanation": "Güçlü bir olumlu çıkarım yaparken must kullanılır."
+        },
+        {
+          "id": "u24_t1_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "That ___ (can't/must) be true, I know he is lying.",
+          "correct_answer": "can't",
+          "explanation": "Olumsuz güçlü çıkarımlarda can't kullanılır."
+        },
+        {
+          "id": "u24_t1_q3",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Where is John? He ___ be at the office, but I'm not sure.",
+          "options": [
+            "must",
+            "can't",
+            "might",
+            "will"
+          ],
+          "correct_answer": "might",
+          "explanation": "Emin olunmayan yüzde 50 ihtimalli durumlarda might/may/could kullanılır."
+        },
+        {
+          "id": "u24_t1_q4",
+          "type": "true_false",
+          "difficulty": "hard",
+          "question_text": "Olumsuz çıkarım 'mustn't' ile yapılır.",
+          "correct_answer": "false",
+          "explanation": "Hayır, olumsuz çıkarım can't ile yapılır. Mustn't yasaklama bildirir."
+        },
+        {
+          "id": "u24_t1_q5",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "The lights are off. They ___ be sleeping.",
+          "options": [
+            "must",
+            "can't",
+            "should",
+            "ought"
+          ],
+          "correct_answer": "must",
+          "explanation": "Işıklar kapalı olması kesinliğe yakın uyudukları çıkarımını verir."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Past Modals",
+      "questions": [
+        {
+          "id": "u24_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "You ___ have studied harder. (You failed the exam)",
+          "options": [
+            "must",
+            "should",
+            "can't",
+            "might"
+          ],
+          "correct_answer": "should",
+          "explanation": "Geçmişteki bir hatadan dolayı pişmanlık veya eleştiri bildirmek için 'should have V3'."
+        },
+        {
+          "id": "u24_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "He ___ have forgotten the meeting. (He never forgets!)",
+          "correct_answer": "can't",
+          "explanation": "Geçmişle ilgili kuvvetli olumsuz çıkarım: can't have V3."
+        },
+        {
+          "id": "u24_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "She got a 100 on the test. She ___ have studied a lot.",
+          "options": [
+            "should",
+            "can't",
+            "must",
+            "could"
+          ],
+          "correct_answer": "must",
+          "explanation": "Geçmişle ilgili kuvvetli olumlu çıkarım: must have V3."
+        },
+        {
+          "id": "u24_t2_q4",
+          "type": "true_false",
+          "difficulty": "hard",
+          "question_text": "'Could have' cümlesi geçmişte yapılması mümkün olup da yapılmayan eylemleri ifade eder.",
+          "correct_answer": "true",
+          "explanation": "Evet, fırsat vardı ama yapılmadı anlamındadır."
+        },
+        {
+          "id": "u24_t2_q5",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "I ___ have left my keys at work, they are not in my pocket.",
+          "options": [
+            "must",
+            "should",
+            "would",
+            "shall"
+          ],
+          "correct_answer": "must",
+          "explanation": "Geçmiş olumlu çıkarım."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Habits in the Past",
+      "questions": [
+        {
+          "id": "u24_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "I ___ smoke, but I quit last year.",
+          "options": [
+            "used to",
+            "would",
+            "am used to",
+            "use to"
+          ],
+          "correct_answer": "used to",
+          "explanation": "Bırakılmış eski alışkanlık ve durumlar için 'used to'."
+        },
+        {
+          "id": "u24_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "hard",
+          "question_text": "When we were kids, we ___ play in the park every day.",
+          "correct_answer": "would",
+          "explanation": "Geçmişte tekrarlanan eylemleri anlatırken 'would' da kullanılır."
+        },
+        {
+          "id": "u24_t3_q3",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "Which one canNOT be used for purely stative verbs in the past?",
+          "options": [
+            "used to",
+            "would",
+            "past simple",
+            "all of them can"
+          ],
+          "correct_answer": "would",
+          "explanation": "Would durum fiilleriyle (be, have, know gibi) kullanılmaz, sadece eylem fiilleri."
+        },
+        {
+          "id": "u24_t3_q4",
+          "type": "true_false",
+          "difficulty": "medium",
+          "question_text": "'I am used to living alone' cümlesi geçmiş zamanı anlatır.",
+          "correct_answer": "false",
+          "explanation": "Be used to + V-ing 'X'e alışkın olmak' demektir, şu anki bir alışkanlıktır."
+        },
+        {
+          "id": "u24_t3_q5",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "I ___ to live in London.",
+          "options": [
+            "used",
+            "would",
+            "use",
+            "was used"
+          ],
+          "correct_answer": "used",
+          "explanation": "Live durum/state bildirdiği için used to alır, would alamaz."
         }
       ]
     }

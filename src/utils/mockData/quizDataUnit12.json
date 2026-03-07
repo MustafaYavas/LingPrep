@@ -4,22 +4,193 @@
   "tests": [
     {
       "id": "t1",
-      "title": "Test 1: Alışkanlıklar vs. Şu An",
+      "title": "Test 1: Present Simple",
       "questions": [
         {
           "id": "u12_t1_q1",
-          "type": "contextual_multiple_choice",
-          "difficulty": "medium",
-          "context": "John usually ______ (work) from home, but this week he ______ (work) at the office because of a special project.",
-          "question_text": "Fill in the blanks correctly.",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "He ___ up at 7 o'clock every day.",
           "options": [
-            "works / works",
-            "is working / works",
-            "works / is working",
-            "is working / is working"
+            "wake",
+            "waking",
+            "wakes",
+            "waked"
           ],
-          "correct_answer": "works / is working",
-          "explanation": "Genel alışkanlıklar için Present Simple, geçici durumlar için Present Continuous kullanılır."
+          "correct_answer": "wakes",
+          "explanation": "Geniş zamanda 'He' öznesi ile fiil 's' takısı alır."
+        },
+        {
+          "id": "u12_t1_q2",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "I always ___ (drink) coffee.",
+          "correct_answer": "drink",
+          "explanation": "I öznesi ile fiil yalın kalır."
+        },
+        {
+          "id": "u12_t1_q3",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "___ she like apples?",
+          "options": [
+            "Do",
+            "Does",
+            "Is",
+            "Are"
+          ],
+          "correct_answer": "Does",
+          "explanation": "Soru cümlesinde 'she' için 'Does' yardımcı fiili kullanılır."
+        },
+        {
+          "id": "u12_t1_q4",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "Geniş zaman alışkanlıkları ifade eder.",
+          "correct_answer": "true",
+          "explanation": "Evet, rutin ve alışkanlıklar geniş zamanla anlatılır."
+        },
+        {
+          "id": "u12_t1_q5",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "They don't ___ meat.",
+          "options": [
+            "eat",
+            "eats",
+            "eating",
+            "ate"
+          ],
+          "correct_answer": "eat",
+          "explanation": "don't veya doesn't sonrasında fiil yalın haldedir."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": "Test 2: Present Continuous",
+      "questions": [
+        {
+          "id": "u12_t2_q1",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "I ___ listening to music now.",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "do"
+          ],
+          "correct_answer": "am",
+          "explanation": "Şimdiki zamanda am/is/are + verb-ing."
+        },
+        {
+          "id": "u12_t2_q2",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "He is ___ (run) in the park.",
+          "correct_answer": "running",
+          "explanation": "Şimdiki zamanda fiil -ing alır."
+        },
+        {
+          "id": "u12_t2_q3",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Are they ___ a game?",
+          "options": [
+            "play",
+            "plays",
+            "playing",
+            "played"
+          ],
+          "correct_answer": "playing",
+          "explanation": "Şimdiki zaman kuralı: are + subject + verb-ing."
+        },
+        {
+          "id": "u12_t2_q4",
+          "type": "true_false",
+          "difficulty": "easy",
+          "question_text": "Şimdiki zaman her zaman geleceği ifade eder.",
+          "correct_answer": "false",
+          "explanation": "Şu an yapılan eylemleri ifade eder (bazen planlanmış gelecek de olabilir)."
+        },
+        {
+          "id": "u12_t2_q5",
+          "type": "multiple_choice",
+          "difficulty": "easy",
+          "question_text": "She ___ studying right now.",
+          "options": [
+            "isn't",
+            "aren't",
+            "don't",
+            "doesn't"
+          ],
+          "correct_answer": "isn't",
+          "explanation": "She öznesi is/isn't alır."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": "Test 3: Simple vs. Continuous",
+      "questions": [
+        {
+          "id": "u12_t3_q1",
+          "type": "multiple_choice",
+          "difficulty": "hard",
+          "question_text": "I ___ he is a good person.",
+          "options": [
+            "am thinking",
+            "think",
+            "thinks",
+            "thinking"
+          ],
+          "correct_answer": "think",
+          "explanation": "State (durum) fiilleri normalde -ing almaz."
+        },
+        {
+          "id": "u12_t3_q2",
+          "type": "fill_in_blank",
+          "difficulty": "medium",
+          "question_text": "She normally wakes up early, but today she is ___ (sleep) late.",
+          "correct_answer": "sleeping",
+          "explanation": "Geçici durumlar şimdiki zamanla anlatılır."
+        },
+        {
+          "id": "u12_t3_q3",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Water ___ at 100 degrees Celsius.",
+          "options": [
+            "boil",
+            "is boiling",
+            "boils",
+            "boiled"
+          ],
+          "correct_answer": "boils",
+          "explanation": "Bilimsel gerçekler geniş zaman (Simple Present) ile anlatılır."
+        },
+        {
+          "id": "u12_t3_q4",
+          "type": "true_false",
+          "difficulty": "hard",
+          "question_text": "'Know' fiili present continuous ile 'I am knowing' şeklinde kullanılabilir.",
+          "correct_answer": "false",
+          "explanation": "Know fiili bir state verb'dür, -ing almaz."
+        },
+        {
+          "id": "u12_t3_q5",
+          "type": "multiple_choice",
+          "difficulty": "medium",
+          "question_text": "Look! The bus ___ .",
+          "options": [
+            "is coming",
+            "comes",
+            "come",
+            "coming"
+          ],
+          "correct_answer": "is coming",
+          "explanation": "O an gerçekleşen olaylar, Look! dinleme/görme sözcükleriyle şimdiki zamandır."
         }
       ]
     }
