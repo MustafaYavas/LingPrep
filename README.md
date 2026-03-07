@@ -5,8 +5,10 @@
 ## 🚀 Key Features
 
 - **Progressive Learning Path**: Units and levels organized by proficiency (A1, A2, B1, B2, C1).
-- **Interactive Quizzes**: Focused vocabulary exercises with immediate feedback and scoring.
+- **Grammar & Vocabulary Quizzes**: Focused exercises with immediate feedback and scoring.
+- **Listening Comprehension**: Immersive audio-based exercises to improve listening skills across all proficiency levels.
 - **AI-Enhanced Reading**: Long-form analytical texts (120-600 words) generated via specialized AI skills, featuring complex grammar structures and comprehension questions.
+- **Structured Writing Tasks**: Level-appropriate writing prompts with strict, auto-calculated minimum word counts and guided model answers for comparative self-assessment.
 - **Dynamic Dashboard**: A premium UI featuring a Hero CTA, user statistics, and a clear overview of progress.
 - **Real-time Persistence**: User progress, scores, and unit data are managed via Firebase Firestore and Redux Toolkit.
 - **Level Locking**: Advanced levels are unlocked as users complete the foundational requirements.
@@ -58,13 +60,17 @@ VITE_FIREBASE_APP_ID=your_app_id
 LingPrep uses mock data generated via AI scripts. To populate your Firestore:
 
 ```bash
-# Generate JSON mock files (e.g., General or Reading)
-npx tsx scripts/generateReadingMocks.ts
+# Generate JSON mock files (e.g., General, Reading, Writing, Listening)
 npx tsx scripts/generateMocks.ts
+npx tsx scripts/generateReadingMocks.ts
+npx tsx scripts/generateListeningMocks.ts
+npx tsx scripts/generateWritingMocks.ts
 
 # Upload data to Firestore
-npx tsx scripts/uploadReadingData.ts
 npx tsx scripts/uploadData.ts
+npx tsx scripts/uploadReadingData.ts
+npx tsx scripts/uploadListeningData.ts
+npx tsx scripts/uploadWritingData.ts
 ```
 
 ### 5. Start Development Server
@@ -86,7 +92,10 @@ LingPrep/
 │   ├── components/      # Reusable UI components (FeatureCard, UnitSection, etc.)
 │   ├── features/        # Feature-based logic (reading, progress)
 │   │   ├── progress/    # State management for scores and completed units
-│   │   └── reading/     # Firestore services and thunks for reading content
+│   │   ├── reading/     # Firestore services and thunks for reading content
+│   │   ├── listening/   # Firestore services and thunks for listening content
+│   │   ├── writing/     # Firestore services and thunks for writing content
+│   │   └── quiz/        # Firestore services and thunks for quiz content
 │   ├── pages/           # High-level page components (HomePage, ReadingPage, etc.)
 │   ├── store/           # Redux store configuration and hooks
 │   ├── utils/           # Utility functions and mock data types
